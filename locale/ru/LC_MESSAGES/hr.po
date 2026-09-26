@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-25 17:31+0000\n"
 "PO-Revision-Date: 2026-08-27 15:40+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-19-doc/hr/"
@@ -47917,8 +47917,8 @@ msgid ":doc:`recruitment/source_analysis`"
 msgstr ":doc:`recruitment/source_analysis`"
 
 #: ../../content/applications/hr/recruitment.rst:373
-msgid ":doc:`recruitment/velocity_analysis`"
-msgstr ":doc:`recruitment/velocity_analysis`"
+msgid ":doc:`recruitment/hiring_velocity`"
+msgstr ""
 
 #: ../../content/applications/hr/recruitment.rst:374
 msgid ":doc:`recruitment/team_performance`"
@@ -48497,6 +48497,160 @@ msgid ""
 msgstr ""
 "Отображаются только те этапы, в которых есть кандидаты для каждой должности. "
 "Если в этапе **нет** кандидатов, он не появляется в списке."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:3
+msgid "Hiring velocity"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:5
+msgid ""
+"The *Hiring Velocity* report provides information on how long applicants "
+"stay in each stage of the recruitment process. This is important, as every "
+"job position has specific :ref:`hiring process details <recruitment/new_job/"
+"hiring-process>` that state the length of time applicants should expect to "
+"wait between specific stages."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:10
+msgid ""
+"Knowing how long applicants remain in each stage can help highlight possible "
+"bottlenecks. Analyzing this data allows the recruitment team to assess each "
+"stage, identify any issues, and pivot their strategies to move applicants "
+"through each stage, within the expected time interval."
+msgstr ""
+"Знание того, как долго кандидаты остаются на каждом этапе, может помочь "
+"выявить возможные узкие места. Анализ этих данных позволяет команде по "
+"набору персонала оценить каждый этап, выявить любые проблемы и "
+"скорректировать свои стратегии, чтобы перемещать кандидатов через каждый "
+"этап в ожидаемый временной интервал."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:15
+msgid "Hiring velocity report"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:17
+msgid ""
+"To access the *Hiring Velocity* report, navigate "
+"to :menuselection:`Recruitment app --> Reporting --> Hiring Velocity`. The "
+"report displays data for all job positions, with the stages populating the x-"
+"axis, and the number of days populating the y-axis, in a default :icon:`fa-"
+"line-chart` :guilabel:`(Line Chart)`."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:22
+msgid ""
+"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
+"information for the last 365 days."
+msgstr ""
+"Фильтр по умолчанию — :guilabel:`Last 365 Days Applicant`, отображающий "
+"информацию за последние 365 дней."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:25
+msgid ""
+"Hover over a stage in the line chart to reveal a popover window listing all "
+"the job positions within it, and the average number of days each job "
+"position sat in each stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:28
+msgid ""
+"For a more visually digestible view of the information in the *Hiring "
+"Velocity* report, click the :icon:`fa-bar-chart` :guilabel:`(Bar Chart)` "
+"icon in the corner. This displays all the information in a bar chart."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:32
+msgid ""
+"In this view, it is easier to visualize the differences between the job "
+"positions, regarding how long applicants stay in each stage. From this view, "
+"recruiters can determine which job positions have delays or bottlenecks at "
+"certain stages."
+msgstr ""
+"В этом представлении проще визуализировать различия между должностями "
+"относительно того, как долго кандидаты находятся на каждом этапе. Из этого "
+"представления рекрутеры могут определить, на каких должностях имеются "
+"задержки или узкие места на определенных этапах."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "A bar chart view of the hiring velocity report."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:40
+msgid "Use case: comparing times by month"
+msgstr "Пример использования: сравнение времени по месяцам"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:42
+msgid ""
+"With the *Hiring Velocity* report, it is possible to see if there are "
+"certain months where applicants take longer to be moved through the "
+"pipeline. To view this data, switch to the pivot table view by clicking "
+"the :icon:`oi-view-pivot` :guilabel:`(Pivot)` icon in the corner."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:46
+msgid ""
+"This presents the data in a detailed pivot table, with the rows representing "
+"the different job positions, and the columns representing the stages. "
+"The :guilabel:`Average Days in Stage` populates the various boxes."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:51
+msgid ""
+"If a field is empty, it indicates no applicant has been in that stage. "
+"Instead, all applicants moved from a previous stage without being placed in "
+"the stage with an empty field."
+msgstr ""
+"Если поле пустое, это означает, что ни один кандидат не находился на этом "
+"этапе. Вместо этого все кандидаты перешли с предыдущего этапа, минуя этап с "
+"пустым полем."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table view of the Velocity Analysis report."
+msgstr "Представление сводной таблицы отчета Анализ скорости."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:57
+msgid ""
+"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+"rows to collapse the information. Next, click :icon:`fa-plus-"
+"square` :guilabel:`Total` again, revealing a drop-down menu. "
+"Click :guilabel:`Custom Group` :icon:`fa-caret-down` at the bottom of the "
+"list, revealing further grouping options. Click :guilabel:`Start Date` from "
+"the expanded list."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:62
+msgid ""
+"After doing so, the data presented is grouped with the various months from "
+"the previous 365 days for the rows, leaving the :guilabel:`Average Days in "
+"Stage` as the columns."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table showing the months averages for times in stage."
+msgstr ""
+"Сводная таблица, показывающая средние значения времени на этапе по месяцам."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:68
+msgid ""
+"In this example, :guilabel:`July 2026` had the longest time that applicants "
+"spent in each stage, on average. In addition, the :guilabel:`Second "
+"Interview` stage had the longest wait time in July, with an average "
+"of :guilabel:`29.04` days in that stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:72
+msgid ""
+"While this report does not display the reasons applicants stayed in the "
+"various stages for these lengths of time, it can be helpful to know when "
+"delays occur."
+msgstr ""
+"Хотя этот отчет не показывает причины, по которым кандидаты оставались на "
+"различных этапах в течение такого времени, полезно знать, когда происходят "
+"задержки."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:76
+msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
+msgstr ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
 
 #: ../../content/applications/hr/recruitment/new_job.rst:3
 msgid "Job positions"
@@ -50246,7 +50400,7 @@ msgstr ""
 msgid ""
 "The applicant's email address automatically populates "
 "the :guilabel:`Applicant` field. The :guilabel:`Subject` and email body are "
-"populated according to the corresponding email template."
+"populated according to the corresponding email"
 msgstr ""
 
 #: ../../content/applications/hr/recruitment/refuse_applicant.rst:105
@@ -51069,192 +51223,6 @@ msgid ""
 "recruiter, with a total of eight hires, while :guilabel:`Carol Bishop` has "
 "the fewest hires, with only three."
 msgstr ""
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:3
-msgid "Velocity analysis"
-msgstr "Анализ скорости"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:5
-msgid ""
-"The *Velocity Analysis* report provides information on how long applicants "
-"stay in each stage of the recruitment process. This is important, as every "
-"job position has specific :ref:`hiring process details <recruitment/new_job/"
-"hiring-process>` that state the length of time applicants should expect to "
-"wait between specific stages."
-msgstr ""
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:10
-msgid ""
-"Knowing how long applicants remain in each stage can help highlight possible "
-"bottlenecks. Analyzing this data allows the recruitment team to assess each "
-"stage, identify any issues, and pivot their strategies to move applicants "
-"through each stage, within the expected time interval."
-msgstr ""
-"Знание того, как долго кандидаты остаются на каждом этапе, может помочь "
-"выявить возможные узкие места. Анализ этих данных позволяет команде по "
-"набору персонала оценить каждый этап, выявить любые проблемы и "
-"скорректировать свои стратегии, чтобы перемещать кандидатов через каждый "
-"этап в ожидаемый временной интервал."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:15
-msgid "Velocity analysis report"
-msgstr "Отчет анализа скорости"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:17
-msgid ""
-"To access the report, navigate to :menuselection:`Recruitment app --> "
-"Reporting --> Velocity Analysis`. By default, the report displays data for "
-"all job positions, with the stages populating the x-axis, and the number of "
-"days populating the y-axis, in a :icon:`fa-line-chart` :guilabel:`(Line "
-"Chart)`."
-msgstr ""
-"Чтобы получить доступ к отчету, перейдите в :menuselection:`Приложение Набор "
-"персонала --> Отчетность --> Анализ скорости`. По умолчанию отчет отображает "
-"данные для всех должностей, при этом этапы расположены на оси X, а "
-"количество дней — на оси Y, в виде :icon:`fa-line-"
-"chart` :guilabel:`(Линейная диаграмма)`."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:22
-msgid ""
-"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
-"information for the last 365 days."
-msgstr ""
-"Фильтр по умолчанию — :guilabel:`Last 365 Days Applicant`, отображающий "
-"информацию за последние 365 дней."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:25
-msgid ""
-"Hover over a stage in the line chart to reveal a popover window listing all "
-"the job positions within it, and the average number of days each job "
-"position sits in each stage."
-msgstr ""
-"Наведите указатель на этап на линейном графике, чтобы открыть всплывающее "
-"окно со списком всех должностей на этом этапе и среднего количества дней, "
-"которое каждая должность проводит на каждом этапе."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:28
-msgid ""
-"For a more visually digestible view of the information in "
-"the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
-"chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This displays "
-"all the information in a bar chart."
-msgstr ""
-"Для более наглядного представления информации в отчете :guilabel:`Анализ "
-"скорости` нажмите на значок :icon:`fa-bar-chart` :guilabel:`(Столбчатая "
-"диаграмма)` в верхнем левом углу. Это отобразит всю информацию в виде "
-"столбчатой диаграммы."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:32
-msgid ""
-"In this view, it is easier to visualize the differences between the job "
-"positions, regarding how long applicants stay in each stage. From this view, "
-"recruiters can determine which job positions have delays or bottlenecks at "
-"certain stages."
-msgstr ""
-"В этом представлении проще визуализировать различия между должностями "
-"относительно того, как долго кандидаты находятся на каждом этапе. Из этого "
-"представления рекрутеры могут определить, на каких должностях имеются "
-"задержки или узкие места на определенных этапах."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The bar chart view of the Velocity Analysis report."
-msgstr "Представление столбчатой диаграммы отчета Анализ скорости."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:40
-msgid "Use case: comparing times by month"
-msgstr "Пример использования: сравнение времени по месяцам"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:42
-msgid ""
-"With the :guilabel:`Velocity Analysis` report, it is possible to see if "
-"there are certain months where applicants take longer to be moved through "
-"the pipeline. To view this data, switch to the :icon:`oi-view-"
-"pivot` :guilabel:`(Pivot)` view in the upper-right corner."
-msgstr ""
-"С помощью отчета :guilabel:`Анализ скорости` можно увидеть, есть ли "
-"определенные месяцы, когда кандидаты проходят через воронку дольше. Чтобы "
-"просмотреть эти данные, переключитесь на представление :icon:`oi-view-"
-"pivot` :guilabel:`(Сводная таблица)` в правом верхнем углу."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:46
-msgid ""
-"This presents the data in a detailed pivot table, with the rows representing "
-"the different job positions, and the columns representing the stages. The "
-"average :guilabel:`Days in Stage` populates the various boxes."
-msgstr ""
-"Данные представлены в виде подробной сводной таблицы, где строки "
-"представляют различные должности, а столбцы — этапы. Среднее "
-"значение :guilabel:`Days in Stage` заполняет соответствующие ячейки."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:51
-msgid ""
-"If a field is empty, it indicates no applicant has been in that stage. "
-"Instead, all applicants moved from a previous stage without being placed in "
-"the stage with an empty field."
-msgstr ""
-"Если поле пустое, это означает, что ни один кандидат не находился на этом "
-"этапе. Вместо этого все кандидаты перешли с предыдущего этапа, минуя этап с "
-"пустым полем."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table view of the Velocity Analysis report."
-msgstr "Представление сводной таблицы отчета Анализ скорости."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:57
-msgid ""
-"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
-"rows to collapse the information. Next, click :icon:`fa-plus-"
-"square` :guilabel:`Total` again, revealing a drop-down menu. "
-"Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
-"the list, revealing further grouping options. Click :guilabel:`Start Date` "
-"from the expanded list."
-msgstr ""
-"Нажмите :icon:`fa-minus-square-o` :guilabel:`Total` над строками должностей, "
-"чтобы свернуть информацию. Затем снова нажмите :icon:`fa-plus-"
-"square` :guilabel:`Total`, открыв выпадающее меню. Нажмите :guilabel:`Add "
-"Custom Group` :icon:`fa-caret-down` внизу списка, открыв дополнительные "
-"параметры группировки. Выберите :guilabel:`Start Date` из развернутого "
-"списка."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:62
-msgid ""
-"After doing so, the data presented is grouped with the various months from "
-"the previous 365 days for the rows, leaving the :guilabel:`Days In Stage` as "
-"the columns."
-msgstr ""
-"После этого данные будут сгруппированы по месяцам за предыдущие 365 дней в "
-"строках, а в столбцах останется :guilabel:`Days In Stage`."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table showing the months averages for times in stage."
-msgstr ""
-"Сводная таблица, показывающая средние значения времени на этапе по месяцам."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:68
-msgid ""
-"In this example, :guilabel:`July 2024` had the longest time that applicants "
-"spent in each stage, on average. In addition, the :guilabel:`Contract "
-"Proposal` stage had the longest wait time in July, with an average "
-"of :guilabel:`31.62` days in that stage."
-msgstr ""
-"В этом примере в :guilabel:`July 2024` кандидаты в среднем проводили больше "
-"всего времени на каждом этапе. Кроме того, этап :guilabel:`Contract "
-"Proposal` имел самое длительное время ожидания в июле, в "
-"среднем :guilabel:`31.62` дня на этом этапе."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:72
-msgid ""
-"While this report does not display the reasons applicants stayed in the "
-"various stages for these lengths of time, it can be helpful to know when "
-"delays occur."
-msgstr ""
-"Хотя этот отчет не показывает причины, по которым кандидаты оставались на "
-"различных этапах в течение такого времени, полезно знать, когда происходят "
-"задержки."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:76
-msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
-msgstr ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
 
 #: ../../content/applications/hr/referrals.rst:5
 msgid "Referrals"
@@ -56761,6 +56729,106 @@ msgstr ""
 msgid ""
 "The lower half of the time off type form, with the color and icon selected."
 msgstr "Нижняя половина формы типа отпуска с выбранными цветом и значком."
+
+#~ msgid ":doc:`recruitment/velocity_analysis`"
+#~ msgstr ":doc:`recruitment/velocity_analysis`"
+
+#~ msgid "Velocity analysis"
+#~ msgstr "Анализ скорости"
+
+#~ msgid "Velocity analysis report"
+#~ msgstr "Отчет анализа скорости"
+
+#~ msgid ""
+#~ "To access the report, navigate to :menuselection:`Recruitment app --> "
+#~ "Reporting --> Velocity Analysis`. By default, the report displays data "
+#~ "for all job positions, with the stages populating the x-axis, and the "
+#~ "number of days populating the y-axis, in a :icon:`fa-line-"
+#~ "chart` :guilabel:`(Line Chart)`."
+#~ msgstr ""
+#~ "Чтобы получить доступ к отчету, перейдите в :menuselection:`Приложение "
+#~ "Набор персонала --> Отчетность --> Анализ скорости`. По умолчанию отчет "
+#~ "отображает данные для всех должностей, при этом этапы расположены на оси "
+#~ "X, а количество дней — на оси Y, в виде :icon:`fa-line-"
+#~ "chart` :guilabel:`(Линейная диаграмма)`."
+
+#~ msgid ""
+#~ "Hover over a stage in the line chart to reveal a popover window listing "
+#~ "all the job positions within it, and the average number of days each job "
+#~ "position sits in each stage."
+#~ msgstr ""
+#~ "Наведите указатель на этап на линейном графике, чтобы открыть всплывающее "
+#~ "окно со списком всех должностей на этом этапе и среднего количества дней, "
+#~ "которое каждая должность проводит на каждом этапе."
+
+#~ msgid ""
+#~ "For a more visually digestible view of the information in "
+#~ "the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
+#~ "chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This "
+#~ "displays all the information in a bar chart."
+#~ msgstr ""
+#~ "Для более наглядного представления информации в отчете :guilabel:`Анализ "
+#~ "скорости` нажмите на значок :icon:`fa-bar-chart` :guilabel:`(Столбчатая "
+#~ "диаграмма)` в верхнем левом углу. Это отобразит всю информацию в виде "
+#~ "столбчатой диаграммы."
+
+#~ msgid "The bar chart view of the Velocity Analysis report."
+#~ msgstr "Представление столбчатой диаграммы отчета Анализ скорости."
+
+#~ msgid ""
+#~ "With the :guilabel:`Velocity Analysis` report, it is possible to see if "
+#~ "there are certain months where applicants take longer to be moved through "
+#~ "the pipeline. To view this data, switch to the :icon:`oi-view-"
+#~ "pivot` :guilabel:`(Pivot)` view in the upper-right corner."
+#~ msgstr ""
+#~ "С помощью отчета :guilabel:`Анализ скорости` можно увидеть, есть ли "
+#~ "определенные месяцы, когда кандидаты проходят через воронку дольше. Чтобы "
+#~ "просмотреть эти данные, переключитесь на представление :icon:`oi-view-"
+#~ "pivot` :guilabel:`(Сводная таблица)` в правом верхнем углу."
+
+#~ msgid ""
+#~ "This presents the data in a detailed pivot table, with the rows "
+#~ "representing the different job positions, and the columns representing "
+#~ "the stages. The average :guilabel:`Days in Stage` populates the various "
+#~ "boxes."
+#~ msgstr ""
+#~ "Данные представлены в виде подробной сводной таблицы, где строки "
+#~ "представляют различные должности, а столбцы — этапы. Среднее "
+#~ "значение :guilabel:`Days in Stage` заполняет соответствующие ячейки."
+
+#~ msgid ""
+#~ "Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+#~ "rows to collapse the information. Next, click :icon:`fa-plus-"
+#~ "square` :guilabel:`Total` again, revealing a drop-down menu. "
+#~ "Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
+#~ "the list, revealing further grouping options. Click :guilabel:`Start "
+#~ "Date` from the expanded list."
+#~ msgstr ""
+#~ "Нажмите :icon:`fa-minus-square-o` :guilabel:`Total` над строками "
+#~ "должностей, чтобы свернуть информацию. Затем снова нажмите :icon:`fa-plus-"
+#~ "square` :guilabel:`Total`, открыв выпадающее меню. Нажмите :guilabel:`Add "
+#~ "Custom Group` :icon:`fa-caret-down` внизу списка, открыв дополнительные "
+#~ "параметры группировки. Выберите :guilabel:`Start Date` из развернутого "
+#~ "списка."
+
+#~ msgid ""
+#~ "After doing so, the data presented is grouped with the various months "
+#~ "from the previous 365 days for the rows, leaving the :guilabel:`Days In "
+#~ "Stage` as the columns."
+#~ msgstr ""
+#~ "После этого данные будут сгруппированы по месяцам за предыдущие 365 дней "
+#~ "в строках, а в столбцах останется :guilabel:`Days In Stage`."
+
+#~ msgid ""
+#~ "In this example, :guilabel:`July 2024` had the longest time that "
+#~ "applicants spent in each stage, on average. In addition, "
+#~ "the :guilabel:`Contract Proposal` stage had the longest wait time in "
+#~ "July, with an average of :guilabel:`31.62` days in that stage."
+#~ msgstr ""
+#~ "В этом примере в :guilabel:`July 2024` кандидаты в среднем проводили "
+#~ "больше всего времени на каждом этапе. Кроме того, "
+#~ "этап :guilabel:`Contract Proposal` имел самое длительное время ожидания в "
+#~ "июле, в среднем :guilabel:`31.62` дня на этом этапе."
 
 #~ msgid ""
 #~ "A country-specific localization module :ref:`must be installed <general/"

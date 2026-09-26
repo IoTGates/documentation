@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-25 17:31+0000\n"
 "PO-Revision-Date: 2026-09-12 11:33+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Spanish <https://translate.odoo.com/projects/odoo-19-doc/"
@@ -8814,8 +8814,10 @@ msgstr ""
 "nuevas tareas."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:122
-msgid ":ref:`Customize the form <website/building_blocks/form>`."
-msgstr ":ref:`Personaliza el formulario <website/building_blocks/form>`."
+msgid ""
+":doc:`Customize the form </applications/websites/website/web_design/"
+"building_blocks/forms>`."
+msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:124
 msgid ""
@@ -8827,8 +8829,10 @@ msgstr ""
 "correspondientes del formulario."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:128
-msgid ":ref:`Website forms <website/building_blocks/form>`"
-msgstr ":ref:`Formularios de sitio web <website/building_blocks/form>`"
+msgid ""
+":doc:`Website forms </applications/websites/website/web_design/"
+"building_blocks/forms>`"
+msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:3
 msgid "Task dependencies"
@@ -9929,6 +9933,12 @@ msgid "A timecard reflecting training hours and sick time off."
 msgstr ""
 "Una tarjeta de tiempo que refleja las horas de formación y la baja por "
 "enfermedad."
+
+#~ msgid ":ref:`Customize the form <website/building_blocks/form>`."
+#~ msgstr ":ref:`Personaliza el formulario <website/building_blocks/form>`."
+
+#~ msgid ":ref:`Website forms <website/building_blocks/form>`"
+#~ msgstr ":ref:`Formularios de sitio web <website/building_blocks/form>`"
 
 #~ msgid ""
 #~ "By default, **Odoo Field Service** shows a static map where all task "

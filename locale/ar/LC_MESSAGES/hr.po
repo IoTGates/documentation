@@ -9,11 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-25 17:31+0000\n"
 "PO-Revision-Date: 2026-09-12 11:33+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
-"Language-Team: Arabic <https://translate.odoo.com/projects/odoo-19-doc/hr/"
-"ar/>\n"
+"Language-Team: Arabic <https://translate.odoo.com/projects/odoo-19-doc/hr/ar/"
+">\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -10424,10 +10424,10 @@ msgid ""
 "speak Spanish, and the staff of the automobile company primarily speak "
 "English, management wants to send an employee who speaks Spanish."
 msgstr ""
-"تواجه إحدى شركات السيارات مشكلات في مجموعة فرعية مُصنَّعة في الخارج. وقد تبيّن أن "
-"زيارة ميدانية للمصنع ضرورية لحل المشكلة. وبما أن موظفي شركة تصنيع المجموعة "
-"الفرعية يتحدثون الإسبانية بشكل أساسي، بينما يتحدث موظفو شركة السيارات "
-"الإنجليزية بشكل أساسي، ترغب الإدارة في إرسال موظف يتحدث الإسبانية."
+"تواجه إحدى شركات السيارات مشكلات في مجموعة فرعية مُصنَّعة في الخارج. وقد تبيّن "
+"أن زيارة ميدانية للمصنع ضرورية لحل المشكلة. وبما أن موظفي شركة تصنيع "
+"المجموعة الفرعية يتحدثون الإسبانية بشكل أساسي، بينما يتحدث موظفو شركة "
+"السيارات الإنجليزية بشكل أساسي، ترغب الإدارة في إرسال موظف يتحدث الإسبانية."
 
 #: ../../content/applications/hr/employees/skills_inventory.rst:50
 msgid ""
@@ -10448,9 +10448,9 @@ msgid ""
 msgstr ""
 "لتحديد المتحدثين الأكثر طلاقة بالإسبانية، انتقل إلى :menuselection:`تطبيق "
 "الموظفون --> التقارير --> مخزون المهارات`. وبما أن قسم التصنيع هو الأكثر "
-"تأهيلاً للتعامل مع مشكلات التصنيع، يُفضّل اختيار شخص من ذلك القسم. لعرض الموظفين "
-"من ذلك القسم فقط، انقر داخل شريط البحث، ثم انقر على :guilabel:`عامل تصفية "
-"مخصص...` في عمود :icon:`fa-filter` :guilabel:`عوامل التصفية`."
+"تأهيلاً للتعامل مع مشكلات التصنيع، يُفضّل اختيار شخص من ذلك القسم. لعرض "
+"الموظفين من ذلك القسم فقط، انقر داخل شريط البحث، ثم انقر على :guilabel:`عامل "
+"تصفية مخصص...` في عمود :icon:`fa-filter` :guilabel:`عوامل التصفية`."
 
 #: ../../content/applications/hr/employees/skills_inventory.rst:59
 msgid ""
@@ -10458,8 +10458,9 @@ msgid ""
 "to :guilabel:`Department` and the last field to :guilabel:`Administration/"
 "Manufacturing`, then click :guilabel:`Search`."
 msgstr ""
-"في النافذة المنبثقة *عامل تصفية مخصص*، اضبط الحقل الأول على :guilabel:`القسم` "
-"والحقل الأخير على :guilabel:`الإدارة/التصنيع`، ثم انقر على :guilabel:`بحث`."
+"في النافذة المنبثقة *عامل تصفية مخصص*، اضبط الحقل الأول "
+"على :guilabel:`القسم` والحقل الأخير على :guilabel:`الإدارة/التصنيع`، ثم انقر "
+"على :guilabel:`بحث`."
 
 #: ../../content/applications/hr/employees/skills_inventory.rst:None
 msgid ""
@@ -10472,9 +10473,9 @@ msgid ""
 "expand :guilabel:`Spanish`. The resulting list only displays employees "
 "within the manufacturing department, with Spanish language skills."
 msgstr ""
-"بمجرد تفعيل عامل التصفية، وسّع :guilabel:`اللغات` ثم وسّع "
-":guilabel:`الإسبانية`. تعرض القائمة الناتجة الموظفين في قسم التصنيع فقط، ممن "
-"يمتلكون مهارات في اللغة الإسبانية."
+"بمجرد تفعيل عامل التصفية، وسّع :guilabel:`اللغات` ثم "
+"وسّع :guilabel:`الإسبانية`. تعرض القائمة الناتجة الموظفين في قسم التصنيع فقط، "
+"ممن يمتلكون مهارات في اللغة الإسبانية."
 
 #: ../../content/applications/hr/employees/skills_inventory.rst:69
 msgid ""
@@ -10484,9 +10485,9 @@ msgid ""
 "for the manufacturing trip to their subassembly manufacturer."
 msgstr ""
 "في هذا المثال، يمكن تحديد أن كلاً من :guilabel:`Samantha Adams` "
-"و:guilabel:`Carol McArthur` يتحدثان الإسبانية بطلاقة (:guilabel:`تقدم المستوى` "
-"بنسبة :guilabel:`100%`) وهما مرشحان جيدان للرحلة التصنيعية إلى مُصنّع المجموعة "
-"الفرعية."
+"و:guilabel:`Carol McArthur` يتحدثان الإسبانية بطلاقة (:guilabel:`تقدم "
+"المستوى` بنسبة :guilabel:`100%`) وهما مرشحان جيدان للرحلة التصنيعية إلى مُصنّع "
+"المجموعة الفرعية."
 
 #: ../../content/applications/hr/employees/skills_inventory.rst:None
 msgid ""
@@ -10627,9 +10628,9 @@ msgid ""
 "company (through the **Events** app), or :guilabel:`eLearning` for online "
 "training courses taken through the **eLearning** app."
 msgstr ""
-":guilabel:`نوع الدورة`: اختر الطريقة التي أُجري بها التدريب. الخيارات هي: "
-":guilabel:`خارجي` لأي تدريب خارج الموقع، بما في ذلك الدورات عبر الإنترنت أو "
-"التدريب الحضوري، :guilabel:`في الموقع` للتدريب الحضوري في الشركة (من خلال "
+":guilabel:`نوع الدورة`: اختر الطريقة التي أُجري بها التدريب. الخيارات "
+"هي: :guilabel:`خارجي` لأي تدريب خارج الموقع، بما في ذلك الدورات عبر الإنترنت "
+"أو التدريب الحضوري، :guilabel:`في الموقع` للتدريب الحضوري في الشركة (من خلال "
 "تطبيق **الفعاليات**)، أو :guilabel:`التعلم الإلكتروني` للدورات التدريبية عبر "
 "الإنترنت التي تُؤخذ من خلال تطبيق **التعلم الإلكتروني**."
 
@@ -10659,9 +10660,9 @@ msgid ""
 "the :guilabel:`Course Type`, this field appears. Using the drop-down menu, "
 "select the **eLearning** class the employee took."
 msgstr ""
-":guilabel:`دورة التعلم الإلكتروني`: إذا تم تحديد :guilabel:`التعلم الإلكتروني` "
-"لـ:guilabel:`نوع الدورة`، يظهر هذا الحقل. باستخدام القائمة المنسدلة، اختر "
-"الدورة التي أخذها الموظف من تطبيق **التعلم الإلكتروني**."
+":guilabel:`دورة التعلم الإلكتروني`: إذا تم تحديد :guilabel:`التعلم "
+"الإلكتروني` لـ:guilabel:`نوع الدورة`، يظهر هذا الحقل. باستخدام القائمة "
+"المنسدلة، اختر الدورة التي أخذها الموظف من تطبيق **التعلم الإلكتروني**."
 
 #: ../../content/applications/hr/employees/training_attendances.rst:67
 msgid ""
@@ -18864,11 +18865,11 @@ msgid ""
 "headquarters, must be set up as its own company/branch using the multi-"
 "company method."
 msgstr ""
-"يمكن لأودو التعامل مع تهيئة متعددة الشركات. يتم ذلك عادة عندما تكون هناك شركة "
-"رئيسية أو موقع مكتب رئيسي، مثل المقر الرئيسي، ومكاتب/فروع أخرى حول الدولة أو "
-"العالم تندرج تحت تلك الشركة الرئيسية أو المقر الرئيسي. في أودو، يجب إعداد كل "
-"شركة، بما في ذلك المقر الرئيسي، كشركة/فرع منفصل باستخدام أسلوب الشركات "
-"المتعددة."
+"يمكن لأودو التعامل مع تهيئة متعددة الشركات. يتم ذلك عادة عندما تكون هناك "
+"شركة رئيسية أو موقع مكتب رئيسي، مثل المقر الرئيسي، ومكاتب/فروع أخرى حول "
+"الدولة أو العالم تندرج تحت تلك الشركة الرئيسية أو المقر الرئيسي. في أودو، "
+"يجب إعداد كل شركة، بما في ذلك المقر الرئيسي، كشركة/فرع منفصل باستخدام أسلوب "
+"الشركات المتعددة."
 
 #: ../../content/applications/hr/payroll/payroll_localizations.rst:220
 msgid ""
@@ -40543,9 +40544,9 @@ msgid ""
 "the :ref:`External Code field <payroll/new-work-entry-type>` for each work "
 "entry type that is being referenced."
 msgstr ""
-"بعد ذلك، **يجب** أن تحتوي أنواع سجلات العمل على رمز ADP الصحيح المدرج في "
-":ref:`حقل الرمز الخارجي <payroll/new-work-entry-type>` لكل نوع سجل عمل يتم "
-"الرجوع إليه."
+"بعد ذلك، **يجب** أن تحتوي أنواع سجلات العمل على رمز ADP الصحيح المدرج "
+"في :ref:`حقل الرمز الخارجي <payroll/new-work-entry-type>` لكل نوع سجل عمل "
+"يتم الرجوع إليه."
 
 #: ../../content/applications/hr/payroll/payroll_localizations/united_states.rst:672
 msgid ""
@@ -40576,8 +40577,8 @@ msgid ""
 "Once :doc:`work entries <../work_entries>` have been verified, the "
 "information is exported to a CSV file, which is uploaded into ADP."
 msgstr ""
-"بمجرد التحقق من :doc:`سجلات العمل <../work_entries>`، يتم تصدير المعلومات إلى "
-"ملف CSV، والذي يتم تحميله إلى ADP."
+"بمجرد التحقق من :doc:`سجلات العمل <../work_entries>`، يتم تصدير المعلومات "
+"إلى ملف CSV، والذي يتم تحميله إلى ADP."
 
 #: ../../content/applications/hr/payroll/payroll_localizations/united_states.rst:685
 msgid ""
@@ -40587,9 +40588,9 @@ msgid ""
 "over."
 msgstr ""
 "لتصدير البيانات، انتقل إلى :menuselection:`تطبيق كشوف المرتبات --> إعداد "
-"التقارير --> تصدير ADP`، ثم انقر على :guilabel:`جديد`. بعد ذلك، أدخل "
-":guilabel:`تاريخ البدء` و:guilabel:`تاريخ الانتهاء` لسجلات العمل باستخدام "
-"النافذة المنبثقة للتقويم."
+"التقارير --> تصدير ADP`، ثم انقر على :guilabel:`جديد`. بعد ذلك، "
+"أدخل :guilabel:`تاريخ البدء` و:guilabel:`تاريخ الانتهاء` لسجلات العمل "
+"باستخدام النافذة المنبثقة للتقويم."
 
 #: ../../content/applications/hr/payroll/payroll_localizations/united_states.rst:689
 msgid ""
@@ -40626,8 +40627,8 @@ msgid ""
 "employees to add to the list."
 msgstr ""
 "أخيراً، أضِف معلومات سجل عمل الموظف إلى القائمة. انقر على :guilabel:`إضافة "
-"سطر` ليتم تحميل نافذة منبثقة بعنوان *إضافة: الموظف*. يمكن :doc:`تصفية <../../"
-"../essentials/search>` القائمة لإيجاد الموظفين المراد إضافتهم إليها."
+"سطر` ليتم تحميل نافذة منبثقة بعنوان *إضافة: الموظف*. يمكن :doc:`تصفية "
+"<../../../essentials/search>` القائمة لإيجاد الموظفين المراد إضافتهم إليها."
 
 #: ../../content/applications/hr/payroll/payroll_localizations/united_states.rst:704
 msgid ""
@@ -40636,10 +40637,10 @@ msgid ""
 "batches and makes processing more tenable, overall. The most common ways to "
 "group employees is by department, or by wage type (hourly or salaried)."
 msgstr ""
-"قم بمعالجة تصدير البيانات في عدة مجموعات بدلاً من مجموعة كبيرة واحدة تحتوي على "
-"جميع الموظفين. يساعد ذلك على التمييز بين الدفعات بشكل واضح، ويجعل المعالجة "
-"أكثر قابلية للتحكم بشكل عام. أكثر الطرق شيوعاً لتجميع الموظفين هي حسب القسم، "
-"أو حسب نوع الأجر (بالساعة أو براتب ثابت)."
+"قم بمعالجة تصدير البيانات في عدة مجموعات بدلاً من مجموعة كبيرة واحدة تحتوي "
+"على جميع الموظفين. يساعد ذلك على التمييز بين الدفعات بشكل واضح، ويجعل "
+"المعالجة أكثر قابلية للتحكم بشكل عام. أكثر الطرق شيوعاً لتجميع الموظفين هي "
+"حسب القسم، أو حسب نوع الأجر (بالساعة أو براتب ثابت)."
 
 #: ../../content/applications/hr/payroll/payroll_localizations/united_states.rst:709
 msgid ""
@@ -40649,8 +40650,8 @@ msgid ""
 "list."
 msgstr ""
 "حدد الموظفين المراد إضافتهم إلى القائمة عن طريق النقر على المربع الموجود إلى "
-"يسار اسم كل منهم. بعد تحديد جميع الموظفين المطلوبين، انقر على زر "
-":guilabel:`تحديد` في الزاوية، وسيظهر الموظفون في القائمة."
+"يسار اسم كل منهم. بعد تحديد جميع الموظفين المطلوبين، انقر على "
+"زر :guilabel:`تحديد` في الزاوية، وسيظهر الموظفون في القائمة."
 
 #: ../../content/applications/hr/payroll/payroll_localizations/united_states.rst:713
 msgid "To create the CSV file, click the :guilabel:`Generate` button."
@@ -44901,7 +44902,8 @@ msgstr ":ref:`المقابلة الأولى <recruitment/recruitment_flow/first-
 
 #: ../../content/applications/hr/recruitment.rst:175
 msgid ":ref:`Second Interview <recruitment/recruitment_flow/second-interview>`"
-msgstr ":ref:`المقابلة الثانية <recruitment/recruitment_flow/second-interview>`"
+msgstr ""
+":ref:`المقابلة الثانية <recruitment/recruitment_flow/second-interview>`"
 
 #: ../../content/applications/hr/recruitment.rst:176
 msgid ":doc:`Contract Proposal <recruitment/offer_job_positions>`"
@@ -45411,8 +45413,8 @@ msgid ":doc:`recruitment/source_analysis`"
 msgstr ":doc:`recruitment/source_analysis`"
 
 #: ../../content/applications/hr/recruitment.rst:373
-msgid ":doc:`recruitment/velocity_analysis`"
-msgstr ":doc:`recruitment/velocity_analysis`"
+msgid ":doc:`recruitment/hiring_velocity`"
+msgstr ""
 
 #: ../../content/applications/hr/recruitment.rst:374
 msgid ":doc:`recruitment/team_performance`"
@@ -45986,6 +45988,156 @@ msgstr ""
 "يتم عرض الحالات التي تحتوي على متقدمين فقط لكل وظيفة. إذا لم تحتوِ حالة "
 "**على** أي متقدمين، فلن تظهر في القائمة."
 
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:3
+msgid "Hiring velocity"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:5
+msgid ""
+"The *Hiring Velocity* report provides information on how long applicants "
+"stay in each stage of the recruitment process. This is important, as every "
+"job position has specific :ref:`hiring process details <recruitment/new_job/"
+"hiring-process>` that state the length of time applicants should expect to "
+"wait between specific stages."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:10
+msgid ""
+"Knowing how long applicants remain in each stage can help highlight possible "
+"bottlenecks. Analyzing this data allows the recruitment team to assess each "
+"stage, identify any issues, and pivot their strategies to move applicants "
+"through each stage, within the expected time interval."
+msgstr ""
+"معرفة المدة التي يبقى فيها المتقدمون في كل مرحلة يمكن أن تساعد في تسليط "
+"الضوء على الاختناقات المحتملة. يسمح تحليل هذه البيانات لفريق التوظيف بتقييم "
+"كل مرحلة، وتحديد أي مشاكل، وتعديل استراتيجياتهم لنقل المتقدمين عبر كل مرحلة، "
+"ضمن الفترة الزمنية المتوقعة."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:15
+msgid "Hiring velocity report"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:17
+msgid ""
+"To access the *Hiring Velocity* report, navigate "
+"to :menuselection:`Recruitment app --> Reporting --> Hiring Velocity`. The "
+"report displays data for all job positions, with the stages populating the x-"
+"axis, and the number of days populating the y-axis, in a default :icon:`fa-"
+"line-chart` :guilabel:`(Line Chart)`."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:22
+msgid ""
+"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
+"information for the last 365 days."
+msgstr ""
+"المرشح الافتراضي هو :guilabel:`Last 365 Days Applicant`، يعرض معلومات عن آخر "
+"365 يوماً."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:25
+msgid ""
+"Hover over a stage in the line chart to reveal a popover window listing all "
+"the job positions within it, and the average number of days each job "
+"position sat in each stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:28
+msgid ""
+"For a more visually digestible view of the information in the *Hiring "
+"Velocity* report, click the :icon:`fa-bar-chart` :guilabel:`(Bar Chart)` "
+"icon in the corner. This displays all the information in a bar chart."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:32
+msgid ""
+"In this view, it is easier to visualize the differences between the job "
+"positions, regarding how long applicants stay in each stage. From this view, "
+"recruiters can determine which job positions have delays or bottlenecks at "
+"certain stages."
+msgstr ""
+"في هذا العرض، يسهل تصور الفروقات بين الوظائف فيما يتعلق بالمدة التي يقضيها "
+"المتقدمون في كل مرحلة. من هذا العرض، يمكن للموظفين تحديد الوظائف التي بها "
+"تأخيرات أو اختناقات في مراحل معينة."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "A bar chart view of the hiring velocity report."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:40
+msgid "Use case: comparing times by month"
+msgstr "حالة الاستخدام: مقارنة الأوقات حسب الشهر"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:42
+msgid ""
+"With the *Hiring Velocity* report, it is possible to see if there are "
+"certain months where applicants take longer to be moved through the "
+"pipeline. To view this data, switch to the pivot table view by clicking "
+"the :icon:`oi-view-pivot` :guilabel:`(Pivot)` icon in the corner."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:46
+msgid ""
+"This presents the data in a detailed pivot table, with the rows representing "
+"the different job positions, and the columns representing the stages. "
+"The :guilabel:`Average Days in Stage` populates the various boxes."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:51
+msgid ""
+"If a field is empty, it indicates no applicant has been in that stage. "
+"Instead, all applicants moved from a previous stage without being placed in "
+"the stage with an empty field."
+msgstr ""
+"إذا كان الحقل فارغاً، فهذا يشير إلى عدم وجود متقدم في تلك المرحلة. بدلاً من "
+"ذلك، انتقل جميع المتقدمين من مرحلة سابقة دون أن يتم وضعهم في المرحلة ذات "
+"الحقل الفارغ."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table view of the Velocity Analysis report."
+msgstr "عرض الجدول المحوري لتقرير تحليل السرعة."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:57
+msgid ""
+"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+"rows to collapse the information. Next, click :icon:`fa-plus-"
+"square` :guilabel:`Total` again, revealing a drop-down menu. "
+"Click :guilabel:`Custom Group` :icon:`fa-caret-down` at the bottom of the "
+"list, revealing further grouping options. Click :guilabel:`Start Date` from "
+"the expanded list."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:62
+msgid ""
+"After doing so, the data presented is grouped with the various months from "
+"the previous 365 days for the rows, leaving the :guilabel:`Average Days in "
+"Stage` as the columns."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table showing the months averages for times in stage."
+msgstr "الجدول المحوري الذي يعرض متوسطات الأشهر للأوقات في المرحلة."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:68
+msgid ""
+"In this example, :guilabel:`July 2026` had the longest time that applicants "
+"spent in each stage, on average. In addition, the :guilabel:`Second "
+"Interview` stage had the longest wait time in July, with an average "
+"of :guilabel:`29.04` days in that stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:72
+msgid ""
+"While this report does not display the reasons applicants stayed in the "
+"various stages for these lengths of time, it can be helpful to know when "
+"delays occur."
+msgstr ""
+"على الرغم من أن هذا التقرير لا يعرض أسباب بقاء المتقدمين في المراحل المختلفة "
+"لهذه الفترات الزمنية، إلا أنه قد يكون مفيداً معرفة متى تحدث التأخيرات."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:76
+msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
+msgstr ":doc:`وثائق إعداد التقارير الأساسية <../../essentials/reporting>`"
+
 #: ../../content/applications/hr/recruitment/new_job.rst:3
 msgid "Job positions"
 msgstr "المناصب الوظيفية"
@@ -46034,9 +46186,9 @@ msgid ""
 "click the :guilabel:`New` button in the top-left corner, and a *Create a Job "
 "Position* pop-up window appears."
 msgstr ""
-"لإنشاء منصب وظيفي من لوحة البيانات الرئيسية في تطبيق **التوظيف**، انقر على زر "
-":guilabel:`جديد` في الزاوية العلوية اليسرى، فتظهر نافذة منبثقة بعنوان *إنشاء "
-"منصب وظيفي*."
+"لإنشاء منصب وظيفي من لوحة البيانات الرئيسية في تطبيق **التوظيف**، انقر على "
+"زر :guilabel:`جديد` في الزاوية العلوية اليسرى، فتظهر نافذة منبثقة بعنوان "
+"*إنشاء منصب وظيفي*."
 
 #: ../../content/applications/hr/recruitment/new_job.rst:27
 msgid ""
@@ -46080,9 +46232,9 @@ msgid ""
 "return to the main **Recruitment** app dashboard."
 msgstr ""
 "بمجرد النقر على زر :guilabel:`إنشاء`، يتم تحميل لوحة بيانات *الطلبات* الخاصة "
-"بالوظيفة المُنشأة حديثاً. تكون لوحة بيانات *الطلبات* فارغة، حيث لا يوجد متقدمون "
-"بعد. انقر على مسار التنقل :guilabel:`المناصب الوظيفية` للعودة إلى لوحة "
-"بيانات تطبيق **التوظيف** الرئيسية."
+"بالوظيفة المُنشأة حديثاً. تكون لوحة بيانات *الطلبات* فارغة، حيث لا يوجد "
+"متقدمون بعد. انقر على مسار التنقل :guilabel:`المناصب الوظيفية` للعودة إلى "
+"لوحة بيانات تطبيق **التوظيف** الرئيسية."
 
 #: ../../content/applications/hr/recruitment/new_job.rst:49
 msgid "Configure a job position"
@@ -46096,9 +46248,9 @@ msgid ""
 "card, and the detailed job position form loads."
 msgstr ""
 "بمجرد :ref:`إنشاء <recruitment/new_job/create-job-position>` المنصب الوظيفي، "
-"يجب إعداد تفاصيله. من لوحة بيانات تطبيق **التوظيف** الرئيسية، انقر على زر "
-":guilabel:`الإعداد` في نهاية بطاقة كانبان، فيتم تحميل استمارة المنصب الوظيفي "
-"التفصيلية."
+"يجب إعداد تفاصيله. من لوحة بيانات تطبيق **التوظيف** الرئيسية، انقر على "
+"زر :guilabel:`الإعداد` في نهاية بطاقة كانبان، فيتم تحميل استمارة المنصب "
+"الوظيفي التفصيلية."
 
 #: ../../content/applications/hr/recruitment/new_job.rst:55
 msgid ""
@@ -46122,9 +46274,9 @@ msgid ""
 "and :guilabel:`Employment Type` fields, as they are all visible to "
 "prospective applicants on the website."
 msgstr ""
-"لا يُعد أي من الحقول إلزامياً، ولكن من المهم إعداد وتعبئة حقول "
-":guilabel:`القسم`، و:guilabel:`موقع الوظيفة`، و:guilabel:`نوع التوظيف`، حيث "
-"إنها جميعاً مرئية للمتقدمين المحتملين على الموقع الإلكتروني."
+"لا يُعد أي من الحقول إلزامياً، ولكن من المهم إعداد وتعبئة "
+"حقول :guilabel:`القسم`، و:guilabel:`موقع الوظيفة`، و:guilabel:`نوع التوظيف`، "
+"حيث إنها جميعاً مرئية للمتقدمين المحتملين على الموقع الإلكتروني."
 
 #: ../../content/applications/hr/recruitment/new_job.rst:67
 msgid ""
@@ -47733,7 +47885,7 @@ msgstr ""
 msgid ""
 "The applicant's email address automatically populates "
 "the :guilabel:`Applicant` field. The :guilabel:`Subject` and email body are "
-"populated according to the corresponding email template."
+"populated according to the corresponding email"
 msgstr ""
 
 #: ../../content/applications/hr/recruitment/refuse_applicant.rst:105
@@ -48538,9 +48690,9 @@ msgid ""
 "report, click the :icon:`oi-view-pivot` :guilabel:`(Pivot)` icon. This "
 "displays all the information in a pivot table."
 msgstr ""
-"للحصول على عرض أكثر تفصيلاً للمعلومات الواردة في تقرير *أداء الفريق*، انقر على "
-"أيقونة :icon:`oi-view-pivot` :guilabel:`(محوري)`. يعرض ذلك جميع المعلومات في "
-"جدول محوري."
+"للحصول على عرض أكثر تفصيلاً للمعلومات الواردة في تقرير *أداء الفريق*، انقر "
+"على أيقونة :icon:`oi-view-pivot` :guilabel:`(محوري)`. يعرض ذلك جميع "
+"المعلومات في جدول محوري."
 
 #: ../../content/applications/hr/recruitment/team_performance.rst:36
 msgid ""
@@ -48552,10 +48704,10 @@ msgid ""
 "all stages for that recruiter."
 msgstr ""
 "في طريقة العرض هذه، يمثل موظفو التوظيف الصفوف، بينما تمثل الأعمدة عدد "
-"المتقدمين في كل مرحلة. يعرض كل عمود العدد الإجمالي للمتقدمين الذين ما زالوا "
-":guilabel:`قيد التنفيذ`، أو تم :guilabel:`توظيفهم`، أو تم :guilabel:`رفضهم`. "
-"أما العمود الأخير، :guilabel:`الطلبات`، فيمثل العدد الإجمالي للمتقدمين عبر "
-"جميع المراحل لذلك الموظف."
+"المتقدمين في كل مرحلة. يعرض كل عمود العدد الإجمالي للمتقدمين الذين ما "
+"زالوا :guilabel:`قيد التنفيذ`، أو تم :guilabel:`توظيفهم`، أو "
+"تم :guilabel:`رفضهم`. أما العمود الأخير، :guilabel:`الطلبات`، فيمثل العدد "
+"الإجمالي للمتقدمين عبر جميع المراحل لذلك الموظف."
 
 #: ../../content/applications/hr/recruitment/team_performance.rst:42
 msgid ""
@@ -48574,184 +48726,6 @@ msgstr ""
 "بناءً على البيانات المعروضة، يُعد :guilabel:`جون دو` الموظف الأكثر نجاحاً في "
 "التوظيف، بإجمالي ثماني حالات توظيف، بينما حققت :guilabel:`كارول بيشوب` أقل "
 "عدد من حالات التوظيف، بثلاث حالات فقط."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:3
-msgid "Velocity analysis"
-msgstr "تحليل السرعة"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:5
-msgid ""
-"The *Velocity Analysis* report provides information on how long applicants "
-"stay in each stage of the recruitment process. This is important, as every "
-"job position has specific :ref:`hiring process details <recruitment/new_job/"
-"hiring-process>` that state the length of time applicants should expect to "
-"wait between specific stages."
-msgstr ""
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:10
-msgid ""
-"Knowing how long applicants remain in each stage can help highlight possible "
-"bottlenecks. Analyzing this data allows the recruitment team to assess each "
-"stage, identify any issues, and pivot their strategies to move applicants "
-"through each stage, within the expected time interval."
-msgstr ""
-"معرفة المدة التي يبقى فيها المتقدمون في كل مرحلة يمكن أن تساعد في تسليط "
-"الضوء على الاختناقات المحتملة. يسمح تحليل هذه البيانات لفريق التوظيف بتقييم "
-"كل مرحلة، وتحديد أي مشاكل، وتعديل استراتيجياتهم لنقل المتقدمين عبر كل مرحلة، "
-"ضمن الفترة الزمنية المتوقعة."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:15
-msgid "Velocity analysis report"
-msgstr "تقرير تحليل السرعة"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:17
-msgid ""
-"To access the report, navigate to :menuselection:`Recruitment app --> "
-"Reporting --> Velocity Analysis`. By default, the report displays data for "
-"all job positions, with the stages populating the x-axis, and the number of "
-"days populating the y-axis, in a :icon:`fa-line-chart` :guilabel:`(Line "
-"Chart)`."
-msgstr ""
-"للوصول إلى التقرير، انتقل إلى :menuselection:`Recruitment app --> Reporting "
-"--> Velocity Analysis`. بشكل افتراضي، يعرض التقرير بيانات لجميع الوظائف، مع "
-"ملء المراحل للمحور السيني، وملء عدد الأيام للمحور الصادي، في :icon:`fa-line-"
-"chart` :guilabel:`(Line Chart)`."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:22
-msgid ""
-"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
-"information for the last 365 days."
-msgstr ""
-"المرشح الافتراضي هو :guilabel:`Last 365 Days Applicant`، يعرض معلومات عن آخر "
-"365 يوماً."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:25
-msgid ""
-"Hover over a stage in the line chart to reveal a popover window listing all "
-"the job positions within it, and the average number of days each job "
-"position sits in each stage."
-msgstr ""
-"مرر مؤشر الماوس فوق مرحلة في المخطط الخطي لإظهار نافذة منبثقة تسرد جميع "
-"الوظائف ضمنها، ومتوسط عدد الأيام التي تقضيها كل وظيفة في كل مرحلة."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:28
-msgid ""
-"For a more visually digestible view of the information in "
-"the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
-"chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This displays "
-"all the information in a bar chart."
-msgstr ""
-"للحصول على عرض أكثر وضوحاً للمعلومات في تقرير :guilabel:`تحليل السرعة`، انقر "
-"على أيقونة :icon:`fa-bar-chart` :guilabel:`(مخطط شريطي)` في الزاوية العلوية "
-"اليسرى. سيعرض هذا جميع المعلومات في مخطط شريطي."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:32
-msgid ""
-"In this view, it is easier to visualize the differences between the job "
-"positions, regarding how long applicants stay in each stage. From this view, "
-"recruiters can determine which job positions have delays or bottlenecks at "
-"certain stages."
-msgstr ""
-"في هذا العرض، يسهل تصور الفروقات بين الوظائف فيما يتعلق بالمدة التي يقضيها "
-"المتقدمون في كل مرحلة. من هذا العرض، يمكن للموظفين تحديد الوظائف التي بها "
-"تأخيرات أو اختناقات في مراحل معينة."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The bar chart view of the Velocity Analysis report."
-msgstr "عرض المخطط الشريطي لتقرير تحليل السرعة."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:40
-msgid "Use case: comparing times by month"
-msgstr "حالة الاستخدام: مقارنة الأوقات حسب الشهر"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:42
-msgid ""
-"With the :guilabel:`Velocity Analysis` report, it is possible to see if "
-"there are certain months where applicants take longer to be moved through "
-"the pipeline. To view this data, switch to the :icon:`oi-view-"
-"pivot` :guilabel:`(Pivot)` view in the upper-right corner."
-msgstr ""
-"باستخدام تقرير :guilabel:`تحليل السرعة`، من الممكن معرفة ما إذا كانت هناك "
-"أشهر معينة يستغرق فيها المتقدمون وقتاً أطول للانتقال عبر خط سير العمل. لعرض "
-"هذه البيانات، انتقل إلى عرض :icon:`oi-view-pivot` :guilabel:`(محوري)` في "
-"الزاوية العلوية اليمنى."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:46
-msgid ""
-"This presents the data in a detailed pivot table, with the rows representing "
-"the different job positions, and the columns representing the stages. The "
-"average :guilabel:`Days in Stage` populates the various boxes."
-msgstr ""
-"يعرض هذا البيانات في جدول محوري مفصل، حيث تمثل الصفوف الوظائف المختلفة، "
-"وتمثل الأعمدة المراحل. يملأ متوسط :guilabel:`الأيام في المرحلة` المربعات "
-"المختلفة."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:51
-msgid ""
-"If a field is empty, it indicates no applicant has been in that stage. "
-"Instead, all applicants moved from a previous stage without being placed in "
-"the stage with an empty field."
-msgstr ""
-"إذا كان الحقل فارغاً، فهذا يشير إلى عدم وجود متقدم في تلك المرحلة. بدلاً من "
-"ذلك، انتقل جميع المتقدمين من مرحلة سابقة دون أن يتم وضعهم في المرحلة ذات "
-"الحقل الفارغ."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table view of the Velocity Analysis report."
-msgstr "عرض الجدول المحوري لتقرير تحليل السرعة."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:57
-msgid ""
-"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
-"rows to collapse the information. Next, click :icon:`fa-plus-"
-"square` :guilabel:`Total` again, revealing a drop-down menu. "
-"Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
-"the list, revealing further grouping options. Click :guilabel:`Start Date` "
-"from the expanded list."
-msgstr ""
-"انقر على :icon:`fa-minus-square-o` :guilabel:`الإجمالي` أعلى صفوف الوظائف "
-"لطي المعلومات. بعد ذلك، انقر على :icon:`fa-plus-square` :guilabel:`الإجمالي` "
-"مرة أخرى، لتظهر قائمة منسدلة. انقر على :guilabel:`إضافة مجموعة "
-"مخصصة` :icon:`fa-caret-down` في أسفل القائمة، لتظهر خيارات تجميع إضافية. "
-"انقر على :guilabel:`تاريخ البدء` من القائمة الموسعة."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:62
-msgid ""
-"After doing so, the data presented is grouped with the various months from "
-"the previous 365 days for the rows, leaving the :guilabel:`Days In Stage` as "
-"the columns."
-msgstr ""
-"بعد القيام بذلك، يتم تجميع البيانات المعروضة مع الأشهر المختلفة من الـ 365 "
-"يوماً الماضية للصفوف، مع ترك :guilabel:`الأيام في المرحلة` كأعمدة."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table showing the months averages for times in stage."
-msgstr "الجدول المحوري الذي يعرض متوسطات الأشهر للأوقات في المرحلة."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:68
-msgid ""
-"In this example, :guilabel:`July 2024` had the longest time that applicants "
-"spent in each stage, on average. In addition, the :guilabel:`Contract "
-"Proposal` stage had the longest wait time in July, with an average "
-"of :guilabel:`31.62` days in that stage."
-msgstr ""
-"في هذا المثال، كان :guilabel:`يوليو 2024` هو أطول وقت قضاه المتقدمون في كل "
-"مرحلة، في المتوسط. بالإضافة إلى ذلك، كانت مرحلة :guilabel:`اقتراح العقد` هي "
-"الأطول في وقت الانتظار في يوليو، بمتوسط :guilabel:`31.62` يوماً في تلك "
-"المرحلة."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:72
-msgid ""
-"While this report does not display the reasons applicants stayed in the "
-"various stages for these lengths of time, it can be helpful to know when "
-"delays occur."
-msgstr ""
-"على الرغم من أن هذا التقرير لا يعرض أسباب بقاء المتقدمين في المراحل المختلفة "
-"لهذه الفترات الزمنية، إلا أنه قد يكون مفيداً معرفة متى تحدث التأخيرات."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:76
-msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
-msgstr ":doc:`وثائق إعداد التقارير الأساسية <../../essentials/reporting>`"
 
 #: ../../content/applications/hr/referrals.rst:5
 msgid "Referrals"
@@ -54040,6 +54014,103 @@ msgstr ""
 msgid ""
 "The lower half of the time off type form, with the color and icon selected."
 msgstr "النصف السفلي من نموذج نوع الإجازة، مع تحديد اللون والأيقونة."
+
+#~ msgid ":doc:`recruitment/velocity_analysis`"
+#~ msgstr ":doc:`recruitment/velocity_analysis`"
+
+#~ msgid "Velocity analysis"
+#~ msgstr "تحليل السرعة"
+
+#~ msgid "Velocity analysis report"
+#~ msgstr "تقرير تحليل السرعة"
+
+#~ msgid ""
+#~ "To access the report, navigate to :menuselection:`Recruitment app --> "
+#~ "Reporting --> Velocity Analysis`. By default, the report displays data "
+#~ "for all job positions, with the stages populating the x-axis, and the "
+#~ "number of days populating the y-axis, in a :icon:`fa-line-"
+#~ "chart` :guilabel:`(Line Chart)`."
+#~ msgstr ""
+#~ "للوصول إلى التقرير، انتقل إلى :menuselection:`Recruitment app --> "
+#~ "Reporting --> Velocity Analysis`. بشكل افتراضي، يعرض التقرير بيانات لجميع "
+#~ "الوظائف، مع ملء المراحل للمحور السيني، وملء عدد الأيام للمحور الصادي، "
+#~ "في :icon:`fa-line-chart` :guilabel:`(Line Chart)`."
+
+#~ msgid ""
+#~ "Hover over a stage in the line chart to reveal a popover window listing "
+#~ "all the job positions within it, and the average number of days each job "
+#~ "position sits in each stage."
+#~ msgstr ""
+#~ "مرر مؤشر الماوس فوق مرحلة في المخطط الخطي لإظهار نافذة منبثقة تسرد جميع "
+#~ "الوظائف ضمنها، ومتوسط عدد الأيام التي تقضيها كل وظيفة في كل مرحلة."
+
+#~ msgid ""
+#~ "For a more visually digestible view of the information in "
+#~ "the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
+#~ "chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This "
+#~ "displays all the information in a bar chart."
+#~ msgstr ""
+#~ "للحصول على عرض أكثر وضوحاً للمعلومات في تقرير :guilabel:`تحليل السرعة`، "
+#~ "انقر على أيقونة :icon:`fa-bar-chart` :guilabel:`(مخطط شريطي)` في الزاوية "
+#~ "العلوية اليسرى. سيعرض هذا جميع المعلومات في مخطط شريطي."
+
+#~ msgid "The bar chart view of the Velocity Analysis report."
+#~ msgstr "عرض المخطط الشريطي لتقرير تحليل السرعة."
+
+#~ msgid ""
+#~ "With the :guilabel:`Velocity Analysis` report, it is possible to see if "
+#~ "there are certain months where applicants take longer to be moved through "
+#~ "the pipeline. To view this data, switch to the :icon:`oi-view-"
+#~ "pivot` :guilabel:`(Pivot)` view in the upper-right corner."
+#~ msgstr ""
+#~ "باستخدام تقرير :guilabel:`تحليل السرعة`، من الممكن معرفة ما إذا كانت هناك "
+#~ "أشهر معينة يستغرق فيها المتقدمون وقتاً أطول للانتقال عبر خط سير العمل. "
+#~ "لعرض هذه البيانات، انتقل إلى عرض :icon:`oi-view-"
+#~ "pivot` :guilabel:`(محوري)` في الزاوية العلوية اليمنى."
+
+#~ msgid ""
+#~ "This presents the data in a detailed pivot table, with the rows "
+#~ "representing the different job positions, and the columns representing "
+#~ "the stages. The average :guilabel:`Days in Stage` populates the various "
+#~ "boxes."
+#~ msgstr ""
+#~ "يعرض هذا البيانات في جدول محوري مفصل، حيث تمثل الصفوف الوظائف المختلفة، "
+#~ "وتمثل الأعمدة المراحل. يملأ متوسط :guilabel:`الأيام في المرحلة` المربعات "
+#~ "المختلفة."
+
+#~ msgid ""
+#~ "Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+#~ "rows to collapse the information. Next, click :icon:`fa-plus-"
+#~ "square` :guilabel:`Total` again, revealing a drop-down menu. "
+#~ "Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
+#~ "the list, revealing further grouping options. Click :guilabel:`Start "
+#~ "Date` from the expanded list."
+#~ msgstr ""
+#~ "انقر على :icon:`fa-minus-square-o` :guilabel:`الإجمالي` أعلى صفوف الوظائف "
+#~ "لطي المعلومات. بعد ذلك، انقر على :icon:`fa-plus-"
+#~ "square` :guilabel:`الإجمالي` مرة أخرى، لتظهر قائمة منسدلة. انقر "
+#~ "على :guilabel:`إضافة مجموعة مخصصة` :icon:`fa-caret-down` في أسفل القائمة، "
+#~ "لتظهر خيارات تجميع إضافية. انقر على :guilabel:`تاريخ البدء` من القائمة "
+#~ "الموسعة."
+
+#~ msgid ""
+#~ "After doing so, the data presented is grouped with the various months "
+#~ "from the previous 365 days for the rows, leaving the :guilabel:`Days In "
+#~ "Stage` as the columns."
+#~ msgstr ""
+#~ "بعد القيام بذلك، يتم تجميع البيانات المعروضة مع الأشهر المختلفة من الـ "
+#~ "365 يوماً الماضية للصفوف، مع ترك :guilabel:`الأيام في المرحلة` كأعمدة."
+
+#~ msgid ""
+#~ "In this example, :guilabel:`July 2024` had the longest time that "
+#~ "applicants spent in each stage, on average. In addition, "
+#~ "the :guilabel:`Contract Proposal` stage had the longest wait time in "
+#~ "July, with an average of :guilabel:`31.62` days in that stage."
+#~ msgstr ""
+#~ "في هذا المثال، كان :guilabel:`يوليو 2024` هو أطول وقت قضاه المتقدمون في "
+#~ "كل مرحلة، في المتوسط. بالإضافة إلى ذلك، كانت مرحلة :guilabel:`اقتراح "
+#~ "العقد` هي الأطول في وقت الانتظار في يوليو، بمتوسط :guilabel:`31.62` يوماً "
+#~ "في تلك المرحلة."
 
 #~ msgid ""
 #~ "A country-specific localization module :ref:`must be installed <general/"

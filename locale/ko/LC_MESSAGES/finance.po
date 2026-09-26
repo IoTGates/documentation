@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-25 17:31+0000\n"
 "PO-Revision-Date: 2026-08-27 16:23+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19-doc/"
@@ -1010,7 +1010,7 @@ msgstr ":doc:`거래`"
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:26
 #: ../../content/applications/finance/accounting/bank/bank_synchronization/basiq.rst:21
 #: ../../content/applications/finance/accounting/bank/bank_synchronization/ponto.rst:20
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:16
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:18
 #: ../../content/applications/finance/accounting/bank/internal_transfers.rst:12
 #: ../../content/applications/finance/accounting/bank/reconciliation_models.rst:17
 #: ../../content/applications/finance/accounting/customer_invoices/cash_discounts.rst:27
@@ -1025,7 +1025,7 @@ msgstr ":doc:`거래`"
 #: ../../content/applications/finance/accounting/get_started/avg_price_valuation.rst:32
 #: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:34
 #: ../../content/applications/finance/accounting/get_started/journals.rst:122
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:15
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:13
 #: ../../content/applications/finance/accounting/get_started/tax_units.rst:22
 #: ../../content/applications/finance/accounting/payments/batch.rst:28
 #: ../../content/applications/finance/accounting/payments/batch.rst:138
@@ -2092,222 +2092,161 @@ msgstr "외화 은행 계좌 관리하기"
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:5
 msgid ""
 "In Odoo, every transaction is recorded in the default currency of the "
-"company, and reports are all based on that default currency. When you have a "
-"bank account in a foreign currency, for every transaction, Odoo stores two "
-"values:"
+"company, and reports are all based on that default currency. With a bank "
+"account in a foreign currency, for every transaction, Odoo stores two values:"
 msgstr ""
-"Odoo에서 거래는 모두 회사의 기본 통화로 기록되며, 보고서 역시 모두 해당 기본 "
-"통화를 기준으로 작성됩니다. 외화 은행 계좌가 있는 경우에는 Odoo에서는 모든 거"
-"래가 두 가지 값으로 저장됩니다:"
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:9
-msgid "The debit/credit in the currency of the *company*;"
-msgstr "*회사* 통화로 차변 및 대변 항목 기록;"
+msgid "The debit/credit in the currency of the company."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:10
-msgid "The debit/credit in the currency of the *bank account*."
-msgstr "*은행 계좌* 통화로 차변 및 대변 항목 기록."
+msgid "The debit/credit in the currency of the bank account."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:12
 msgid ""
-"Currency rates are updated automatically using the web services of a banking "
-"institution. By default, Odoo uses the European Central Bank's web services "
-"but other options are available."
+"Currency rates are updated automatically using a banking institution's web "
+"services. By default, Odoo uses the European Central Bank's web services but "
+"other options are available."
 msgstr ""
-"은행 기관의 웹 서비스를 통해 환율이 자동 업데이트됩니다. Odoo는 유럽 중앙 은"
-"행의 웹 서비스를 기본값으로 사용하고 있으나 다른 옵션도 선택할 수 있습니다."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:19
-msgid "Activate multi-currencies"
-msgstr "다중 통화 활성화하기"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:21
-msgid ""
-"To work with multiple currencies, go to :menuselection:`Accounting --> "
-"Configuration --> Settings --> Currencies` and tick :guilabel:`Multi-"
-"Currencies`. Under :guilabel:`Post Exchange difference entries in:`, provide "
-"a :guilabel:`Journal`, a :guilabel:`Gain Account`, a :guilabel:`Loss "
-"Account`, and then click on :guilabel:`Save`."
-msgstr ""
-"다양한 통화로 작업해야 하는 경우에는 :menuselection:`회계 --> 환경 설정 --> "
-"설정 --> 통화` 로 이동하여 :guilabel:`다중 통화` 에 표시합니다. :guilabel:`외"
-"환 차액 입력:` 에서 :guilabel:`전표`, :guilabel:`수익 계정`, :guilabel:`손실 "
-"계정` 을 입력한 다음 :guilabel:`저장` 을 클릭합니다."
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:27
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:23
 msgid "Configure currencies"
 msgstr "통화 설정하기"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:29
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:25
 msgid ""
-"Once Odoo is configured to support multiple currencies, they are all created "
-"by default, but not necessarily active. To activate the new currencies, "
-"click on :guilabel:`Activate Other Currencies` under the :guilabel:`Multi-"
-"Currencies` setting or go to :menuselection:`Accounting --> Configuration --"
-"> Accounting: Currencies`."
+"To work with multiple currencies, go to :menuselection:`Accounting --> "
+"Configuration --> Currencies`, then :doc:`activate and configure new "
+"currencies <../get_started/multi_currency>`. Set up manual or "
+"automatic :ref:`currency rate <multi-currency/config-rates>` updates and "
+"define the accounts and journals used to record gains or losses incurred "
+"on :ref:`exchange rate differences <multi-currency/config-exch-diff>`."
 msgstr ""
-"Odoo에서 다중 통화를 지원하도록 환경 설정할 경우에는 모든 통화가 기본적으로 "
-"생성은 되지만 전체가 활성화되지는 않습니다. 새 통화를 활성화하려"
-"면 :guilabel:`다중 통화` 설정에서 :guilabel:`다른 통화 활성화하기` 를 클릭하"
-"거나 :menuselection:`회계 --> 환경 설정 --> 회계: 환율` 로 이동합니다."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:34
-msgid ""
-"When the currencies are activated, you can choose to **automate** the "
-"currency rate update, or leave it on **manual**. To configure the rate "
-"update, go back to :menuselection:`Accounting --> Configuration --> Settings "
-"--> Currencies`, check :guilabel:`Automatic Currency Rates`, "
-"set :guilabel:`Interval` to your desired frequency, and then click "
-"on :guilabel:`Save`. You also have the option to choose "
-"the :guilabel:`Service` you wish to obtain currency rates from."
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:33
+msgid ":doc:`Multi-currency system <../get_started/multi_currency>`"
 msgstr ""
-"통화를 활성화한 후에는 환율 업데이트 작업을 **자동화** 하거나 계속 **수동** "
-"으로 진행할 수 있습니다. 환율 업데이트에 대한 환경 설정은 ::menuselection:`회"
-"계 --> 환경 설정 --> 설정 --> 환율` 로 돌아가서 :guilabel:`자동 환율` 항목에 "
-"표시하고, :guilabel:`주기` 를 원하는 주기로 설정한 다음 :guilabel:`저장` 을 "
-"클릭하여 설정합니다. 또한 환율을 적용하려는 대상 :guilabel:`서비스` 를 선택하"
-"는 것도 가능합니다."
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:38
+msgid "Create bank journals and accounts in foreign currencies"
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:40
 msgid ""
-"Click on the Update now button (:guilabel:`🗘`) besides the :guilabel:`Next "
-"Run` field to update the currency rates manually."
+"To set up a bank account in a foreign currency, first :ref:`create a new "
+"bank journal <accounting/journals/bank>` via :menuselection:`Accounting --> "
+"Configuration --> Journals`. Set the journal's currency to the foreign "
+"currency, then create a new bank account:"
 msgstr ""
-":guilabel:`다음 실행` 옆에 있는 지금 업데이트하기 버튼(:guilabel:`🗘`) 을 클릭"
-"하면 환율을 수동으로 업데이트할 수 있습니다."
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:44
-msgid "Create a new bank account"
-msgstr "새로운 은행 계좌 만들기"
+msgid ""
+"In the :guilabel:`Bank Account` field of the journal, enter the name as it "
+"should appear in the chart of accounts."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:46
-msgid ""
-"In the accounting application, go to :menuselection:`Accounting --> "
-"Configuration --> Journals` and create a new one. Enter a :guilabel:`Journal "
-"Name` and set the :guilabel:`Type` to `Bank`. In the :guilabel:`Journal "
-"Entries` tab, enter a **short code**, a **currency**, and then finally click "
-"on the :guilabel:`Bank Account` field to create a new account. In the pop-up "
-"window of the account creation, enter a name, a code (ex.: 550007), set its "
-"type to `Bank and Cash`, set a currency type, and save. When you are back on "
-"the **journal**, click on the :guilabel:`Account Number` field, and in the "
-"pop-up window, fill out the :guilabel:`Account Number`, :guilabel:`Bank` of "
-"your account, and save."
+msgid "Click :guilabel:`Create and edit`."
 msgstr ""
-"회계 애플리케이션에서 :menuselection:`회계 --> 환경설정 --> 전표` 로 이동하"
-"여 새로운 전표를 생성합니다. :guilabel:`전표명` 을 입력하고 :guilabel:`유형` "
-"은 `은행` 으로 선택합니다. :guilabel:`전표 입력` 탭에서 **단문 코드** 와 **통"
-"화** 를 입력한 다음 마지막으로 :guilabel:`은행 계좌` 필드를 클릭하면 새로운 "
-"계정이 생성됩니다. 계정 생성 팝업창에서 이름과 코드(예: 550007)를 입력하고 유"
-"형을 `은행 및 현금` 으로 설정한 다음 통화 유형을 설정한 후 저장합니다. 다시 "
-"**전표** 로 돌아와서 :guilabel:`계좌 번호` 를 클릭하고 팝업창에서 계좌와 관련"
-"된 :guilabel:`계좌 번호` 및 :guilabel:`은행` 을 입력한 후 저장합니다."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "Example of a created bank journal."
-msgstr "은행 전표 생성 예시"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:59
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:47
 msgid ""
-"Upon creation of the journal, Odoo automatically links the bank account to "
-"the journal. It can be found under :menuselection:`Accounting --> "
-"Configuration --> Accounting: Chart of Accounts`."
+"In the resulting :guilabel:`Create Default Account` window, :ref:`configure "
+"the account <chart-of-account/create>`."
 msgstr ""
-"전표가 생성되면, Odoo에서는 전표에 은행 계좌를 자동으로 연결합니"
-"다. :menuselection:`회계 --> 환경 설정 --> 회계: 계정과목표` 에서 확인해 보세"
-"요."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:63
-msgid "Vendor bill in a foreign currency"
-msgstr "공급업체 청구서가 외화로 발행된 경우"
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:49
+msgid ""
+"Optionally, set the :guilabel:`Currency` on the bank account to the desired "
+"foreign currency."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:51
+msgid ""
+"Setting a currency on an account in the chart of accounts restricts the "
+"journal items targeting the account to the selected currency."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:53
+msgid ""
+"Leaving the :guilabel:`Currency` field blank on an account in the chart of "
+"accounts allows journal items of any currency to target that account. In "
+"this case, journal items in the foreign currency bank journal are limited to "
+"the currency specified on the journal itself. To allow increased "
+"flexibility, leaving the :guilabel:`Currency` field blank is recommended."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:58
+#: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:96
+#: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:210
+#: ../../content/applications/finance/accounting/reporting/annual-report.rst:29
+#: ../../content/applications/finance/fiscal_localizations/germany.rst:127
+#: ../../content/applications/finance/fiscal_localizations/italy.rst:223
+#: ../../content/applications/finance/fiscal_localizations/jordan.rst:135
+#: ../../content/applications/finance/fiscal_localizations/vietnam.rst:130
+#: ../../content/applications/finance/payment_providers/iyzico.rst:20
+msgid "Click :guilabel:`Save`."
+msgstr ":guilabel:`저장`을 클릭합니다."
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:60
+msgid ""
+"On the journal, add a :ref:`Bank Account Number <accounting/batch/create-"
+"bank-account>` and :ref:`Bank <accounting/batch/create-bank>` if necessary "
+"(such as in the case of creating batch payment files)."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:65
-msgid ""
-"To pay a bill in a foreign currency, simply select the currency next to "
-"the :guilabel:`Journal` field and register the payment. Odoo automatically "
-"creates and posts the foreign **exchange gain or loss** as a new journal "
-"entry."
+msgid ":doc:`Journals <../get_started/journals>`"
 msgstr ""
-"외화로 발행된 청구서 대금을 지급하려면 :guilabel:`전표` 옆에 있는 통화 항목"
-"을 선택한 후 결제 등록만 진행하면 됩니다. Odoo에서 자동으로 **외환 손익** 전"
-"표를 새로 생성하여 게시합니다."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "How to set a bill currency."
-msgstr "청구서 통화 설정 방법"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:74
-msgid ""
-"Note that you can pay a foreign bill with another currency. In that case, "
-"Odoo automatically converts between the two currencies."
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:66
+msgid ":ref:`Manage bank and cash accounts <accounting/bank/manage>`"
 msgstr ""
-"해외에서 발행된 청구서를 다른 통화로 결제할 수 있습니다. 이런 경우 Odoo에서"
-"는 양쪽 통화가 자동으로 변환됩니다."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:78
-msgid "Unrealized Currency Gains/Losses Report"
-msgstr "외화 환산 손익 보고서"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:80
-msgid ""
-"This report gives an overview of all unrealized amounts in a foreign "
-"currency on your balance sheet, and allows you to adjust an entry or "
-"manually set an exchange rate. To access this report, go "
-"to :menuselection:`Reporting --> Management: Unrealized Currency Gains/"
-"Losses`. From here, you have access to all open entries in your **balance "
-"sheet**."
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:71
+msgid "Unrealized Currencies report"
 msgstr ""
-"이 보고서에서는 재무상태표에 있는 미실현 외화 환산 금액에 대한 전반적인 내용"
-"을 확인할 수 있으며, 항목을 조정하거나 환율을 수동으로 설정할 수 있습니다. 보"
-"고서에 액세스하려면 :menuselection:`보고 --> 관리: 외화 환산 손익` 으로 이동"
-"합니다. 여기에서 **재무상태표** 에 있는 전체 미결 항목을 확인할 수 있습니다."
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:73
+msgid ""
+"The :guilabel:`Unrealized Currencies` report gives an overview of all "
+"unrealized amounts in a foreign currency on the balance sheet, and allows  "
+"an exchange rate to be set manually or entries to be adjusted. To access the "
+"report, go to :menuselection:`Accounting --> Review --> Unrealized "
+"Currencies`."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
 msgid "View of the Unrealized Gains/Losses journal."
 msgstr "미실현 이익 및 손실 전표 보기"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:89
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:81
 msgid ""
-"If you wish to use a different currency rate than the one set "
-"in :menuselection:`Accounting --> Configuration --> Settings --> "
-"Currencies`, click the :guilabel:`Exchange Rates` button and change the rate "
-"of the foreign currencies in the report."
+"To use a different currency rate than the one set "
+"in :menuselection:`Accounting --> Configuration --> Currencies`, click "
+"the :guilabel:`Exchange Rates` button and change the rate of the foreign "
+"currencies in the report."
 msgstr ""
-":menuselection:`회계 --> 환경 설정 --> 설정 --> 통화` 에서 설정한 환율과 다"
-"른 환율을 적용하려면 :guilabel:`환율` 버튼을 클릭한 후 보고서에 있는 외화 환"
-"율을 변경합니다."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "Menu to manually change exchange rates."
-msgstr "환율을 수동으로 변경하는 메뉴입니다."
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:97
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:85
 msgid ""
-"When manually changing **exchange rates**, a yellow banner appears allowing "
-"you to reset back to Odoo's rate. To do so, simply click on :guilabel:`Reset "
-"to Odoo's Rate`."
+"When manually changing exchange rates, a yellow banner appears allowing the "
+"rate to be reset to Odoo's rate. To do so, click :guilabel:`Reset to Odoo's "
+"Rate`."
 msgstr ""
-"**환율** 을 수동으로 변경하는 경우, 노란색 배너가 표시되어 Odoo 환율로 다시 "
-"초기화할 수 있습니다. 초기화하려면 :guilabel:`Odoo 환율로 초기화` 를 클릭하세"
-"요."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "Banner to reset back to Odoo's rates."
-msgstr "Odoo 환율로 초기화하는 배너"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:104
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:88
 msgid ""
-"In order to update your **balance sheet** with the amount of "
-"the :guilabel:`adjustment` column, click on the :guilabel:`Adjustment Entry` "
-"button. In the pop-up window, select "
-"a :guilabel:`Journal`, :guilabel:`Expense Account` and :guilabel:`Income "
-"Account` to calculate and process the **unrealized gains and losses**."
+"To update the balance sheet with the amount of the :guilabel:`Adjustment` "
+"column, click the :guilabel:`Adjustment Entry` button in the top-left "
+"corner. In the pop-up window, select a :guilabel:`Journal`, "
+"an :guilabel:`Expense Account` and an :guilabel:`Income Account` to "
+"calculate and process the unrealized gains and/or losses."
 msgstr ""
-"**재무상태표** 금액을 :guilabel:`조정` 열에 있는 금액으로 업데이트하려"
-"면 :guilabel:`조정 항목` 버튼을 클릭합니다. 팝업 창에서 :guilabel:`전표"
-"`, :guilabel:`비용 계정` 및 :guilabel:`수입 계정` 을 선택하면 **미실현 손익"
-"** 을 계산하여 처리합니다."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:109
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:93
 msgid ""
 "You can set the date of the report in the :guilabel:`Date` field. Odoo "
 "automatically reverses the booking entry to the date set "
@@ -2317,17 +2256,11 @@ msgstr ""
 "는 :guilabel:`역분개 날짜` 에 설정되어 있는 날짜를 기준으로 예약 항목을 자동"
 "으로 역분개합니다."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:112
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:96
 msgid ""
-"Once posted, the :guilabel:`adjustment` column should indicate `0.00`, "
-"meaning all **unrealized gains/losses** have been adjusted."
+"Once posted, the :guilabel:`Adjustment` column should indicate `0.00`, "
+"meaning all unrealized gains and/or losses have been adjusted."
 msgstr ""
-"발행 완료 후에는 :guilabel:`조정` 열에 `0.00` 이 표시되어야 하며, 모든 **미실"
-"현 이익/손실** 에 대한 조정이 완료되었다는 의미입니다."
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "Unrealized Currency Gains/Losses report once adjusted."
-msgstr "미실현 외환 손익 조정이 완료된 후에는 보고서로 발행됩니다."
 
 #: ../../content/applications/finance/accounting/bank/internal_transfers.rst:3
 msgid "Internal transfers"
@@ -6290,17 +6223,6 @@ msgstr ""
 ":doc:`문서 <../../../productivity/documents>`\\ :\\ 여러\\ 매입\\ 분개장을\\ "
 "사용하는\\ 경우\\ :guilabel:`문서\\ 작업\\ 영역`\\ 필드에서\\ 폴더를\\ 선택하"
 "세요."
-
-#: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:96
-#: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:210
-#: ../../content/applications/finance/accounting/reporting/annual-report.rst:29
-#: ../../content/applications/finance/fiscal_localizations/germany.rst:127
-#: ../../content/applications/finance/fiscal_localizations/italy.rst:223
-#: ../../content/applications/finance/fiscal_localizations/jordan.rst:135
-#: ../../content/applications/finance/fiscal_localizations/vietnam.rst:130
-#: ../../content/applications/finance/payment_providers/iyzico.rst:20
-msgid "Click :guilabel:`Save`."
-msgstr ":guilabel:`저장`을 클릭합니다."
 
 #: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:98
 msgid ""
@@ -12231,7 +12153,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/get_started.rst:107
 #: ../../content/applications/finance/accounting/get_started/chart_of_accounts.rst:3
 #: ../../content/applications/finance/accounting/get_started/cheat_sheet.rst:79
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:92
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:90
 #: ../../content/applications/finance/fiscal_localizations/argentina.rst:78
 #: ../../content/applications/finance/fiscal_localizations/belgium.rst:72
 #: ../../content/applications/finance/fiscal_localizations/brazil.rst:98
@@ -12317,7 +12239,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/get_started.rst:148
 #: ../../content/applications/finance/accounting/get_started/journals.rst:3
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:104
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:102
 #: ../../content/applications/finance/fiscal_localizations/argentina.rst:167
 #: ../../content/applications/finance/fiscal_localizations/chile.rst:285
 #: ../../content/applications/finance/fiscal_localizations/france.rst:635
@@ -17543,22 +17465,16 @@ msgstr "다중 통화 시스템"
 msgid ""
 "Odoo allows you to issue invoices, receive bills, and record transactions in "
 "currencies other than the main currency configured for your company. You can "
-"also set up bank accounts in other currencies and run reports on your "
-"foreign currency activities."
+"also :doc:`set up bank accounts in other currencies <../bank/"
+"foreign_currency>` and run :ref:`reports on your foreign currency activities "
+"<accounting/foreign_currency/report>`."
 msgstr ""
-"Odoo에서는 회사에서 설정한 기본 통화 이외의 통화로 청구서를 발행하거나, 공급"
-"업체 청구서를 수령하고, 거래를 기록하는 것이 가능합니다. 다른 통화로 은행 계"
-"정을 설정하고 외화 운용에 대한 보고서를 실행할 수도 있습니다."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:10
-msgid ":doc:`../bank/foreign_currency`"
-msgstr ":doc:`../bank/foreign_currency`"
-
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:20
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:18
 msgid "Main currency"
 msgstr "주요 통화"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:22
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:20
 msgid ""
 "The **main currency** is defined by default according to the company's "
 "country. You can change it by going to :menuselection:`Accounting --> "
@@ -17569,11 +17485,11 @@ msgstr ""
 "면 :menuselection:`계정 --> 환경설정 --> 설정 --> 통화` 로 이동하"
 "여 :guilabel:`주요 통화` 설정에서 통화를 변경하세요."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:29
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:27
 msgid "Enable foreign currencies"
 msgstr "외환 기능 활성화하기"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:31
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:29
 msgid ""
 "Go to :menuselection:`Accounting --> Configuration --> Currencies`, and "
 "enable the currencies you wish to use by toggling the :guilabel:`Active` "
@@ -17586,15 +17502,15 @@ msgstr ""
 msgid "Enable the currencies you wish to use."
 msgstr "사용하려는 통화를 활성화합니다."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:41
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:39
 msgid "Currency rates"
 msgstr "환율"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:46
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:44
 msgid "Manual update"
 msgstr "수동으로 변경하기"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:48
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:46
 msgid ""
 "To manually create and set a currency rate, go to :menuselection:`Accounting "
 "--> Configuration --> Currencies`, click on the currency you wish to change "
@@ -17609,11 +17525,11 @@ msgstr ""
 msgid "Create or modify the currency rate."
 msgstr "환율을 생성하거나 수정합니다."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:59
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:57
 msgid "Automatic update"
 msgstr "자동으로 변경하기"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:61
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:59
 msgid ""
 "When you activate a second currency for the first time, :guilabel:`Automatic "
 "Currency Rates` appears under :menuselection:`Accounting --> Configuration --"
@@ -17625,7 +17541,7 @@ msgstr ""
 "\\ :guilabel:`Currencies`\\ 섹션 아래에 나타납니다.\\ :icon:`os-refresh-"
 "data`\\ :guilabel:`(Update now)`\\ 아이콘을 클릭하여 환율을 업데이트하세요."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:65
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:63
 msgid ""
 "Rates can be updated at regular intervals automatically. To do so, change "
 "the :guilabel:`Interval` from :guilabel:`Manually` "
@@ -17639,18 +17555,18 @@ msgstr ""
 "변경하세요. 또한\\ :guilabel:`Service`\\ 필드를 클릭하여 최신 환율을 검색할 "
 "웹 서비스를 선택할 수 있습니다."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:73
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:71
 msgid "Exchange difference entries"
 msgstr "외환 차액"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:75
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:73
 msgid ""
 "Odoo automatically records exchange differences entries on dedicated "
 "accounts, in a dedicated journal."
 msgstr ""
 "Odoo에서 외환 차액 항목은 전용 계정에 있는 전용 전표에 자동으로 기록됩니다."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:78
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:76
 msgid ""
 "To define which journal and accounts to use to post exchange difference "
 "entries, go to :menuselection:`Accounting --> Configuration --> Settings`, "
@@ -17663,7 +17579,7 @@ msgstr ""
 "\\ :guilabel:`Journal`,\\ :guilabel:`Gain`\\ 및\\ :guilabel:`Loss "
 "accounts`\\ 를 편집하세요."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:84
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:82
 msgid ""
 "If you receive a payment for a customer invoice one month after it was "
 "issued, the exchange rate has likely changed since. Therefore, this "
@@ -17676,7 +17592,7 @@ msgstr ""
 "일부 손익이 발생되며 Odoo에서는 기본 **외환 차액** 전표에 손익을 자동으로 기"
 "록합니다."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:94
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:92
 msgid ""
 "Each account can have a set currency. By doing so, all moves relevant to the "
 "account are forced to have that account's currency."
@@ -17684,7 +17600,7 @@ msgstr ""
 "각 계정마다 통화를 설정할 수 있습니다. 통화를 설정하면, 해당 계정과 관련된 작"
 "업에는 계정에 설정된 통화가 강제 적용됩니다."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:97
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:95
 msgid ""
 "To do so, go to :menuselection:`Accounting --> Configuration --> Charts of "
 "Accounts` and select a currency in the field :guilabel:`Currency`. If left "
@@ -17694,7 +17610,7 @@ msgstr ""
 "Accounts`\\ 로 이동하여\\ :guilabel:`Currency`\\ 필드에서 통화를 선택하세요. "
 "비워 두면 하나의 통화만이 아니라 모든 활성 통화가 처리됩니다."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:106
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:104
 msgid ""
 "If a currency is set on a **journal**, that journal only handles "
 "transactions in that currency."
@@ -17702,7 +17618,7 @@ msgstr ""
 "**전표**에 통화를 설정해 두면, 전표에서는 해당 통화로 이루어진 거래만 처리됩"
 "니다."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:108
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:106
 msgid ""
 "To do so, go to :menuselection:`Accounting --> Configuration --> Journals`, "
 "open the journal you want to edit, and select a currency in the "
@@ -17715,15 +17631,15 @@ msgstr ""
 msgid "Select the currency for the journal to handle."
 msgstr "전표에서 설정하려는 통화를 선택합니다."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:118
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:116
 msgid "Multi-currency accounting"
 msgstr "다중 통화 회계"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:123
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:121
 msgid "Invoices, bills, and other documents"
 msgstr "청구서, 업체 청구서 및 기타 문서"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:125
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:123
 msgid ""
 "For all documents, you can select the currency and journal to use for the "
 "transaction on the document itself."
@@ -17734,11 +17650,11 @@ msgstr ""
 msgid "Select the currency and journal to use."
 msgstr "사용하려는 통화 및 전표를 선택하세요."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:135
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:133
 msgid "Payment registration"
 msgstr "결제 등록"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:137
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:135
 msgid ""
 "To register a payment in a currency other than your company's main currency, "
 "click on the :guilabel:`Register Payment` payment button of your document "
@@ -17753,11 +17669,11 @@ msgstr ""
 msgid "Select the currency and journal to use before registering the payment."
 msgstr "결제를 등록하기 전에 사용하려는 통화 및 전표를 선택하세요."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:148
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:146
 msgid "Bank transactions"
 msgstr "은행 거래"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:150
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:148
 msgid ""
 "When creating or importing bank transactions, the amount is in the company's "
 "main currency. To input a **foreign currency**, select a currency in "
@@ -17774,7 +17690,7 @@ msgstr ""
 msgid "The extra fields related to foreign currencies."
 msgstr "외환과 관련된 추가 필드입니다."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:159
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:157
 msgid ""
 "When reconciling, Odoo displays both the foreign currency amount and the "
 "equivalent amount in your company's main currency."
@@ -17782,11 +17698,11 @@ msgstr ""
 "조정을 하면, Odoo에서는 외화 금액 및 회사의 기본 통화로 환산된 금액이 모두 표"
 "시됩니다."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:165
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:163
 msgid "Exchange rate journal entries"
 msgstr "환율 전표 입력"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:167
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:165
 msgid ""
 "To see **exchange difference journal entries**, go "
 "to :menuselection:`Accounting --> Review --> Journal Items`. In the search "
@@ -52278,7 +52194,7 @@ msgstr "코드는 중요한 정보이므로 안전하게 보관하도록 합니�
 #: ../../content/applications/finance/payment_providers/nuvei.rst:36
 #: ../../content/applications/finance/payment_providers/paymob.rst:37
 #: ../../content/applications/finance/payment_providers/tosspayments.rst:45
-#: ../../content/applications/finance/payment_providers/xendit.rst:49
+#: ../../content/applications/finance/payment_providers/xendit.rst:74
 msgid "Configuration on Odoo"
 msgstr "Odoo 환경설정하기"
 
@@ -84266,7 +84182,7 @@ msgstr ""
 #: ../../content/applications/finance/payment_providers/stripe.rst:11
 #: ../../content/applications/finance/payment_providers/tosspayments.rst:55
 #: ../../content/applications/finance/payment_providers/worldline.rst:71
-#: ../../content/applications/finance/payment_providers/xendit.rst:58
+#: ../../content/applications/finance/payment_providers/xendit.rst:83
 msgid ":doc:`../payment_providers`"
 msgstr ":doc:`../payment_providers`"
 
@@ -84389,7 +84305,7 @@ msgstr ""
 #: ../../content/applications/finance/payment_providers/nuvei.rst:42
 #: ../../content/applications/finance/payment_providers/redsys.rst:40
 #: ../../content/applications/finance/payment_providers/worldline.rst:68
-#: ../../content/applications/finance/payment_providers/xendit.rst:55
+#: ../../content/applications/finance/payment_providers/xendit.rst:80
 msgid "Configure the rest of the options to your liking."
 msgstr "나머지 항목은 원하는 대로 설정합니다."
 
@@ -87561,17 +87477,11 @@ msgstr ""
 
 #: ../../content/applications/finance/payment_providers/xendit.rst:40
 msgid ""
-"In the :guilabel:`Webhook URL` section, enter your Odoo database's URL, "
-"followed by `/payment/xendit/webhook` (e.g., `https://example.odoo.com/"
-"payment/xendit/webhook`) in the field :guilabel:`Invoices paid` and click "
-"the :guilabel:`Test and save` button next to it."
+"In the :guilabel:`Webhook URL` section, configure the webhook fields as "
+"described in :ref:`payment_providers/xendit/configure_webhooks` below."
 msgstr ""
-":guilabel:`웹훅 URL` 섹션에 Odoo 데이터베이스의 URL을 입력한 다"
-"음, :guilabel:`결제된 청구서` 항목에 `/payment/xendit/webhook` (예: `https://"
-"example.odoo.com/payment/xendit/webhook`)을 입력하고 그 옆에 있는 :guilabel:`"
-"테스트 및 저장` 버튼을 클릭합니다."
 
-#: ../../content/applications/finance/payment_providers/xendit.rst:43
+#: ../../content/applications/finance/payment_providers/xendit.rst:42
 msgid ""
 "To allow recurring payments for credit cards, go "
 "to :menuselection:`Configuration: Payment Channels` in the left part of the "
@@ -87585,7 +87495,55 @@ msgstr ""
 "후 :guilabel:`세부 정보 보기` 를 클릭하고 관련 스위치를 토글하여 :guilabel:`"
 "정기 결제` 를 활성화합니다."
 
-#: ../../content/applications/finance/payment_providers/xendit.rst:51
+#: ../../content/applications/finance/payment_providers/xendit.rst:50
+msgid "Webhook configuration"
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:53
+msgid ""
+"Xendit replaced its previous single, per-event webhook field with separate "
+"v3 event groups. If your Xendit account was connected to Odoo before this "
+"change, **successful payments and saved cards may no longer update "
+"automatically** until the new fields described below are configured."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:57
+msgid ""
+"Log in to the `Xendit Dashboard <https://dashboard.xendit.co>`_ and navigate "
+"to :menuselection:`Configuration: Settings`."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:59
+msgid ""
+"In the :guilabel:`Developers` section, click `Webhooks <https://"
+"dashboard.xendit.co/settings/developers#webhooks>`_."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:61
+msgid ""
+"Enter your Odoo database's URL, followed by `/payment/xendit/webhook` (e.g., "
+"`https://example.odoo.com/payment/xendit/webhook`), in the following fields:"
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:64
+msgid ":guilabel:`Payment Status`"
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:65
+msgid ":guilabel:`Payment Token Status`"
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:67
+msgid "Click :guilabel:`Test and save` next to each of those fields."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:70
+msgid ""
+"Both fields must point to the same webhook URL: Odoo uses a single endpoint "
+"to process notifications for both token and payment status updates."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:76
 msgid ""
 ":ref:`Navigate to the payment provider Xendit <payment_providers/add_new>` "
 "and change its state to :guilabel:`Enabled`."
@@ -87593,7 +87551,7 @@ msgstr ""
 ":ref:`결제대행업체인 Xendit로 이동 <payment_providers/add_new>` 하여 상태"
 "를 :guilabel:`사용됨` 으로 변경합니다."
 
-#: ../../content/applications/finance/payment_providers/xendit.rst:53
+#: ../../content/applications/finance/payment_providers/xendit.rst:78
 msgid ""
 "Fill in the :guilabel:`Secret Key` and :guilabel:`Webhook Token` fields with "
 "the information saved at the step :ref:`payment_providers/xendit/"
@@ -87601,6 +87559,231 @@ msgid ""
 msgstr ""
 ":guilabel:`보안 키` 및 :guilabel:`웹훅 토큰` 항목에 :ref:`payment_providers/"
 "xendit/configure_dashboard` 단계에서 저장한 내용을 입력합니다."
+
+#~ msgid ""
+#~ "In the :guilabel:`Webhook URL` section, enter your Odoo database's URL, "
+#~ "followed by `/payment/xendit/webhook` (e.g., `https://example.odoo.com/"
+#~ "payment/xendit/webhook`) in the field :guilabel:`Invoices paid` and click "
+#~ "the :guilabel:`Test and save` button next to it."
+#~ msgstr ""
+#~ ":guilabel:`웹훅 URL` 섹션에 Odoo 데이터베이스의 URL을 입력한 다"
+#~ "음, :guilabel:`결제된 청구서` 항목에 `/payment/xendit/webhook` (예: "
+#~ "`https://example.odoo.com/payment/xendit/webhook`)을 입력하고 그 옆에 있"
+#~ "는 :guilabel:`테스트 및 저장` 버튼을 클릭합니다."
+
+#~ msgid ""
+#~ "In Odoo, every transaction is recorded in the default currency of the "
+#~ "company, and reports are all based on that default currency. When you "
+#~ "have a bank account in a foreign currency, for every transaction, Odoo "
+#~ "stores two values:"
+#~ msgstr ""
+#~ "Odoo에서 거래는 모두 회사의 기본 통화로 기록되며, 보고서 역시 모두 해당 기"
+#~ "본 통화를 기준으로 작성됩니다. 외화 은행 계좌가 있는 경우에는 Odoo에서는 "
+#~ "모든 거래가 두 가지 값으로 저장됩니다:"
+
+#~ msgid "The debit/credit in the currency of the *company*;"
+#~ msgstr "*회사* 통화로 차변 및 대변 항목 기록;"
+
+#~ msgid "The debit/credit in the currency of the *bank account*."
+#~ msgstr "*은행 계좌* 통화로 차변 및 대변 항목 기록."
+
+#~ msgid ""
+#~ "Currency rates are updated automatically using the web services of a "
+#~ "banking institution. By default, Odoo uses the European Central Bank's "
+#~ "web services but other options are available."
+#~ msgstr ""
+#~ "은행 기관의 웹 서비스를 통해 환율이 자동 업데이트됩니다. Odoo는 유럽 중앙 "
+#~ "은행의 웹 서비스를 기본값으로 사용하고 있으나 다른 옵션도 선택할 수 있습니"
+#~ "다."
+
+#~ msgid "Activate multi-currencies"
+#~ msgstr "다중 통화 활성화하기"
+
+#~ msgid ""
+#~ "To work with multiple currencies, go to :menuselection:`Accounting --> "
+#~ "Configuration --> Settings --> Currencies` and tick :guilabel:`Multi-"
+#~ "Currencies`. Under :guilabel:`Post Exchange difference entries in:`, "
+#~ "provide a :guilabel:`Journal`, a :guilabel:`Gain Account`, "
+#~ "a :guilabel:`Loss Account`, and then click on :guilabel:`Save`."
+#~ msgstr ""
+#~ "다양한 통화로 작업해야 하는 경우에는 :menuselection:`회계 --> 환경 설정 --"
+#~ "> 설정 --> 통화` 로 이동하여 :guilabel:`다중 통화` 에 표시합니"
+#~ "다. :guilabel:`외환 차액 입력:` 에서 :guilabel:`전표`, :guilabel:`수익 계"
+#~ "정`, :guilabel:`손실 계정` 을 입력한 다음 :guilabel:`저장` 을 클릭합니다."
+
+#~ msgid ""
+#~ "Once Odoo is configured to support multiple currencies, they are all "
+#~ "created by default, but not necessarily active. To activate the new "
+#~ "currencies, click on :guilabel:`Activate Other Currencies` under "
+#~ "the :guilabel:`Multi-Currencies` setting or go "
+#~ "to :menuselection:`Accounting --> Configuration --> Accounting: "
+#~ "Currencies`."
+#~ msgstr ""
+#~ "Odoo에서 다중 통화를 지원하도록 환경 설정할 경우에는 모든 통화가 기본적으"
+#~ "로 생성은 되지만 전체가 활성화되지는 않습니다. 새 통화를 활성화하려"
+#~ "면 :guilabel:`다중 통화` 설정에서 :guilabel:`다른 통화 활성화하기` 를 클릭"
+#~ "하거나 :menuselection:`회계 --> 환경 설정 --> 회계: 환율` 로 이동합니다."
+
+#~ msgid ""
+#~ "When the currencies are activated, you can choose to **automate** the "
+#~ "currency rate update, or leave it on **manual**. To configure the rate "
+#~ "update, go back to :menuselection:`Accounting --> Configuration --> "
+#~ "Settings --> Currencies`, check :guilabel:`Automatic Currency Rates`, "
+#~ "set :guilabel:`Interval` to your desired frequency, and then click "
+#~ "on :guilabel:`Save`. You also have the option to choose "
+#~ "the :guilabel:`Service` you wish to obtain currency rates from."
+#~ msgstr ""
+#~ "통화를 활성화한 후에는 환율 업데이트 작업을 **자동화** 하거나 계속 **수동"
+#~ "** 으로 진행할 수 있습니다. 환율 업데이트에 대한 환경 설정"
+#~ "은 ::menuselection:`회계 --> 환경 설정 --> 설정 --> 환율` 로 돌아가"
+#~ "서 :guilabel:`자동 환율` 항목에 표시하고, :guilabel:`주기` 를 원하는 주기"
+#~ "로 설정한 다음 :guilabel:`저장` 을 클릭하여 설정합니다. 또한 환율을 적용하"
+#~ "려는 대상 :guilabel:`서비스` 를 선택하는 것도 가능합니다."
+
+#~ msgid ""
+#~ "Click on the Update now button (:guilabel:`🗘`) besides "
+#~ "the :guilabel:`Next Run` field to update the currency rates manually."
+#~ msgstr ""
+#~ ":guilabel:`다음 실행` 옆에 있는 지금 업데이트하기 버튼(:guilabel:`🗘`) 을 "
+#~ "클릭하면 환율을 수동으로 업데이트할 수 있습니다."
+
+#~ msgid "Create a new bank account"
+#~ msgstr "새로운 은행 계좌 만들기"
+
+#~ msgid ""
+#~ "In the accounting application, go to :menuselection:`Accounting --> "
+#~ "Configuration --> Journals` and create a new one. Enter "
+#~ "a :guilabel:`Journal Name` and set the :guilabel:`Type` to `Bank`. In "
+#~ "the :guilabel:`Journal Entries` tab, enter a **short code**, a "
+#~ "**currency**, and then finally click on the :guilabel:`Bank Account` "
+#~ "field to create a new account. In the pop-up window of the account "
+#~ "creation, enter a name, a code (ex.: 550007), set its type to `Bank and "
+#~ "Cash`, set a currency type, and save. When you are back on the "
+#~ "**journal**, click on the :guilabel:`Account Number` field, and in the "
+#~ "pop-up window, fill out the :guilabel:`Account Number`, :guilabel:`Bank` "
+#~ "of your account, and save."
+#~ msgstr ""
+#~ "회계 애플리케이션에서 :menuselection:`회계 --> 환경설정 --> 전표` 로 이동"
+#~ "하여 새로운 전표를 생성합니다. :guilabel:`전표명` 을 입력하고 :guilabel:`"
+#~ "유형` 은 `은행` 으로 선택합니다. :guilabel:`전표 입력` 탭에서 **단문 코드"
+#~ "** 와 **통화** 를 입력한 다음 마지막으로 :guilabel:`은행 계좌` 필드를 클릭"
+#~ "하면 새로운 계정이 생성됩니다. 계정 생성 팝업창에서 이름과 코드(예: "
+#~ "550007)를 입력하고 유형을 `은행 및 현금` 으로 설정한 다음 통화 유형을 설정"
+#~ "한 후 저장합니다. 다시 **전표** 로 돌아와서 :guilabel:`계좌 번호` 를 클릭"
+#~ "하고 팝업창에서 계좌와 관련된 :guilabel:`계좌 번호` 및 :guilabel:`은행` "
+#~ "을 입력한 후 저장합니다."
+
+#~ msgid "Example of a created bank journal."
+#~ msgstr "은행 전표 생성 예시"
+
+#~ msgid ""
+#~ "Upon creation of the journal, Odoo automatically links the bank account "
+#~ "to the journal. It can be found under :menuselection:`Accounting --> "
+#~ "Configuration --> Accounting: Chart of Accounts`."
+#~ msgstr ""
+#~ "전표가 생성되면, Odoo에서는 전표에 은행 계좌를 자동으로 연결합니"
+#~ "다. :menuselection:`회계 --> 환경 설정 --> 회계: 계정과목표` 에서 확인해 "
+#~ "보세요."
+
+#~ msgid "Vendor bill in a foreign currency"
+#~ msgstr "공급업체 청구서가 외화로 발행된 경우"
+
+#~ msgid ""
+#~ "To pay a bill in a foreign currency, simply select the currency next to "
+#~ "the :guilabel:`Journal` field and register the payment. Odoo "
+#~ "automatically creates and posts the foreign **exchange gain or loss** as "
+#~ "a new journal entry."
+#~ msgstr ""
+#~ "외화로 발행된 청구서 대금을 지급하려면 :guilabel:`전표` 옆에 있는 통화 항"
+#~ "목을 선택한 후 결제 등록만 진행하면 됩니다. Odoo에서 자동으로 **외환 손익"
+#~ "** 전표를 새로 생성하여 게시합니다."
+
+#~ msgid "How to set a bill currency."
+#~ msgstr "청구서 통화 설정 방법"
+
+#~ msgid ""
+#~ "Note that you can pay a foreign bill with another currency. In that case, "
+#~ "Odoo automatically converts between the two currencies."
+#~ msgstr ""
+#~ "해외에서 발행된 청구서를 다른 통화로 결제할 수 있습니다. 이런 경우 Odoo에"
+#~ "서는 양쪽 통화가 자동으로 변환됩니다."
+
+#~ msgid "Unrealized Currency Gains/Losses Report"
+#~ msgstr "외화 환산 손익 보고서"
+
+#~ msgid ""
+#~ "This report gives an overview of all unrealized amounts in a foreign "
+#~ "currency on your balance sheet, and allows you to adjust an entry or "
+#~ "manually set an exchange rate. To access this report, go "
+#~ "to :menuselection:`Reporting --> Management: Unrealized Currency Gains/"
+#~ "Losses`. From here, you have access to all open entries in your **balance "
+#~ "sheet**."
+#~ msgstr ""
+#~ "이 보고서에서는 재무상태표에 있는 미실현 외화 환산 금액에 대한 전반적인 내"
+#~ "용을 확인할 수 있으며, 항목을 조정하거나 환율을 수동으로 설정할 수 있습니"
+#~ "다. 보고서에 액세스하려면 :menuselection:`보고 --> 관리: 외화 환산 손익` "
+#~ "으로 이동합니다. 여기에서 **재무상태표** 에 있는 전체 미결 항목을 확인할 "
+#~ "수 있습니다."
+
+#~ msgid ""
+#~ "If you wish to use a different currency rate than the one set "
+#~ "in :menuselection:`Accounting --> Configuration --> Settings --> "
+#~ "Currencies`, click the :guilabel:`Exchange Rates` button and change the "
+#~ "rate of the foreign currencies in the report."
+#~ msgstr ""
+#~ ":menuselection:`회계 --> 환경 설정 --> 설정 --> 통화` 에서 설정한 환율과 "
+#~ "다른 환율을 적용하려면 :guilabel:`환율` 버튼을 클릭한 후 보고서에 있는 외"
+#~ "화 환율을 변경합니다."
+
+#~ msgid "Menu to manually change exchange rates."
+#~ msgstr "환율을 수동으로 변경하는 메뉴입니다."
+
+#~ msgid ""
+#~ "When manually changing **exchange rates**, a yellow banner appears "
+#~ "allowing you to reset back to Odoo's rate. To do so, simply click "
+#~ "on :guilabel:`Reset to Odoo's Rate`."
+#~ msgstr ""
+#~ "**환율** 을 수동으로 변경하는 경우, 노란색 배너가 표시되어 Odoo 환율로 다"
+#~ "시 초기화할 수 있습니다. 초기화하려면 :guilabel:`Odoo 환율로 초기화` 를 클"
+#~ "릭하세요."
+
+#~ msgid "Banner to reset back to Odoo's rates."
+#~ msgstr "Odoo 환율로 초기화하는 배너"
+
+#~ msgid ""
+#~ "In order to update your **balance sheet** with the amount of "
+#~ "the :guilabel:`adjustment` column, click on the :guilabel:`Adjustment "
+#~ "Entry` button. In the pop-up window, select "
+#~ "a :guilabel:`Journal`, :guilabel:`Expense Account` and :guilabel:`Income "
+#~ "Account` to calculate and process the **unrealized gains and losses**."
+#~ msgstr ""
+#~ "**재무상태표** 금액을 :guilabel:`조정` 열에 있는 금액으로 업데이트하려"
+#~ "면 :guilabel:`조정 항목` 버튼을 클릭합니다. 팝업 창에서 :guilabel:`전표"
+#~ "`, :guilabel:`비용 계정` 및 :guilabel:`수입 계정` 을 선택하면 **미실현 손"
+#~ "익** 을 계산하여 처리합니다."
+
+#~ msgid ""
+#~ "Once posted, the :guilabel:`adjustment` column should indicate `0.00`, "
+#~ "meaning all **unrealized gains/losses** have been adjusted."
+#~ msgstr ""
+#~ "발행 완료 후에는 :guilabel:`조정` 열에 `0.00` 이 표시되어야 하며, 모든 **"
+#~ "미실현 이익/손실** 에 대한 조정이 완료되었다는 의미입니다."
+
+#~ msgid "Unrealized Currency Gains/Losses report once adjusted."
+#~ msgstr "미실현 외환 손익 조정이 완료된 후에는 보고서로 발행됩니다."
+
+#~ msgid ""
+#~ "Odoo allows you to issue invoices, receive bills, and record transactions "
+#~ "in currencies other than the main currency configured for your company. "
+#~ "You can also set up bank accounts in other currencies and run reports on "
+#~ "your foreign currency activities."
+#~ msgstr ""
+#~ "Odoo에서는 회사에서 설정한 기본 통화 이외의 통화로 청구서를 발행하거나, 공"
+#~ "급업체 청구서를 수령하고, 거래를 기록하는 것이 가능합니다. 다른 통화로 은"
+#~ "행 계정을 설정하고 외화 운용에 대한 보고서를 실행할 수도 있습니다."
+
+#~ msgid ":doc:`../bank/foreign_currency`"
+#~ msgstr ":doc:`../bank/foreign_currency`"
 
 #~ msgid "Registering payment from an invoice or bill"
 #~ msgstr "청구서 또는 업체 청구서에서 결제 등록하기"

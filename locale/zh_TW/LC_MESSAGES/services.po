@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-25 17:31+0000\n"
 "PO-Revision-Date: 2026-08-27 17:29+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
@@ -7591,8 +7591,10 @@ msgid ""
 msgstr ":guilabel:`專案`:選擇您希望建立新任務的專案。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:122
-msgid ":ref:`Customize the form <website/building_blocks/form>`."
-msgstr ":ref:`自訂表單 <website/building_blocks/form>`。"
+msgid ""
+":doc:`Customize the form </applications/websites/website/web_design/"
+"building_blocks/forms>`."
+msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:124
 msgid ""
@@ -7601,8 +7603,10 @@ msgid ""
 msgstr "提交表單時,會自動建立專案任務。任務的內容由表單的對應欄位定義。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:128
-msgid ":ref:`Website forms <website/building_blocks/form>`"
-msgstr ":ref:`網站表單 <website/building_blocks/form>`"
+msgid ""
+":doc:`Website forms </applications/websites/website/web_design/"
+"building_blocks/forms>`"
+msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:3
 msgid "Task dependencies"
@@ -8569,6 +8573,12 @@ msgstr ""
 #: ../../content/applications/services/timesheets/time_off.rst:0
 msgid "A timecard reflecting training hours and sick time off."
 msgstr "反映培訓時數和病假的工時卡。"
+
+#~ msgid ":ref:`Customize the form <website/building_blocks/form>`."
+#~ msgstr ":ref:`自訂表單 <website/building_blocks/form>`。"
+
+#~ msgid ":ref:`Website forms <website/building_blocks/form>`"
+#~ msgstr ":ref:`網站表單 <website/building_blocks/form>`"
 
 #~ msgid ""
 #~ "By default, **Odoo Field Service** shows a static map where all task "

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-25 17:31+0000\n"
 "PO-Revision-Date: 2026-09-12 11:33+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-19-doc/"
@@ -121,11 +121,11 @@ msgid ""
 "service workers, it is possible to display an itinerary on the map using "
 "the :ref:`Mapbox integration <general/integrations/geolocation-routes>`."
 msgstr ""
-"\\ :ref:`マップ <studio/views/multiple-records/map>`\\ ビューは、デフォルト"
-"で**フィールドサービス**アプリで利用できます。当日の全タスクの場所がピン留め"
-"された静的な地図が表示されます。フィールドサービス作業員にとってさらに便利に"
-"するために、:ref:`Mapbox統合 <general/integrations/geolocation-routes>`\\ を"
-"使用して、地図上に経路を表示することができます。"
+"\\ :ref:`マップ <studio/views/multiple-records/map>`\\ ビューは、デフォルトで"
+"**フィールドサービス**アプリで利用できます。当日の全タスクの場所がピン留めさ"
+"れた静的な地図が表示されます。フィールドサービス作業員にとってさらに便利にす"
+"るために、:ref:`Mapbox統合 <general/integrations/geolocation-routes>`\\ を使"
+"用して、地図上に経路を表示することができます。"
 
 #: ../../content/applications/services/field_service/planning_itinerary.rst:11
 msgid ""
@@ -8271,8 +8271,10 @@ msgstr ""
 ":guilabel:`プロジェクト`: 新しいタスクを作成するプロジェクトを選択します。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:122
-msgid ":ref:`Customize the form <website/building_blocks/form>`."
-msgstr ":ref:`フォームをカスタマイズ <website/building_blocks/form>`します。"
+msgid ""
+":doc:`Customize the form </applications/websites/website/web_design/"
+"building_blocks/forms>`."
+msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:124
 msgid ""
@@ -8283,8 +8285,10 @@ msgstr ""
 "容は、フォームの対応するフィールドによって定義されます。"
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:128
-msgid ":ref:`Website forms <website/building_blocks/form>`"
-msgstr ":ref:`ウェブサイトフォーム <website/building_blocks/form>`"
+msgid ""
+":doc:`Website forms </applications/websites/website/web_design/"
+"building_blocks/forms>`"
+msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:3
 msgid "Task dependencies"
@@ -9317,6 +9321,13 @@ msgstr ""
 #: ../../content/applications/services/timesheets/time_off.rst:0
 msgid "A timecard reflecting training hours and sick time off."
 msgstr "研修時間と病気休暇を反映したタイムカード。"
+
+#~ msgid ":ref:`Customize the form <website/building_blocks/form>`."
+#~ msgstr ""
+#~ ":ref:`フォームをカスタマイズ <website/building_blocks/form>`します。"
+
+#~ msgid ":ref:`Website forms <website/building_blocks/form>`"
+#~ msgstr ":ref:`ウェブサイトフォーム <website/building_blocks/form>`"
 
 #~ msgid ""
 #~ "By default, **Odoo Field Service** shows a static map where all task "

@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-25 17:31+0000\n"
 "PO-Revision-Date: 2026-09-09 13:56+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
 "Language-Team: Dutch <https://translate.odoo.com/projects/odoo-19-doc/"
@@ -1074,7 +1074,7 @@ msgstr ":doc:`transactions`"
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:26
 #: ../../content/applications/finance/accounting/bank/bank_synchronization/basiq.rst:21
 #: ../../content/applications/finance/accounting/bank/bank_synchronization/ponto.rst:20
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:16
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:18
 #: ../../content/applications/finance/accounting/bank/internal_transfers.rst:12
 #: ../../content/applications/finance/accounting/bank/reconciliation_models.rst:17
 #: ../../content/applications/finance/accounting/customer_invoices/cash_discounts.rst:27
@@ -1089,7 +1089,7 @@ msgstr ":doc:`transactions`"
 #: ../../content/applications/finance/accounting/get_started/avg_price_valuation.rst:32
 #: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:34
 #: ../../content/applications/finance/accounting/get_started/journals.rst:122
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:15
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:13
 #: ../../content/applications/finance/accounting/get_started/tax_units.rst:22
 #: ../../content/applications/finance/accounting/payments/batch.rst:28
 #: ../../content/applications/finance/accounting/payments/batch.rst:138
@@ -2200,239 +2200,161 @@ msgstr "Een bankrekening in een vreemde valuta beheren"
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:5
 msgid ""
 "In Odoo, every transaction is recorded in the default currency of the "
-"company, and reports are all based on that default currency. When you have a "
-"bank account in a foreign currency, for every transaction, Odoo stores two "
-"values:"
+"company, and reports are all based on that default currency. With a bank "
+"account in a foreign currency, for every transaction, Odoo stores two values:"
 msgstr ""
-"In Odoo wordt elke transactie geregistreerd in de standaardvaluta van het "
-"bedrijf, en rapporten zijn allemaal gebaseerd op die standaardvaluta. "
-"Wanneer je een bankrekening hebt in een vreemde valuta, slaat Odoo voor elke "
-"transactie twee waarden op:"
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:9
-msgid "The debit/credit in the currency of the *company*;"
-msgstr "Het debet/credit in de valuta van het *bedrijf*;"
+msgid "The debit/credit in the currency of the company."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:10
-msgid "The debit/credit in the currency of the *bank account*."
-msgstr "Het debet/credit in de valuta van de *bankrekening*."
+msgid "The debit/credit in the currency of the bank account."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:12
 msgid ""
-"Currency rates are updated automatically using the web services of a banking "
-"institution. By default, Odoo uses the European Central Bank's web services "
-"but other options are available."
+"Currency rates are updated automatically using a banking institution's web "
+"services. By default, Odoo uses the European Central Bank's web services but "
+"other options are available."
 msgstr ""
-"Wisselkoersen worden automatisch bijgewerkt met behulp van de webservices "
-"van een bankinstelling. Standaard gebruikt Odoo de webservices van de "
-"Europese Centrale Bank, maar er zijn ook andere opties beschikbaar."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:19
-msgid "Activate multi-currencies"
-msgstr "Activeer meerdere valuta"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:21
-msgid ""
-"To work with multiple currencies, go to :menuselection:`Accounting --> "
-"Configuration --> Settings --> Currencies` and tick :guilabel:`Multi-"
-"Currencies`. Under :guilabel:`Post Exchange difference entries in:`, provide "
-"a :guilabel:`Journal`, a :guilabel:`Gain Account`, a :guilabel:`Loss "
-"Account`, and then click on :guilabel:`Save`."
-msgstr ""
-"Om met meerdere valuta te werken, ga naar :menuselection:`Boekhouding --> "
-"Configuratie --> Instellingen --> Valuta` en vink :guilabel:`Meerdere "
-"valuta` aan. Geef onder :guilabel:`Boek koersverschillen in:` "
-"een :guilabel:`Dagboek`, een :guilabel:`Winstrekening`, "
-"een :guilabel:`Verliesrekening` op en klik vervolgens op :guilabel:`Opslaan`."
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:27
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:23
 msgid "Configure currencies"
 msgstr "Configureer valuta"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:29
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:25
 msgid ""
-"Once Odoo is configured to support multiple currencies, they are all created "
-"by default, but not necessarily active. To activate the new currencies, "
-"click on :guilabel:`Activate Other Currencies` under the :guilabel:`Multi-"
-"Currencies` setting or go to :menuselection:`Accounting --> Configuration --"
-"> Accounting: Currencies`."
+"To work with multiple currencies, go to :menuselection:`Accounting --> "
+"Configuration --> Currencies`, then :doc:`activate and configure new "
+"currencies <../get_started/multi_currency>`. Set up manual or "
+"automatic :ref:`currency rate <multi-currency/config-rates>` updates and "
+"define the accounts and journals used to record gains or losses incurred "
+"on :ref:`exchange rate differences <multi-currency/config-exch-diff>`."
 msgstr ""
-"Zodra Odoo is geconfigureerd om meerdere valuta te ondersteunen, worden ze "
-"standaard allemaal aangemaakt, maar niet noodzakelijk geactiveerd. Om de "
-"nieuwe valuta te activeren, klik je op :guilabel:`Activeer andere valuta` "
-"onder de instelling :guilabel:`Meerdere valuta` of ga "
-"naar :menuselection:`Boekhouding --> Configuratie --> Boekhouding: Valuta`."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:34
-msgid ""
-"When the currencies are activated, you can choose to **automate** the "
-"currency rate update, or leave it on **manual**. To configure the rate "
-"update, go back to :menuselection:`Accounting --> Configuration --> Settings "
-"--> Currencies`, check :guilabel:`Automatic Currency Rates`, "
-"set :guilabel:`Interval` to your desired frequency, and then click "
-"on :guilabel:`Save`. You also have the option to choose "
-"the :guilabel:`Service` you wish to obtain currency rates from."
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:33
+msgid ":doc:`Multi-currency system <../get_started/multi_currency>`"
 msgstr ""
-"Wanneer de valuta zijn geactiveerd, kun je ervoor kiezen om de bijwerking "
-"van de wisselkoers te **automatiseren**, of deze op **handmatig** te laten "
-"staan. Om de koersbijwerking te configureren, ga je terug "
-"naar :menuselection:`Boekhouding --> Configuratie --> Instellingen --> "
-"Valuta`, vink je :guilabel:`Automatische wisselkoersen` aan, stel "
-"je :guilabel:`Interval` in op de gewenste frequentie en klik je vervolgens "
-"op :guilabel:`Opslaan`. Je hebt ook de mogelijkheid om "
-"de :guilabel:`Service` te kiezen waarvan je wisselkoersen wilt verkrijgen."
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:38
+msgid "Create bank journals and accounts in foreign currencies"
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:40
 msgid ""
-"Click on the Update now button (:guilabel:`🗘`) besides the :guilabel:`Next "
-"Run` field to update the currency rates manually."
+"To set up a bank account in a foreign currency, first :ref:`create a new "
+"bank journal <accounting/journals/bank>` via :menuselection:`Accounting --> "
+"Configuration --> Journals`. Set the journal's currency to the foreign "
+"currency, then create a new bank account:"
 msgstr ""
-"Klik op de knop Nu bijwerken (:guilabel:`🗘`) naast het "
-"veld :guilabel:`Volgende uitvoering` om de wisselkoersen handmatig bij te "
-"werken."
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:44
-msgid "Create a new bank account"
-msgstr "Maak een nieuwe bankrekening aan"
+msgid ""
+"In the :guilabel:`Bank Account` field of the journal, enter the name as it "
+"should appear in the chart of accounts."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:46
-msgid ""
-"In the accounting application, go to :menuselection:`Accounting --> "
-"Configuration --> Journals` and create a new one. Enter a :guilabel:`Journal "
-"Name` and set the :guilabel:`Type` to `Bank`. In the :guilabel:`Journal "
-"Entries` tab, enter a **short code**, a **currency**, and then finally click "
-"on the :guilabel:`Bank Account` field to create a new account. In the pop-up "
-"window of the account creation, enter a name, a code (ex.: 550007), set its "
-"type to `Bank and Cash`, set a currency type, and save. When you are back on "
-"the **journal**, click on the :guilabel:`Account Number` field, and in the "
-"pop-up window, fill out the :guilabel:`Account Number`, :guilabel:`Bank` of "
-"your account, and save."
+msgid "Click :guilabel:`Create and edit`."
 msgstr ""
-"Ga in de boekhoudapplicatie naar :menuselection:`Boekhouding --> "
-"Configuratie --> Dagboeken` en maak een nieuw dagboek aan. Voer "
-"een :guilabel:`Dagboeknaam` in en stel het :guilabel:`Type` in op `Bank`. "
-"Voer in het tabblad :guilabel:`Boekingen` een **korte code** en een "
-"**valuta** in en klik vervolgens op het veld :guilabel:`Bankrekening` om een "
-"nieuwe rekening aan te maken. Voer in het pop-upvenster van het aanmaken van "
-"de rekening een naam en een code in (bijv.: 550007), stel het type in op "
-"`Bank en kas`, stel een valutatype in en sla op. Wanneer je terug bent op "
-"het **dagboek**, klik je op het veld :guilabel:`Rekeningnummer` en vul je in "
-"het pop-upvenster het :guilabel:`Rekeningnummer` en de :guilabel:`Bank` van "
-"je rekening in en sla je op."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "Example of a created bank journal."
-msgstr "Voorbeeld van een aangemaakt bankboek."
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:59
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:47
 msgid ""
-"Upon creation of the journal, Odoo automatically links the bank account to "
-"the journal. It can be found under :menuselection:`Accounting --> "
-"Configuration --> Accounting: Chart of Accounts`."
+"In the resulting :guilabel:`Create Default Account` window, :ref:`configure "
+"the account <chart-of-account/create>`."
 msgstr ""
-"Bij het aanmaken van het dagboek koppelt Odoo automatisch de bankrekening "
-"aan het dagboek. Deze is te vinden onder :menuselection:`Boekhouding --> "
-"Configuratie --> Boekhouding: Grootboekschema`."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:63
-msgid "Vendor bill in a foreign currency"
-msgstr "Leveranciersfactuur in vreemde valuta"
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:49
+msgid ""
+"Optionally, set the :guilabel:`Currency` on the bank account to the desired "
+"foreign currency."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:51
+msgid ""
+"Setting a currency on an account in the chart of accounts restricts the "
+"journal items targeting the account to the selected currency."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:53
+msgid ""
+"Leaving the :guilabel:`Currency` field blank on an account in the chart of "
+"accounts allows journal items of any currency to target that account. In "
+"this case, journal items in the foreign currency bank journal are limited to "
+"the currency specified on the journal itself. To allow increased "
+"flexibility, leaving the :guilabel:`Currency` field blank is recommended."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:58
+#: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:96
+#: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:210
+#: ../../content/applications/finance/accounting/reporting/annual-report.rst:29
+#: ../../content/applications/finance/fiscal_localizations/germany.rst:127
+#: ../../content/applications/finance/fiscal_localizations/italy.rst:223
+#: ../../content/applications/finance/fiscal_localizations/jordan.rst:135
+#: ../../content/applications/finance/fiscal_localizations/vietnam.rst:130
+#: ../../content/applications/finance/payment_providers/iyzico.rst:20
+msgid "Click :guilabel:`Save`."
+msgstr "Klik op :guilabel:`Opslaan`."
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:60
+msgid ""
+"On the journal, add a :ref:`Bank Account Number <accounting/batch/create-"
+"bank-account>` and :ref:`Bank <accounting/batch/create-bank>` if necessary "
+"(such as in the case of creating batch payment files)."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:65
-msgid ""
-"To pay a bill in a foreign currency, simply select the currency next to "
-"the :guilabel:`Journal` field and register the payment. Odoo automatically "
-"creates and posts the foreign **exchange gain or loss** as a new journal "
-"entry."
+msgid ":doc:`Journals <../get_started/journals>`"
 msgstr ""
-"Om een leveranciersfactuur in vreemde valuta te betalen, selecteer je "
-"eenvoudig de valuta naast het veld :guilabel:`Dagboek` en registreer je de "
-"betaling. Odoo maakt en boekt automatisch de **koerswinst of -verlies** als "
-"een nieuwe boeking."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "How to set a bill currency."
-msgstr "Hoe je een factuurvaluta instelt."
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:74
-msgid ""
-"Note that you can pay a foreign bill with another currency. In that case, "
-"Odoo automatically converts between the two currencies."
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:66
+msgid ":ref:`Manage bank and cash accounts <accounting/bank/manage>`"
 msgstr ""
-"Merk op dat je een buitenlandse leveranciersfactuur met een andere valuta "
-"kunt betalen. In dat geval converteert Odoo automatisch tussen de twee "
-"valuta."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:78
-msgid "Unrealized Currency Gains/Losses Report"
-msgstr "Rapport niet-gerealiseerde valutawinsten/-verliezen"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:80
-msgid ""
-"This report gives an overview of all unrealized amounts in a foreign "
-"currency on your balance sheet, and allows you to adjust an entry or "
-"manually set an exchange rate. To access this report, go "
-"to :menuselection:`Reporting --> Management: Unrealized Currency Gains/"
-"Losses`. From here, you have access to all open entries in your **balance "
-"sheet**."
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:71
+msgid "Unrealized Currencies report"
 msgstr ""
-"Dit rapport geeft een overzicht van alle niet-gerealiseerde bedragen in "
-"vreemde valuta op je balans(rekening) en stelt je in staat om een boeking "
-"aan te passen of handmatig een wisselkoers in te stellen. Om toegang te "
-"krijgen tot dit rapport, ga je naar :menuselection:`Rapportage --> Beheer: "
-"Niet-gerealiseerde valutawinsten/-verliezen`. Vanaf hier heb je toegang tot "
-"alle openstaande boekingen in je **balans(rekening)**."
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:73
+msgid ""
+"The :guilabel:`Unrealized Currencies` report gives an overview of all "
+"unrealized amounts in a foreign currency on the balance sheet, and allows  "
+"an exchange rate to be set manually or entries to be adjusted. To access the "
+"report, go to :menuselection:`Accounting --> Review --> Unrealized "
+"Currencies`."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
 msgid "View of the Unrealized Gains/Losses journal."
 msgstr "Weergave van het dagboek niet-gerealiseerde winsten/verliezen."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:89
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:81
 msgid ""
-"If you wish to use a different currency rate than the one set "
-"in :menuselection:`Accounting --> Configuration --> Settings --> "
-"Currencies`, click the :guilabel:`Exchange Rates` button and change the rate "
-"of the foreign currencies in the report."
+"To use a different currency rate than the one set "
+"in :menuselection:`Accounting --> Configuration --> Currencies`, click "
+"the :guilabel:`Exchange Rates` button and change the rate of the foreign "
+"currencies in the report."
 msgstr ""
-"Als je een andere wisselkoers wilt gebruiken dan de koers die is ingesteld "
-"in :menuselection:`Boekhouding --> Configuratie --> Instellingen --> "
-"Valuta`, klik je op de knop :guilabel:`Wisselkoersen` en wijzig je de koers "
-"van de vreemde valuta in het rapport."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "Menu to manually change exchange rates."
-msgstr "Menu om wisselkoersen handmatig te wijzigen."
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:97
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:85
 msgid ""
-"When manually changing **exchange rates**, a yellow banner appears allowing "
-"you to reset back to Odoo's rate. To do so, simply click on :guilabel:`Reset "
-"to Odoo's Rate`."
+"When manually changing exchange rates, a yellow banner appears allowing the "
+"rate to be reset to Odoo's rate. To do so, click :guilabel:`Reset to Odoo's "
+"Rate`."
 msgstr ""
-"Wanneer je **wisselkoersen** handmatig wijzigt, verschijnt er een gele "
-"banner waarmee je terug kunt resetten naar de koers van Odoo. Klik hiervoor "
-"eenvoudig op :guilabel:`Terug naar koers van Odoo`."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "Banner to reset back to Odoo's rates."
-msgstr "Banner om terug te zetten naar de tarieven van Odoo."
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:104
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:88
 msgid ""
-"In order to update your **balance sheet** with the amount of "
-"the :guilabel:`adjustment` column, click on the :guilabel:`Adjustment Entry` "
-"button. In the pop-up window, select "
-"a :guilabel:`Journal`, :guilabel:`Expense Account` and :guilabel:`Income "
-"Account` to calculate and process the **unrealized gains and losses**."
+"To update the balance sheet with the amount of the :guilabel:`Adjustment` "
+"column, click the :guilabel:`Adjustment Entry` button in the top-left "
+"corner. In the pop-up window, select a :guilabel:`Journal`, "
+"an :guilabel:`Expense Account` and an :guilabel:`Income Account` to "
+"calculate and process the unrealized gains and/or losses."
 msgstr ""
-"Om je **balans** bij te werken met het bedrag uit de "
-"kolom :guilabel:`aanpassing`, klik je op de "
-"knop :guilabel:`Aanpassingsboeking`. Selecteer in het pop-upvenster "
-"een :guilabel:`Dagboek`, :guilabel:`Kostenrekening` "
-"en :guilabel:`Omzetrekening` om de **niet-gerealiseerde winsten en "
-"verliezen** te berekenen en te verwerken."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:109
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:93
 msgid ""
 "You can set the date of the report in the :guilabel:`Date` field. Odoo "
 "automatically reverses the booking entry to the date set "
@@ -2442,18 +2364,11 @@ msgstr ""
 "Odoo keert de boeking automatisch terug naar de datum die is ingesteld "
 "in :guilabel:`Terugboekingsdatum`."
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:112
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:96
 msgid ""
-"Once posted, the :guilabel:`adjustment` column should indicate `0.00`, "
-"meaning all **unrealized gains/losses** have been adjusted."
+"Once posted, the :guilabel:`Adjustment` column should indicate `0.00`, "
+"meaning all unrealized gains and/or losses have been adjusted."
 msgstr ""
-"Zodra geboekt, zou de kolom :guilabel:`aanpassing` `0,00` moeten aangeven, "
-"wat betekent dat alle **niet-gerealiseerde winsten/verliezen** zijn "
-"aangepast."
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "Unrealized Currency Gains/Losses report once adjusted."
-msgstr "Rapport niet-gerealiseerde valutawinsten/-verliezen na aanpassing."
 
 #: ../../content/applications/finance/accounting/bank/internal_transfers.rst:3
 msgid "Internal transfers"
@@ -6691,17 +6606,6 @@ msgstr ""
 ":doc:`Ontvangen in documenten <../../../productivity/documents>`: Selecteer "
 "een map in het veld :guilabel:`Documentenmap` als meerdere inkoopdagboeken "
 "worden gebruikt."
-
-#: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:96
-#: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:210
-#: ../../content/applications/finance/accounting/reporting/annual-report.rst:29
-#: ../../content/applications/finance/fiscal_localizations/germany.rst:127
-#: ../../content/applications/finance/fiscal_localizations/italy.rst:223
-#: ../../content/applications/finance/fiscal_localizations/jordan.rst:135
-#: ../../content/applications/finance/fiscal_localizations/vietnam.rst:130
-#: ../../content/applications/finance/payment_providers/iyzico.rst:20
-msgid "Click :guilabel:`Save`."
-msgstr "Klik op :guilabel:`Opslaan`."
 
 #: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:98
 msgid ""
@@ -12954,7 +12858,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/get_started.rst:107
 #: ../../content/applications/finance/accounting/get_started/chart_of_accounts.rst:3
 #: ../../content/applications/finance/accounting/get_started/cheat_sheet.rst:79
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:92
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:90
 #: ../../content/applications/finance/fiscal_localizations/argentina.rst:78
 #: ../../content/applications/finance/fiscal_localizations/belgium.rst:72
 #: ../../content/applications/finance/fiscal_localizations/brazil.rst:98
@@ -13040,7 +12944,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/get_started.rst:148
 #: ../../content/applications/finance/accounting/get_started/journals.rst:3
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:104
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:102
 #: ../../content/applications/finance/fiscal_localizations/argentina.rst:167
 #: ../../content/applications/finance/fiscal_localizations/chile.rst:285
 #: ../../content/applications/finance/fiscal_localizations/france.rst:635
@@ -18721,23 +18625,16 @@ msgstr "Multivalutasysteem"
 msgid ""
 "Odoo allows you to issue invoices, receive bills, and record transactions in "
 "currencies other than the main currency configured for your company. You can "
-"also set up bank accounts in other currencies and run reports on your "
-"foreign currency activities."
+"also :doc:`set up bank accounts in other currencies <../bank/"
+"foreign_currency>` and run :ref:`reports on your foreign currency activities "
+"<accounting/foreign_currency/report>`."
 msgstr ""
-"Met Odoo kun je verkoopfacturen versturen, leveranciersfacturen ontvangen en "
-"transacties registreren in andere valuta dan de hoofdvaluta die voor je "
-"bedrijf is geconfigureerd. Je kunt ook bankrekeningen in andere valuta "
-"instellen en rapporten over je activiteiten met vreemde valuta uitvoeren."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:10
-msgid ":doc:`../bank/foreign_currency`"
-msgstr ":doc:`../bank/foreign_currency`"
-
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:20
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:18
 msgid "Main currency"
 msgstr "Hoofdvaluta"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:22
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:20
 msgid ""
 "The **main currency** is defined by default according to the company's "
 "country. You can change it by going to :menuselection:`Accounting --> "
@@ -18750,11 +18647,11 @@ msgstr ""
 "Valuta` te gaan en de valuta te wijzigen in de "
 "instelling :guilabel:`Hoofdvaluta`."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:29
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:27
 msgid "Enable foreign currencies"
 msgstr "Vreemde valuta inschakelen"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:31
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:29
 msgid ""
 "Go to :menuselection:`Accounting --> Configuration --> Currencies`, and "
 "enable the currencies you wish to use by toggling the :guilabel:`Active` "
@@ -18768,15 +18665,15 @@ msgstr ""
 msgid "Enable the currencies you wish to use."
 msgstr "Activeer de valuta die je wilt gebruiken."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:41
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:39
 msgid "Currency rates"
 msgstr "Wisselkoersen"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:46
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:44
 msgid "Manual update"
 msgstr "Handmatige update"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:48
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:46
 msgid ""
 "To manually create and set a currency rate, go to :menuselection:`Accounting "
 "--> Configuration --> Currencies`, click on the currency you wish to change "
@@ -18793,11 +18690,11 @@ msgstr ""
 msgid "Create or modify the currency rate."
 msgstr "Een valutakoers aanmaken of wijzigen."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:59
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:57
 msgid "Automatic update"
 msgstr "Automatische update"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:61
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:59
 msgid ""
 "When you activate a second currency for the first time, :guilabel:`Automatic "
 "Currency Rates` appears under :menuselection:`Accounting --> Configuration --"
@@ -18810,7 +18707,7 @@ msgstr ""
 "sectie :guilabel:`Valuta`. Klik op het icoon :icon:`os-refresh-"
 "data` :guilabel:`(Nu bijwerken)` om de koersen bij te werken."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:65
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:63
 msgid ""
 "Rates can be updated at regular intervals automatically. To do so, change "
 "the :guilabel:`Interval` from :guilabel:`Manually` "
@@ -18825,11 +18722,11 @@ msgstr ""
 "de nieuwste wisselkoersen wilt ophalen door op het veld :guilabel:`Service` "
 "te klikken."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:73
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:71
 msgid "Exchange difference entries"
 msgstr "Boekingen voor koersverschillen"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:75
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:73
 msgid ""
 "Odoo automatically records exchange differences entries on dedicated "
 "accounts, in a dedicated journal."
@@ -18837,7 +18734,7 @@ msgstr ""
 "Odoo registreert automatisch boekingen voor koersverschillen op speciale "
 "rekeningen in een speciaal dagboek."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:78
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:76
 msgid ""
 "To define which journal and accounts to use to post exchange difference "
 "entries, go to :menuselection:`Accounting --> Configuration --> Settings`, "
@@ -18850,7 +18747,7 @@ msgstr ""
 "te bepalen welk dagboek en welke rekeningen gebruikt moeten worden om "
 "koersverschilboekingen te verwerken."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:84
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:82
 msgid ""
 "If you receive a payment for a customer invoice one month after it was "
 "issued, the exchange rate has likely changed since. Therefore, this "
@@ -18863,7 +18760,7 @@ msgstr ""
 "winst of verlies door het koersverschil, wat Odoo automatisch registreert in "
 "het standaard dagboek **Koersverschillen**."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:94
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:92
 msgid ""
 "Each account can have a set currency. By doing so, all moves relevant to the "
 "account are forced to have that account's currency."
@@ -18872,7 +18769,7 @@ msgstr ""
 "die relevant zijn voor de rekening gedwongen om de valuta van die rekening "
 "te gebruiken."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:97
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:95
 msgid ""
 "To do so, go to :menuselection:`Accounting --> Configuration --> Charts of "
 "Accounts` and select a currency in the field :guilabel:`Currency`. If left "
@@ -18883,7 +18780,7 @@ msgstr ""
 "dit leeg blijft, worden alle actieve valuta verwerkt in plaats van slechts "
 "één."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:106
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:104
 msgid ""
 "If a currency is set on a **journal**, that journal only handles "
 "transactions in that currency."
@@ -18891,7 +18788,7 @@ msgstr ""
 "Als een valuta is ingesteld op een **dagboek**, verwerkt dat dagboek alleen "
 "transacties in die valuta."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:108
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:106
 msgid ""
 "To do so, go to :menuselection:`Accounting --> Configuration --> Journals`, "
 "open the journal you want to edit, and select a currency in the "
@@ -18905,15 +18802,15 @@ msgstr ""
 msgid "Select the currency for the journal to handle."
 msgstr "De valuta selecteren die het dagboek moet verwerken."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:118
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:116
 msgid "Multi-currency accounting"
 msgstr "Multivalutaboekhouding"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:123
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:121
 msgid "Invoices, bills, and other documents"
 msgstr "Verkoopfacturen, leveranciersfacturen en andere documenten"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:125
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:123
 msgid ""
 "For all documents, you can select the currency and journal to use for the "
 "transaction on the document itself."
@@ -18925,11 +18822,11 @@ msgstr ""
 msgid "Select the currency and journal to use."
 msgstr "De valuta en het dagboek die je wilt gebruiken selecteren."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:135
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:133
 msgid "Payment registration"
 msgstr "Betalingsregistratie"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:137
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:135
 msgid ""
 "To register a payment in a currency other than your company's main currency, "
 "click on the :guilabel:`Register Payment` payment button of your document "
@@ -18947,11 +18844,11 @@ msgstr ""
 "Selecteer de valuta en het dagboek dat je wilt gebruiken voordat je de "
 "betaling registreert."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:148
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:146
 msgid "Bank transactions"
 msgstr "Banktransacties"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:150
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:148
 msgid ""
 "When creating or importing bank transactions, the amount is in the company's "
 "main currency. To input a **foreign currency**, select a currency in "
@@ -18971,7 +18868,7 @@ msgstr ""
 msgid "The extra fields related to foreign currencies."
 msgstr "De extra velden met betrekking tot vreemde valuta."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:159
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:157
 msgid ""
 "When reconciling, Odoo displays both the foreign currency amount and the "
 "equivalent amount in your company's main currency."
@@ -18979,11 +18876,11 @@ msgstr ""
 "Bij het afletteren toont Odoo zowel het bedrag in vreemde valuta als het "
 "equivalente bedrag in de hoofdvaluta van je bedrijf."
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:165
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:163
 msgid "Exchange rate journal entries"
 msgstr "Boekingen voor wisselkoersen"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:167
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:165
 msgid ""
 "To see **exchange difference journal entries**, go "
 "to :menuselection:`Accounting --> Review --> Journal Items`. In the search "
@@ -55614,7 +55511,7 @@ msgstr "Deze codes zijn vertrouwelijk en moeten veilig worden opgeslagen."
 #: ../../content/applications/finance/payment_providers/nuvei.rst:36
 #: ../../content/applications/finance/payment_providers/paymob.rst:37
 #: ../../content/applications/finance/payment_providers/tosspayments.rst:45
-#: ../../content/applications/finance/payment_providers/xendit.rst:49
+#: ../../content/applications/finance/payment_providers/xendit.rst:74
 msgid "Configuration on Odoo"
 msgstr "Configuratie op Odoo"
 
@@ -89423,7 +89320,7 @@ msgstr ""
 #: ../../content/applications/finance/payment_providers/stripe.rst:11
 #: ../../content/applications/finance/payment_providers/tosspayments.rst:55
 #: ../../content/applications/finance/payment_providers/worldline.rst:71
-#: ../../content/applications/finance/payment_providers/xendit.rst:58
+#: ../../content/applications/finance/payment_providers/xendit.rst:83
 msgid ":doc:`../payment_providers`"
 msgstr ":doc:`../payment_providers`"
 
@@ -89551,7 +89448,7 @@ msgstr ""
 #: ../../content/applications/finance/payment_providers/nuvei.rst:42
 #: ../../content/applications/finance/payment_providers/redsys.rst:40
 #: ../../content/applications/finance/payment_providers/worldline.rst:68
-#: ../../content/applications/finance/payment_providers/xendit.rst:55
+#: ../../content/applications/finance/payment_providers/xendit.rst:80
 msgid "Configure the rest of the options to your liking."
 msgstr "Configureer de overige opties naar wens."
 
@@ -92822,17 +92719,11 @@ msgstr ""
 
 #: ../../content/applications/finance/payment_providers/xendit.rst:40
 msgid ""
-"In the :guilabel:`Webhook URL` section, enter your Odoo database's URL, "
-"followed by `/payment/xendit/webhook` (e.g., `https://example.odoo.com/"
-"payment/xendit/webhook`) in the field :guilabel:`Invoices paid` and click "
-"the :guilabel:`Test and save` button next to it."
+"In the :guilabel:`Webhook URL` section, configure the webhook fields as "
+"described in :ref:`payment_providers/xendit/configure_webhooks` below."
 msgstr ""
-"Voer in de sectie :guilabel:`Webhook-URL` de URL van je Odoo-database in, "
-"gevolgd door `/payment/xendit/webhook` (bv. `https://example.odoo.com/"
-"payment/xendit/webhook`) in het veld :guilabel:`Betaalde verkoopfacturen` en "
-"klik op de knop :guilabel:`Testen en opslaan` ernaast."
 
-#: ../../content/applications/finance/payment_providers/xendit.rst:43
+#: ../../content/applications/finance/payment_providers/xendit.rst:42
 msgid ""
 "To allow recurring payments for credit cards, go "
 "to :menuselection:`Configuration: Payment Channels` in the left part of the "
@@ -92847,7 +92738,55 @@ msgstr ""
 "weergeven` en schakel :guilabel:`Terugkerende betalingen` in door de "
 "bijbehorende schakelaar om te zetten."
 
-#: ../../content/applications/finance/payment_providers/xendit.rst:51
+#: ../../content/applications/finance/payment_providers/xendit.rst:50
+msgid "Webhook configuration"
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:53
+msgid ""
+"Xendit replaced its previous single, per-event webhook field with separate "
+"v3 event groups. If your Xendit account was connected to Odoo before this "
+"change, **successful payments and saved cards may no longer update "
+"automatically** until the new fields described below are configured."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:57
+msgid ""
+"Log in to the `Xendit Dashboard <https://dashboard.xendit.co>`_ and navigate "
+"to :menuselection:`Configuration: Settings`."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:59
+msgid ""
+"In the :guilabel:`Developers` section, click `Webhooks <https://"
+"dashboard.xendit.co/settings/developers#webhooks>`_."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:61
+msgid ""
+"Enter your Odoo database's URL, followed by `/payment/xendit/webhook` (e.g., "
+"`https://example.odoo.com/payment/xendit/webhook`), in the following fields:"
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:64
+msgid ":guilabel:`Payment Status`"
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:65
+msgid ":guilabel:`Payment Token Status`"
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:67
+msgid "Click :guilabel:`Test and save` next to each of those fields."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:70
+msgid ""
+"Both fields must point to the same webhook URL: Odoo uses a single endpoint "
+"to process notifications for both token and payment status updates."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:76
 msgid ""
 ":ref:`Navigate to the payment provider Xendit <payment_providers/add_new>` "
 "and change its state to :guilabel:`Enabled`."
@@ -92855,7 +92794,7 @@ msgstr ""
 ":ref:`Ga naar de betaalprovider Xendit <payment_providers/add_new>` en "
 "wijzig de status naar :guilabel:`Ingeschakeld`."
 
-#: ../../content/applications/finance/payment_providers/xendit.rst:53
+#: ../../content/applications/finance/payment_providers/xendit.rst:78
 msgid ""
 "Fill in the :guilabel:`Secret Key` and :guilabel:`Webhook Token` fields with "
 "the information saved at the step :ref:`payment_providers/xendit/"
@@ -92864,6 +92803,250 @@ msgstr ""
 "Vul de velden :guilabel:`Geheime sleutel` en :guilabel:`Webhook-token` in "
 "met de informatie die je hebt opgeslagen bij de stap :ref:`payment_providers/"
 "xendit/configure_dashboard`."
+
+#~ msgid ""
+#~ "In the :guilabel:`Webhook URL` section, enter your Odoo database's URL, "
+#~ "followed by `/payment/xendit/webhook` (e.g., `https://example.odoo.com/"
+#~ "payment/xendit/webhook`) in the field :guilabel:`Invoices paid` and click "
+#~ "the :guilabel:`Test and save` button next to it."
+#~ msgstr ""
+#~ "Voer in de sectie :guilabel:`Webhook-URL` de URL van je Odoo-database in, "
+#~ "gevolgd door `/payment/xendit/webhook` (bv. `https://example.odoo.com/"
+#~ "payment/xendit/webhook`) in het veld :guilabel:`Betaalde verkoopfacturen` "
+#~ "en klik op de knop :guilabel:`Testen en opslaan` ernaast."
+
+#~ msgid ""
+#~ "In Odoo, every transaction is recorded in the default currency of the "
+#~ "company, and reports are all based on that default currency. When you "
+#~ "have a bank account in a foreign currency, for every transaction, Odoo "
+#~ "stores two values:"
+#~ msgstr ""
+#~ "In Odoo wordt elke transactie geregistreerd in de standaardvaluta van het "
+#~ "bedrijf, en rapporten zijn allemaal gebaseerd op die standaardvaluta. "
+#~ "Wanneer je een bankrekening hebt in een vreemde valuta, slaat Odoo voor "
+#~ "elke transactie twee waarden op:"
+
+#~ msgid "The debit/credit in the currency of the *company*;"
+#~ msgstr "Het debet/credit in de valuta van het *bedrijf*;"
+
+#~ msgid "The debit/credit in the currency of the *bank account*."
+#~ msgstr "Het debet/credit in de valuta van de *bankrekening*."
+
+#~ msgid ""
+#~ "Currency rates are updated automatically using the web services of a "
+#~ "banking institution. By default, Odoo uses the European Central Bank's "
+#~ "web services but other options are available."
+#~ msgstr ""
+#~ "Wisselkoersen worden automatisch bijgewerkt met behulp van de webservices "
+#~ "van een bankinstelling. Standaard gebruikt Odoo de webservices van de "
+#~ "Europese Centrale Bank, maar er zijn ook andere opties beschikbaar."
+
+#~ msgid "Activate multi-currencies"
+#~ msgstr "Activeer meerdere valuta"
+
+#~ msgid ""
+#~ "To work with multiple currencies, go to :menuselection:`Accounting --> "
+#~ "Configuration --> Settings --> Currencies` and tick :guilabel:`Multi-"
+#~ "Currencies`. Under :guilabel:`Post Exchange difference entries in:`, "
+#~ "provide a :guilabel:`Journal`, a :guilabel:`Gain Account`, "
+#~ "a :guilabel:`Loss Account`, and then click on :guilabel:`Save`."
+#~ msgstr ""
+#~ "Om met meerdere valuta te werken, ga naar :menuselection:`Boekhouding --> "
+#~ "Configuratie --> Instellingen --> Valuta` en vink :guilabel:`Meerdere "
+#~ "valuta` aan. Geef onder :guilabel:`Boek koersverschillen in:` "
+#~ "een :guilabel:`Dagboek`, een :guilabel:`Winstrekening`, "
+#~ "een :guilabel:`Verliesrekening` op en klik vervolgens "
+#~ "op :guilabel:`Opslaan`."
+
+#~ msgid ""
+#~ "Once Odoo is configured to support multiple currencies, they are all "
+#~ "created by default, but not necessarily active. To activate the new "
+#~ "currencies, click on :guilabel:`Activate Other Currencies` under "
+#~ "the :guilabel:`Multi-Currencies` setting or go "
+#~ "to :menuselection:`Accounting --> Configuration --> Accounting: "
+#~ "Currencies`."
+#~ msgstr ""
+#~ "Zodra Odoo is geconfigureerd om meerdere valuta te ondersteunen, worden "
+#~ "ze standaard allemaal aangemaakt, maar niet noodzakelijk geactiveerd. Om "
+#~ "de nieuwe valuta te activeren, klik je op :guilabel:`Activeer andere "
+#~ "valuta` onder de instelling :guilabel:`Meerdere valuta` of ga "
+#~ "naar :menuselection:`Boekhouding --> Configuratie --> Boekhouding: "
+#~ "Valuta`."
+
+#~ msgid ""
+#~ "When the currencies are activated, you can choose to **automate** the "
+#~ "currency rate update, or leave it on **manual**. To configure the rate "
+#~ "update, go back to :menuselection:`Accounting --> Configuration --> "
+#~ "Settings --> Currencies`, check :guilabel:`Automatic Currency Rates`, "
+#~ "set :guilabel:`Interval` to your desired frequency, and then click "
+#~ "on :guilabel:`Save`. You also have the option to choose "
+#~ "the :guilabel:`Service` you wish to obtain currency rates from."
+#~ msgstr ""
+#~ "Wanneer de valuta zijn geactiveerd, kun je ervoor kiezen om de bijwerking "
+#~ "van de wisselkoers te **automatiseren**, of deze op **handmatig** te "
+#~ "laten staan. Om de koersbijwerking te configureren, ga je terug "
+#~ "naar :menuselection:`Boekhouding --> Configuratie --> Instellingen --> "
+#~ "Valuta`, vink je :guilabel:`Automatische wisselkoersen` aan, stel "
+#~ "je :guilabel:`Interval` in op de gewenste frequentie en klik je "
+#~ "vervolgens op :guilabel:`Opslaan`. Je hebt ook de mogelijkheid om "
+#~ "de :guilabel:`Service` te kiezen waarvan je wisselkoersen wilt verkrijgen."
+
+#~ msgid ""
+#~ "Click on the Update now button (:guilabel:`🗘`) besides "
+#~ "the :guilabel:`Next Run` field to update the currency rates manually."
+#~ msgstr ""
+#~ "Klik op de knop Nu bijwerken (:guilabel:`🗘`) naast het "
+#~ "veld :guilabel:`Volgende uitvoering` om de wisselkoersen handmatig bij te "
+#~ "werken."
+
+#~ msgid "Create a new bank account"
+#~ msgstr "Maak een nieuwe bankrekening aan"
+
+#~ msgid ""
+#~ "In the accounting application, go to :menuselection:`Accounting --> "
+#~ "Configuration --> Journals` and create a new one. Enter "
+#~ "a :guilabel:`Journal Name` and set the :guilabel:`Type` to `Bank`. In "
+#~ "the :guilabel:`Journal Entries` tab, enter a **short code**, a "
+#~ "**currency**, and then finally click on the :guilabel:`Bank Account` "
+#~ "field to create a new account. In the pop-up window of the account "
+#~ "creation, enter a name, a code (ex.: 550007), set its type to `Bank and "
+#~ "Cash`, set a currency type, and save. When you are back on the "
+#~ "**journal**, click on the :guilabel:`Account Number` field, and in the "
+#~ "pop-up window, fill out the :guilabel:`Account Number`, :guilabel:`Bank` "
+#~ "of your account, and save."
+#~ msgstr ""
+#~ "Ga in de boekhoudapplicatie naar :menuselection:`Boekhouding --> "
+#~ "Configuratie --> Dagboeken` en maak een nieuw dagboek aan. Voer "
+#~ "een :guilabel:`Dagboeknaam` in en stel het :guilabel:`Type` in op `Bank`. "
+#~ "Voer in het tabblad :guilabel:`Boekingen` een **korte code** en een "
+#~ "**valuta** in en klik vervolgens op het veld :guilabel:`Bankrekening` om "
+#~ "een nieuwe rekening aan te maken. Voer in het pop-upvenster van het "
+#~ "aanmaken van de rekening een naam en een code in (bijv.: 550007), stel "
+#~ "het type in op `Bank en kas`, stel een valutatype in en sla op. Wanneer "
+#~ "je terug bent op het **dagboek**, klik je op het "
+#~ "veld :guilabel:`Rekeningnummer` en vul je in het pop-upvenster "
+#~ "het :guilabel:`Rekeningnummer` en de :guilabel:`Bank` van je rekening in "
+#~ "en sla je op."
+
+#~ msgid "Example of a created bank journal."
+#~ msgstr "Voorbeeld van een aangemaakt bankboek."
+
+#~ msgid ""
+#~ "Upon creation of the journal, Odoo automatically links the bank account "
+#~ "to the journal. It can be found under :menuselection:`Accounting --> "
+#~ "Configuration --> Accounting: Chart of Accounts`."
+#~ msgstr ""
+#~ "Bij het aanmaken van het dagboek koppelt Odoo automatisch de bankrekening "
+#~ "aan het dagboek. Deze is te vinden onder :menuselection:`Boekhouding --> "
+#~ "Configuratie --> Boekhouding: Grootboekschema`."
+
+#~ msgid "Vendor bill in a foreign currency"
+#~ msgstr "Leveranciersfactuur in vreemde valuta"
+
+#~ msgid ""
+#~ "To pay a bill in a foreign currency, simply select the currency next to "
+#~ "the :guilabel:`Journal` field and register the payment. Odoo "
+#~ "automatically creates and posts the foreign **exchange gain or loss** as "
+#~ "a new journal entry."
+#~ msgstr ""
+#~ "Om een leveranciersfactuur in vreemde valuta te betalen, selecteer je "
+#~ "eenvoudig de valuta naast het veld :guilabel:`Dagboek` en registreer je "
+#~ "de betaling. Odoo maakt en boekt automatisch de **koerswinst of "
+#~ "-verlies** als een nieuwe boeking."
+
+#~ msgid "How to set a bill currency."
+#~ msgstr "Hoe je een factuurvaluta instelt."
+
+#~ msgid ""
+#~ "Note that you can pay a foreign bill with another currency. In that case, "
+#~ "Odoo automatically converts between the two currencies."
+#~ msgstr ""
+#~ "Merk op dat je een buitenlandse leveranciersfactuur met een andere valuta "
+#~ "kunt betalen. In dat geval converteert Odoo automatisch tussen de twee "
+#~ "valuta."
+
+#~ msgid "Unrealized Currency Gains/Losses Report"
+#~ msgstr "Rapport niet-gerealiseerde valutawinsten/-verliezen"
+
+#~ msgid ""
+#~ "This report gives an overview of all unrealized amounts in a foreign "
+#~ "currency on your balance sheet, and allows you to adjust an entry or "
+#~ "manually set an exchange rate. To access this report, go "
+#~ "to :menuselection:`Reporting --> Management: Unrealized Currency Gains/"
+#~ "Losses`. From here, you have access to all open entries in your **balance "
+#~ "sheet**."
+#~ msgstr ""
+#~ "Dit rapport geeft een overzicht van alle niet-gerealiseerde bedragen in "
+#~ "vreemde valuta op je balans(rekening) en stelt je in staat om een boeking "
+#~ "aan te passen of handmatig een wisselkoers in te stellen. Om toegang te "
+#~ "krijgen tot dit rapport, ga je naar :menuselection:`Rapportage --> "
+#~ "Beheer: Niet-gerealiseerde valutawinsten/-verliezen`. Vanaf hier heb je "
+#~ "toegang tot alle openstaande boekingen in je **balans(rekening)**."
+
+#~ msgid ""
+#~ "If you wish to use a different currency rate than the one set "
+#~ "in :menuselection:`Accounting --> Configuration --> Settings --> "
+#~ "Currencies`, click the :guilabel:`Exchange Rates` button and change the "
+#~ "rate of the foreign currencies in the report."
+#~ msgstr ""
+#~ "Als je een andere wisselkoers wilt gebruiken dan de koers die is "
+#~ "ingesteld in :menuselection:`Boekhouding --> Configuratie --> "
+#~ "Instellingen --> Valuta`, klik je op de knop :guilabel:`Wisselkoersen` en "
+#~ "wijzig je de koers van de vreemde valuta in het rapport."
+
+#~ msgid "Menu to manually change exchange rates."
+#~ msgstr "Menu om wisselkoersen handmatig te wijzigen."
+
+#~ msgid ""
+#~ "When manually changing **exchange rates**, a yellow banner appears "
+#~ "allowing you to reset back to Odoo's rate. To do so, simply click "
+#~ "on :guilabel:`Reset to Odoo's Rate`."
+#~ msgstr ""
+#~ "Wanneer je **wisselkoersen** handmatig wijzigt, verschijnt er een gele "
+#~ "banner waarmee je terug kunt resetten naar de koers van Odoo. Klik "
+#~ "hiervoor eenvoudig op :guilabel:`Terug naar koers van Odoo`."
+
+#~ msgid "Banner to reset back to Odoo's rates."
+#~ msgstr "Banner om terug te zetten naar de tarieven van Odoo."
+
+#~ msgid ""
+#~ "In order to update your **balance sheet** with the amount of "
+#~ "the :guilabel:`adjustment` column, click on the :guilabel:`Adjustment "
+#~ "Entry` button. In the pop-up window, select "
+#~ "a :guilabel:`Journal`, :guilabel:`Expense Account` and :guilabel:`Income "
+#~ "Account` to calculate and process the **unrealized gains and losses**."
+#~ msgstr ""
+#~ "Om je **balans** bij te werken met het bedrag uit de "
+#~ "kolom :guilabel:`aanpassing`, klik je op de "
+#~ "knop :guilabel:`Aanpassingsboeking`. Selecteer in het pop-upvenster "
+#~ "een :guilabel:`Dagboek`, :guilabel:`Kostenrekening` "
+#~ "en :guilabel:`Omzetrekening` om de **niet-gerealiseerde winsten en "
+#~ "verliezen** te berekenen en te verwerken."
+
+#~ msgid ""
+#~ "Once posted, the :guilabel:`adjustment` column should indicate `0.00`, "
+#~ "meaning all **unrealized gains/losses** have been adjusted."
+#~ msgstr ""
+#~ "Zodra geboekt, zou de kolom :guilabel:`aanpassing` `0,00` moeten "
+#~ "aangeven, wat betekent dat alle **niet-gerealiseerde winsten/verliezen** "
+#~ "zijn aangepast."
+
+#~ msgid "Unrealized Currency Gains/Losses report once adjusted."
+#~ msgstr "Rapport niet-gerealiseerde valutawinsten/-verliezen na aanpassing."
+
+#~ msgid ""
+#~ "Odoo allows you to issue invoices, receive bills, and record transactions "
+#~ "in currencies other than the main currency configured for your company. "
+#~ "You can also set up bank accounts in other currencies and run reports on "
+#~ "your foreign currency activities."
+#~ msgstr ""
+#~ "Met Odoo kun je verkoopfacturen versturen, leveranciersfacturen ontvangen "
+#~ "en transacties registreren in andere valuta dan de hoofdvaluta die voor "
+#~ "je bedrijf is geconfigureerd. Je kunt ook bankrekeningen in andere valuta "
+#~ "instellen en rapporten over je activiteiten met vreemde valuta uitvoeren."
+
+#~ msgid ":doc:`../bank/foreign_currency`"
+#~ msgstr ":doc:`../bank/foreign_currency`"
 
 #~ msgid ""
 #~ "Continental :guilabel:`Periodic (at closing)`: Expense account (specific "

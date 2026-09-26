@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-25 17:31+0000\n"
 "PO-Revision-Date: 2026-09-12 11:33+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19-doc/"
@@ -135,8 +135,8 @@ msgstr ""
 "Die :ref:`Karte <studio/views/multiple-records/map>`-Ansicht ist "
 "standardmäßig in der App **Außendienst** verfügbar. Sie zeigt eine statische "
 "Karte, auf der alle Einsatzorte des Tages markiert sind. Um sie für "
-"Außendienstmitarbeiter nützlicher zu machen, ist es möglich, mithilfe der "
-":ref:`Mapbox-Integration <general/integrations/geolocation-routes>` eine "
+"Außendienstmitarbeiter nützlicher zu machen, ist es möglich, mithilfe "
+"der :ref:`Mapbox-Integration <general/integrations/geolocation-routes>` eine "
 "Route auf der Karte anzuzeigen."
 
 #: ../../content/applications/services/field_service/planning_itinerary.rst:11
@@ -8914,8 +8914,10 @@ msgstr ""
 "erstellt werden sollen."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:122
-msgid ":ref:`Customize the form <website/building_blocks/form>`."
-msgstr ":ref:`Das Formular anpassen <website/building_blocks/form>`."
+msgid ""
+":doc:`Customize the form </applications/websites/website/web_design/"
+"building_blocks/forms>`."
+msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:124
 msgid ""
@@ -8927,8 +8929,10 @@ msgstr ""
 "Formulars definiert."
 
 #: ../../content/applications/services/project/tasks/task_creation.rst:128
-msgid ":ref:`Website forms <website/building_blocks/form>`"
-msgstr ":ref:`Website-Formulare <website/building_blocks/form>`"
+msgid ""
+":doc:`Website forms </applications/websites/website/web_design/"
+"building_blocks/forms>`"
+msgstr ""
 
 #: ../../content/applications/services/project/tasks/task_dependencies.rst:3
 msgid "Task dependencies"
@@ -10044,6 +10048,12 @@ msgid "A timecard reflecting training hours and sick time off."
 msgstr ""
 "Ein Zeiterfassungsbogen, auf dem die Ausbildungsstunden und die "
 "krankheitsbedingten Fehlzeiten vermerkt sind."
+
+#~ msgid ":ref:`Customize the form <website/building_blocks/form>`."
+#~ msgstr ":ref:`Das Formular anpassen <website/building_blocks/form>`."
+
+#~ msgid ":ref:`Website forms <website/building_blocks/form>`"
+#~ msgstr ":ref:`Website-Formulare <website/building_blocks/form>`"
 
 #~ msgid ""
 #~ "By default, **Odoo Field Service** shows a static map where all task "

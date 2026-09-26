@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-25 17:31+0000\n"
 "PO-Revision-Date: 2026-08-27 16:41+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-19-doc/hr/ko/"
@@ -45239,8 +45239,8 @@ msgid ":doc:`recruitment/source_analysis`"
 msgstr ":doc:`recruitment/source_analysis`"
 
 #: ../../content/applications/hr/recruitment.rst:373
-msgid ":doc:`recruitment/velocity_analysis`"
-msgstr ":doc:`recruitment/velocity_analysis`"
+msgid ":doc:`recruitment/hiring_velocity`"
+msgstr ""
 
 #: ../../content/applications/hr/recruitment.rst:374
 msgid ":doc:`recruitment/team_performance`"
@@ -45813,6 +45813,156 @@ msgid ""
 msgstr ""
 "지원자가 있을 경우에만 직무가 표시됩니다. 채용 부문에 지원자가 **없는** 경우"
 "에는 목록에 나타나지 않습니다."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:3
+msgid "Hiring velocity"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:5
+msgid ""
+"The *Hiring Velocity* report provides information on how long applicants "
+"stay in each stage of the recruitment process. This is important, as every "
+"job position has specific :ref:`hiring process details <recruitment/new_job/"
+"hiring-process>` that state the length of time applicants should expect to "
+"wait between specific stages."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:10
+msgid ""
+"Knowing how long applicants remain in each stage can help highlight possible "
+"bottlenecks. Analyzing this data allows the recruitment team to assess each "
+"stage, identify any issues, and pivot their strategies to move applicants "
+"through each stage, within the expected time interval."
+msgstr ""
+"각 단계별로 지원자가 머무르는 기간을 살펴보면 병목 현상이 일어날 가능성에 대"
+"해 파악해 볼 수 있습니다. 채용 팀에서 이 데이터를 분석하여 단계별 평가와 문"
+"제 파악을 통해 예상 기간 내에 지원자가 각 단계로 이동할 수 있도록 전략을 수립"
+"할 수 있습니다."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:15
+msgid "Hiring velocity report"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:17
+msgid ""
+"To access the *Hiring Velocity* report, navigate "
+"to :menuselection:`Recruitment app --> Reporting --> Hiring Velocity`. The "
+"report displays data for all job positions, with the stages populating the x-"
+"axis, and the number of days populating the y-axis, in a default :icon:`fa-"
+"line-chart` :guilabel:`(Line Chart)`."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:22
+msgid ""
+"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
+"information for the last 365 days."
+msgstr ""
+"기본 필터로 :guilabel:`지난 365일 지원자` 가 지정되어 있으며, 지난 365일 동안"
+"의 정보가 표시됩니다."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:25
+msgid ""
+"Hover over a stage in the line chart to reveal a popover window listing all "
+"the job positions within it, and the average number of days each job "
+"position sat in each stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:28
+msgid ""
+"For a more visually digestible view of the information in the *Hiring "
+"Velocity* report, click the :icon:`fa-bar-chart` :guilabel:`(Bar Chart)` "
+"icon in the corner. This displays all the information in a bar chart."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:32
+msgid ""
+"In this view, it is easier to visualize the differences between the job "
+"positions, regarding how long applicants stay in each stage. From this view, "
+"recruiters can determine which job positions have delays or bottlenecks at "
+"certain stages."
+msgstr ""
+"이 보기에서는 지원자가 각 단계에 머무는 기간과 관련하여 채용 공고 간의 차이"
+"를 시각화하기가 더 쉽습니다. 이 보기에서 채용 담당자는 특정 단계에서 지연이"
+"나 병목 현상이 있는 채용 공고를 확인할 수 있습니다."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "A bar chart view of the hiring velocity report."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:40
+msgid "Use case: comparing times by month"
+msgstr "사례: 월별 시간 비교하기"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:42
+msgid ""
+"With the *Hiring Velocity* report, it is possible to see if there are "
+"certain months where applicants take longer to be moved through the "
+"pipeline. To view this data, switch to the pivot table view by clicking "
+"the :icon:`oi-view-pivot` :guilabel:`(Pivot)` icon in the corner."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:46
+msgid ""
+"This presents the data in a detailed pivot table, with the rows representing "
+"the different job positions, and the columns representing the stages. "
+"The :guilabel:`Average Days in Stage` populates the various boxes."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:51
+msgid ""
+"If a field is empty, it indicates no applicant has been in that stage. "
+"Instead, all applicants moved from a previous stage without being placed in "
+"the stage with an empty field."
+msgstr ""
+"필드가 비어 있으면, 지원자가 해당 단계에 지원자가 없었다는 의미입니다. 즉, 이"
+"전 단계에서 이동한 모든 지원자가 빈 필드가 있는 해당 단계에는 배치되지 않은 "
+"것입니다."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table view of the Velocity Analysis report."
+msgstr "속도 분석 보고서의 피벗 테이블 보기입니다."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:57
+msgid ""
+"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+"rows to collapse the information. Next, click :icon:`fa-plus-"
+"square` :guilabel:`Total` again, revealing a drop-down menu. "
+"Click :guilabel:`Custom Group` :icon:`fa-caret-down` at the bottom of the "
+"list, revealing further grouping options. Click :guilabel:`Start Date` from "
+"the expanded list."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:62
+msgid ""
+"After doing so, the data presented is grouped with the various months from "
+"the previous 365 days for the rows, leaving the :guilabel:`Average Days in "
+"Stage` as the columns."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table showing the months averages for times in stage."
+msgstr "단계별 시간에 대한 월 평균을 보여주는 피벗 테이블입니다.."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:68
+msgid ""
+"In this example, :guilabel:`July 2026` had the longest time that applicants "
+"spent in each stage, on average. In addition, the :guilabel:`Second "
+"Interview` stage had the longest wait time in July, with an average "
+"of :guilabel:`29.04` days in that stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:72
+msgid ""
+"While this report does not display the reasons applicants stayed in the "
+"various stages for these lengths of time, it can be helpful to know when "
+"delays occur."
+msgstr ""
+"이 보고서에는 지원자가 다양한 단계에 해당 기간 동안 머무른 사유가 나타나지는 "
+"않으나, 지연된 시기에 대해서 파악할 수 있습니다."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:76
+msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
+msgstr ":doc:`필수 보고 문서 <../../essentials/reporting>`"
 
 #: ../../content/applications/hr/recruitment/new_job.rst:3
 msgid "Job positions"
@@ -47535,7 +47685,7 @@ msgstr ""
 msgid ""
 "The applicant's email address automatically populates "
 "the :guilabel:`Applicant` field. The :guilabel:`Subject` and email body are "
-"populated according to the corresponding email template."
+"populated according to the corresponding email"
 msgstr ""
 
 #: ../../content/applications/hr/recruitment/refuse_applicant.rst:105
@@ -48347,183 +48497,6 @@ msgid ""
 "recruiter, with a total of eight hires, while :guilabel:`Carol Bishop` has "
 "the fewest hires, with only three."
 msgstr ""
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:3
-msgid "Velocity analysis"
-msgstr "속도 분석"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:5
-msgid ""
-"The *Velocity Analysis* report provides information on how long applicants "
-"stay in each stage of the recruitment process. This is important, as every "
-"job position has specific :ref:`hiring process details <recruitment/new_job/"
-"hiring-process>` that state the length of time applicants should expect to "
-"wait between specific stages."
-msgstr ""
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:10
-msgid ""
-"Knowing how long applicants remain in each stage can help highlight possible "
-"bottlenecks. Analyzing this data allows the recruitment team to assess each "
-"stage, identify any issues, and pivot their strategies to move applicants "
-"through each stage, within the expected time interval."
-msgstr ""
-"각 단계별로 지원자가 머무르는 기간을 살펴보면 병목 현상이 일어날 가능성에 대"
-"해 파악해 볼 수 있습니다. 채용 팀에서 이 데이터를 분석하여 단계별 평가와 문"
-"제 파악을 통해 예상 기간 내에 지원자가 각 단계로 이동할 수 있도록 전략을 수립"
-"할 수 있습니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:15
-msgid "Velocity analysis report"
-msgstr "속도 분석 보고서"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:17
-msgid ""
-"To access the report, navigate to :menuselection:`Recruitment app --> "
-"Reporting --> Velocity Analysis`. By default, the report displays data for "
-"all job positions, with the stages populating the x-axis, and the number of "
-"days populating the y-axis, in a :icon:`fa-line-chart` :guilabel:`(Line "
-"Chart)`."
-msgstr ""
-"보고서에 액세스하려면\\ :menuselection:`채용 앱 --> 보고 --> Velocity "
-"Analysis`\\ 로 이동하세요. 기본적으로 보고서는 모든 채용 공고에 대한 데이터"
-"를 표시하며, 단계가 x축을 채우고 일수가 y축을 채우는\\ :icon:`fa-line-"
-"chart` :guilabel:`(선 차트)`\\ 형식으로 표시됩니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:22
-msgid ""
-"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
-"information for the last 365 days."
-msgstr ""
-"기본 필터로 :guilabel:`지난 365일 지원자` 가 지정되어 있으며, 지난 365일 동안"
-"의 정보가 표시됩니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:25
-msgid ""
-"Hover over a stage in the line chart to reveal a popover window listing all "
-"the job positions within it, and the average number of days each job "
-"position sits in each stage."
-msgstr ""
-"꺾은선 그래프에서 단계 위에 마우스를 가져가면 해당 단계에 있는 모든 직무가 표"
-"시되며 직무가 각 단계에 머무르는 평균 날짜 수가 팝업창으로 표시됩니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:28
-msgid ""
-"For a more visually digestible view of the information in "
-"the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
-"chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This displays "
-"all the information in a bar chart."
-msgstr ""
-":guilabel:`Velocity Analysis`\\ 보고서의 정보를 더 시각적으로 이해하기 쉬운 "
-"보기로 보려면 왼쪽 상단의\\ :icon:`fa-bar-chart` :guilabel:`(막대 차트)`\\ 아"
-"이콘을 클릭하세요. 그러면 모든 정보가 막대 차트로 표시됩니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:32
-msgid ""
-"In this view, it is easier to visualize the differences between the job "
-"positions, regarding how long applicants stay in each stage. From this view, "
-"recruiters can determine which job positions have delays or bottlenecks at "
-"certain stages."
-msgstr ""
-"이 보기에서는 지원자가 각 단계에 머무는 기간과 관련하여 채용 공고 간의 차이"
-"를 시각화하기가 더 쉽습니다. 이 보기에서 채용 담당자는 특정 단계에서 지연이"
-"나 병목 현상이 있는 채용 공고를 확인할 수 있습니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The bar chart view of the Velocity Analysis report."
-msgstr "속도 분석 보고서의 막대 그래프 보기입니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:40
-msgid "Use case: comparing times by month"
-msgstr "사례: 월별 시간 비교하기"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:42
-msgid ""
-"With the :guilabel:`Velocity Analysis` report, it is possible to see if "
-"there are certain months where applicants take longer to be moved through "
-"the pipeline. To view this data, switch to the :icon:`oi-view-"
-"pivot` :guilabel:`(Pivot)` view in the upper-right corner."
-msgstr ""
-":guilabel:`Velocity Analysis`\\ 보고서를 사용하면 지원자가 파이프라인을 통과"
-"하는 데 더 오래 걸리는 특정 월이 있는지 확인할 수 있습니다. 이 데이터를 보려"
-"면 오른쪽 상단의\\ :icon:`oi-view-pivot` :guilabel:`(피벗)`\\ 보기로 전환하세"
-"요."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:46
-msgid ""
-"This presents the data in a detailed pivot table, with the rows representing "
-"the different job positions, and the columns representing the stages. The "
-"average :guilabel:`Days in Stage` populates the various boxes."
-msgstr ""
-"이 내용은 피벗 테이블에 있는 데이터를 나타내며, 행에는 각기 다른 직무가 표시"
-"되고 열에는 단계가 표시됩니다. 평균 :guilabel:`단계별 소요 일수` 가 여러 가"
-"지 상자에 입력됩니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:51
-msgid ""
-"If a field is empty, it indicates no applicant has been in that stage. "
-"Instead, all applicants moved from a previous stage without being placed in "
-"the stage with an empty field."
-msgstr ""
-"필드가 비어 있으면, 지원자가 해당 단계에 지원자가 없었다는 의미입니다. 즉, 이"
-"전 단계에서 이동한 모든 지원자가 빈 필드가 있는 해당 단계에는 배치되지 않은 "
-"것입니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table view of the Velocity Analysis report."
-msgstr "속도 분석 보고서의 피벗 테이블 보기입니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:57
-msgid ""
-"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
-"rows to collapse the information. Next, click :icon:`fa-plus-"
-"square` :guilabel:`Total` again, revealing a drop-down menu. "
-"Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
-"the list, revealing further grouping options. Click :guilabel:`Start Date` "
-"from the expanded list."
-msgstr ""
-"직무 행 위에 있는 :icon:`fa-minus-square-o` :guilabel:`총계` 를 클릭하여 내용"
-"을 접습니다. 그런 다음 :icon:`fa-plus-square` :guilabel:`총계` 를 다시 클릭하"
-"면 드롭다운 메뉴가 나타납니다. 목록 하단에 있는 :guilabel:`사용자 지정 그룹 "
-"추가` :icon:`fa-caret-down` 를 클릭하면 추가 그룹 항목이 표시됩니다. 펼쳐진 "
-"목록에서 :guilabel:`시작일` 을 클릭합니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:62
-msgid ""
-"After doing so, the data presented is grouped with the various months from "
-"the previous 365 days for the rows, leaving the :guilabel:`Days In Stage` as "
-"the columns."
-msgstr ""
-"그러면 표시되는 데이터의 행이 지난 365일 동안의 다른 월로 그룹화되"
-"고 :guilabel:`단계별 소요 일수` 가 열에 남게 됩니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table showing the months averages for times in stage."
-msgstr "단계별 시간에 대한 월 평균을 보여주는 피벗 테이블입니다.."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:68
-msgid ""
-"In this example, :guilabel:`July 2024` had the longest time that applicants "
-"spent in each stage, on average. In addition, the :guilabel:`Contract "
-"Proposal` stage had the longest wait time in July, with an average "
-"of :guilabel:`31.62` days in that stage."
-msgstr ""
-"이 예시에서 각 단계 평균에 따르면 :guilabel:`2024년 7월` 이 지원자가 가장 시"
-"간을 많이 소요한 달이었습니다. 또한 :guilabel:`계약 제안` 단계는 7월에 가장 "
-"대기 시간이 길었으며, 해당 단계의 평균 기간은 :guilabel:`31.62`일이었습니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:72
-msgid ""
-"While this report does not display the reasons applicants stayed in the "
-"various stages for these lengths of time, it can be helpful to know when "
-"delays occur."
-msgstr ""
-"이 보고서에는 지원자가 다양한 단계에 해당 기간 동안 머무른 사유가 나타나지는 "
-"않으나, 지연된 시기에 대해서 파악할 수 있습니다."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:76
-msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
-msgstr ":doc:`필수 보고 문서 <../../essentials/reporting>`"
 
 #: ../../content/applications/hr/referrals.rst:5
 msgid "Referrals"
@@ -53744,6 +53717,103 @@ msgstr ""
 msgid ""
 "The lower half of the time off type form, with the color and icon selected."
 msgstr "색상과 아이콘이 선택된 휴가 유형 양식의 하단 부분."
+
+#~ msgid ":doc:`recruitment/velocity_analysis`"
+#~ msgstr ":doc:`recruitment/velocity_analysis`"
+
+#~ msgid "Velocity analysis"
+#~ msgstr "속도 분석"
+
+#~ msgid "Velocity analysis report"
+#~ msgstr "속도 분석 보고서"
+
+#~ msgid ""
+#~ "To access the report, navigate to :menuselection:`Recruitment app --> "
+#~ "Reporting --> Velocity Analysis`. By default, the report displays data "
+#~ "for all job positions, with the stages populating the x-axis, and the "
+#~ "number of days populating the y-axis, in a :icon:`fa-line-"
+#~ "chart` :guilabel:`(Line Chart)`."
+#~ msgstr ""
+#~ "보고서에 액세스하려면\\ :menuselection:`채용 앱 --> 보고 --> Velocity "
+#~ "Analysis`\\ 로 이동하세요. 기본적으로 보고서는 모든 채용 공고에 대한 데이"
+#~ "터를 표시하며, 단계가 x축을 채우고 일수가 y축을 채우는\\ :icon:`fa-line-"
+#~ "chart` :guilabel:`(선 차트)`\\ 형식으로 표시됩니다."
+
+#~ msgid ""
+#~ "Hover over a stage in the line chart to reveal a popover window listing "
+#~ "all the job positions within it, and the average number of days each job "
+#~ "position sits in each stage."
+#~ msgstr ""
+#~ "꺾은선 그래프에서 단계 위에 마우스를 가져가면 해당 단계에 있는 모든 직무"
+#~ "가 표시되며 직무가 각 단계에 머무르는 평균 날짜 수가 팝업창으로 표시됩니"
+#~ "다."
+
+#~ msgid ""
+#~ "For a more visually digestible view of the information in "
+#~ "the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
+#~ "chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This "
+#~ "displays all the information in a bar chart."
+#~ msgstr ""
+#~ ":guilabel:`Velocity Analysis`\\ 보고서의 정보를 더 시각적으로 이해하기 쉬"
+#~ "운 보기로 보려면 왼쪽 상단의\\ :icon:`fa-bar-chart` :guilabel:`(막대 차"
+#~ "트)`\\ 아이콘을 클릭하세요. 그러면 모든 정보가 막대 차트로 표시됩니다."
+
+#~ msgid "The bar chart view of the Velocity Analysis report."
+#~ msgstr "속도 분석 보고서의 막대 그래프 보기입니다."
+
+#~ msgid ""
+#~ "With the :guilabel:`Velocity Analysis` report, it is possible to see if "
+#~ "there are certain months where applicants take longer to be moved through "
+#~ "the pipeline. To view this data, switch to the :icon:`oi-view-"
+#~ "pivot` :guilabel:`(Pivot)` view in the upper-right corner."
+#~ msgstr ""
+#~ ":guilabel:`Velocity Analysis`\\ 보고서를 사용하면 지원자가 파이프라인을 통"
+#~ "과하는 데 더 오래 걸리는 특정 월이 있는지 확인할 수 있습니다. 이 데이터를 "
+#~ "보려면 오른쪽 상단의\\ :icon:`oi-view-pivot` :guilabel:`(피벗)`\\ 보기로 "
+#~ "전환하세요."
+
+#~ msgid ""
+#~ "This presents the data in a detailed pivot table, with the rows "
+#~ "representing the different job positions, and the columns representing "
+#~ "the stages. The average :guilabel:`Days in Stage` populates the various "
+#~ "boxes."
+#~ msgstr ""
+#~ "이 내용은 피벗 테이블에 있는 데이터를 나타내며, 행에는 각기 다른 직무가 표"
+#~ "시되고 열에는 단계가 표시됩니다. 평균 :guilabel:`단계별 소요 일수` 가 여"
+#~ "러 가지 상자에 입력됩니다."
+
+#~ msgid ""
+#~ "Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+#~ "rows to collapse the information. Next, click :icon:`fa-plus-"
+#~ "square` :guilabel:`Total` again, revealing a drop-down menu. "
+#~ "Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
+#~ "the list, revealing further grouping options. Click :guilabel:`Start "
+#~ "Date` from the expanded list."
+#~ msgstr ""
+#~ "직무 행 위에 있는 :icon:`fa-minus-square-o` :guilabel:`총계` 를 클릭하여 "
+#~ "내용을 접습니다. 그런 다음 :icon:`fa-plus-square` :guilabel:`총계` 를 다"
+#~ "시 클릭하면 드롭다운 메뉴가 나타납니다. 목록 하단에 있는 :guilabel:`사용"
+#~ "자 지정 그룹 추가` :icon:`fa-caret-down` 를 클릭하면 추가 그룹 항목이 표시"
+#~ "됩니다. 펼쳐진 목록에서 :guilabel:`시작일` 을 클릭합니다."
+
+#~ msgid ""
+#~ "After doing so, the data presented is grouped with the various months "
+#~ "from the previous 365 days for the rows, leaving the :guilabel:`Days In "
+#~ "Stage` as the columns."
+#~ msgstr ""
+#~ "그러면 표시되는 데이터의 행이 지난 365일 동안의 다른 월로 그룹화되"
+#~ "고 :guilabel:`단계별 소요 일수` 가 열에 남게 됩니다."
+
+#~ msgid ""
+#~ "In this example, :guilabel:`July 2024` had the longest time that "
+#~ "applicants spent in each stage, on average. In addition, "
+#~ "the :guilabel:`Contract Proposal` stage had the longest wait time in "
+#~ "July, with an average of :guilabel:`31.62` days in that stage."
+#~ msgstr ""
+#~ "이 예시에서 각 단계 평균에 따르면 :guilabel:`2024년 7월` 이 지원자가 가장 "
+#~ "시간을 많이 소요한 달이었습니다. 또한 :guilabel:`계약 제안` 단계는 7월에 "
+#~ "가장 대기 시간이 길었으며, 해당 단계의 평균 기간은 :guilabel:`31.62`일이었"
+#~ "습니다."
 
 #~ msgid ""
 #~ "A country-specific localization module :ref:`must be installed <general/"

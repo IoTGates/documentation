@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-25 17:31+0000\n"
 "PO-Revision-Date: 2026-09-07 21:12+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: German <https://translate.odoo.com/projects/odoo-19-doc/hr/de/"
@@ -49330,8 +49330,8 @@ msgid ":doc:`recruitment/source_analysis`"
 msgstr ":doc:`recruitment/source_analysis`"
 
 #: ../../content/applications/hr/recruitment.rst:373
-msgid ":doc:`recruitment/velocity_analysis`"
-msgstr ":doc:`recruitment/velocity_analysis`"
+msgid ":doc:`recruitment/hiring_velocity`"
+msgstr ""
 
 #: ../../content/applications/hr/recruitment.rst:374
 msgid ":doc:`recruitment/team_performance`"
@@ -49916,6 +49916,164 @@ msgstr ""
 "Für jede Stelle werden nur die Status angezeigt, in denen es Bewerber gibt. "
 "Wenn es in einem Status **keine** Bewerber gibt, erscheint er nicht in der "
 "Liste."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:3
+msgid "Hiring velocity"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:5
+msgid ""
+"The *Hiring Velocity* report provides information on how long applicants "
+"stay in each stage of the recruitment process. This is important, as every "
+"job position has specific :ref:`hiring process details <recruitment/new_job/"
+"hiring-process>` that state the length of time applicants should expect to "
+"wait between specific stages."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:10
+msgid ""
+"Knowing how long applicants remain in each stage can help highlight possible "
+"bottlenecks. Analyzing this data allows the recruitment team to assess each "
+"stage, identify any issues, and pivot their strategies to move applicants "
+"through each stage, within the expected time interval."
+msgstr ""
+"Wenn man weiß, wie lange Bewerber in jeder Phase bleiben, kann dies dabei "
+"helfen, mögliche Engpässe aufzuzeigen. Durch die Analyse dieser Daten kann "
+"das Personalbeschaffungsteam jede Phase bewerten, etwaige Probleme "
+"identifizieren und seine Strategien anpassen, um Bewerber innerhalb des "
+"erwarteten Zeitrahmens durch jede Phase zu bringen."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:15
+msgid "Hiring velocity report"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:17
+msgid ""
+"To access the *Hiring Velocity* report, navigate "
+"to :menuselection:`Recruitment app --> Reporting --> Hiring Velocity`. The "
+"report displays data for all job positions, with the stages populating the x-"
+"axis, and the number of days populating the y-axis, in a default :icon:`fa-"
+"line-chart` :guilabel:`(Line Chart)`."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:22
+msgid ""
+"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
+"information for the last 365 days."
+msgstr ""
+"Der Standardfilter ist: :guilabel:`Bewerber der letzten 365 Tage`, der "
+"Informationen für die letzten 365 Tage anzeigt."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:25
+msgid ""
+"Hover over a stage in the line chart to reveal a popover window listing all "
+"the job positions within it, and the average number of days each job "
+"position sat in each stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:28
+msgid ""
+"For a more visually digestible view of the information in the *Hiring "
+"Velocity* report, click the :icon:`fa-bar-chart` :guilabel:`(Bar Chart)` "
+"icon in the corner. This displays all the information in a bar chart."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:32
+msgid ""
+"In this view, it is easier to visualize the differences between the job "
+"positions, regarding how long applicants stay in each stage. From this view, "
+"recruiters can determine which job positions have delays or bottlenecks at "
+"certain stages."
+msgstr ""
+"In dieser Ansicht lassen sich die Unterschiede zwischen den Stellenangeboten "
+"hinsichtlich der Verweildauer der Bewerber in den einzelnen Phasen leichter "
+"visualisieren. Aus dieser Ansicht können Recruiter ermitteln, bei welchen "
+"Stellenangeboten es in bestimmten Phasen zu Verzögerungen oder Engpässen "
+"kommt."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "A bar chart view of the hiring velocity report."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:40
+msgid "Use case: comparing times by month"
+msgstr "Anwendungsfall: Zeiten je Monat vergleichen"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:42
+msgid ""
+"With the *Hiring Velocity* report, it is possible to see if there are "
+"certain months where applicants take longer to be moved through the "
+"pipeline. To view this data, switch to the pivot table view by clicking "
+"the :icon:`oi-view-pivot` :guilabel:`(Pivot)` icon in the corner."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:46
+msgid ""
+"This presents the data in a detailed pivot table, with the rows representing "
+"the different job positions, and the columns representing the stages. "
+"The :guilabel:`Average Days in Stage` populates the various boxes."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:51
+msgid ""
+"If a field is empty, it indicates no applicant has been in that stage. "
+"Instead, all applicants moved from a previous stage without being placed in "
+"the stage with an empty field."
+msgstr ""
+"Wenn ein Feld leer ist, bedeutet dies, dass sich kein Bewerber in dieser "
+"Phase befunden hat. Stattdessen sind alle Bewerber aus einer vorherigen "
+"Phase in die nächste Phase übergegangen, ohne dass ein leeres Feld angezeigt "
+"wird."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table view of the Velocity Analysis report."
+msgstr "Die Pivot-Tabellenansicht des Geschwindigkeitsanalyseberichts."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:57
+msgid ""
+"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+"rows to collapse the information. Next, click :icon:`fa-plus-"
+"square` :guilabel:`Total` again, revealing a drop-down menu. "
+"Click :guilabel:`Custom Group` :icon:`fa-caret-down` at the bottom of the "
+"list, revealing further grouping options. Click :guilabel:`Start Date` from "
+"the expanded list."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:62
+msgid ""
+"After doing so, the data presented is grouped with the various months from "
+"the previous 365 days for the rows, leaving the :guilabel:`Average Days in "
+"Stage` as the columns."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table showing the months averages for times in stage."
+msgstr ""
+"Die Pivot-Tabelle zeigt die Monatsdurchschnitte für die Zeiten in der Phase."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:68
+msgid ""
+"In this example, :guilabel:`July 2026` had the longest time that applicants "
+"spent in each stage, on average. In addition, the :guilabel:`Second "
+"Interview` stage had the longest wait time in July, with an average "
+"of :guilabel:`29.04` days in that stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:72
+msgid ""
+"While this report does not display the reasons applicants stayed in the "
+"various stages for these lengths of time, it can be helpful to know when "
+"delays occur."
+msgstr ""
+"Dieser Bericht enthält zwar keine Angaben zu den Gründen, aus denen die "
+"Bewerber in den verschiedenen Phasen so lange geblieben sind, aber es kann "
+"hilfreich sein zu wissen, wann es zu Verzögerungen kommt."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:76
+msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
+msgstr ""
+":doc:`Dokumentation zu Grundlagen des Berichtswesens <../../essentials/"
+"reporting>`"
 
 #: ../../content/applications/hr/recruitment/new_job.rst:3
 msgid "Job positions"
@@ -51685,7 +51843,7 @@ msgstr ""
 msgid ""
 "The applicant's email address automatically populates "
 "the :guilabel:`Applicant` field. The :guilabel:`Subject` and email body are "
-"populated according to the corresponding email template."
+"populated according to the corresponding email"
 msgstr ""
 
 #: ../../content/applications/hr/recruitment/refuse_applicant.rst:105
@@ -52525,202 +52683,6 @@ msgid ""
 "recruiter, with a total of eight hires, while :guilabel:`Carol Bishop` has "
 "the fewest hires, with only three."
 msgstr ""
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:3
-msgid "Velocity analysis"
-msgstr "Geschwindigkeitsanalyse"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:5
-msgid ""
-"The *Velocity Analysis* report provides information on how long applicants "
-"stay in each stage of the recruitment process. This is important, as every "
-"job position has specific :ref:`hiring process details <recruitment/new_job/"
-"hiring-process>` that state the length of time applicants should expect to "
-"wait between specific stages."
-msgstr ""
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:10
-msgid ""
-"Knowing how long applicants remain in each stage can help highlight possible "
-"bottlenecks. Analyzing this data allows the recruitment team to assess each "
-"stage, identify any issues, and pivot their strategies to move applicants "
-"through each stage, within the expected time interval."
-msgstr ""
-"Wenn man weiß, wie lange Bewerber in jeder Phase bleiben, kann dies dabei "
-"helfen, mögliche Engpässe aufzuzeigen. Durch die Analyse dieser Daten kann "
-"das Personalbeschaffungsteam jede Phase bewerten, etwaige Probleme "
-"identifizieren und seine Strategien anpassen, um Bewerber innerhalb des "
-"erwarteten Zeitrahmens durch jede Phase zu bringen."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:15
-msgid "Velocity analysis report"
-msgstr "Geschwindigkeitsanalysebericht"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:17
-msgid ""
-"To access the report, navigate to :menuselection:`Recruitment app --> "
-"Reporting --> Velocity Analysis`. By default, the report displays data for "
-"all job positions, with the stages populating the x-axis, and the number of "
-"days populating the y-axis, in a :icon:`fa-line-chart` :guilabel:`(Line "
-"Chart)`."
-msgstr ""
-"Um auf den Bericht zuzugreifen, navigieren Sie "
-"zu :menuselection:`Personalbeschaffung --> Reporting --> "
-"Geschwindigkeitsanalyse`. Standardmäßig zeigt der Bericht Daten für alle "
-"Stellenangebote an, wobei die Phasen die x-Achse und die Anzahl der Tage die "
-"y-Achse in einem :icon:`fa-line-chart` :guilabel:`(Liniendiagramm)` bilden."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:22
-msgid ""
-"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
-"information for the last 365 days."
-msgstr ""
-"Der Standardfilter ist: :guilabel:`Bewerber der letzten 365 Tage`, der "
-"Informationen für die letzten 365 Tage anzeigt."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:25
-msgid ""
-"Hover over a stage in the line chart to reveal a popover window listing all "
-"the job positions within it, and the average number of days each job "
-"position sits in each stage."
-msgstr ""
-"Fahren Sie mit der Maus über eine Phase im Liniendiagramm, um ein Pop-over-"
-"Fenster mit einer Liste aller darin enthaltenen Stellen und der "
-"durchschnittlichen Anzahl der Tage, die jede Stelle in jeder Phase verweilt, "
-"anzuzeigen."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:28
-msgid ""
-"For a more visually digestible view of the information in "
-"the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
-"chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This displays "
-"all the information in a bar chart."
-msgstr ""
-"Für eine visuell besser erfassbare Ansicht der Informationen "
-"im :guilabel:`Geschwindigkeitsanalyse`-Bericht klicken Sie auf das "
-"Symbol :icon:`fa-bar-chart` :guilabel:`(Balkendiagramm)` in der oberen "
-"linken Ecke. Dadurch werden alle Informationen in einem Balkendiagramm "
-"angezeigt."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:32
-msgid ""
-"In this view, it is easier to visualize the differences between the job "
-"positions, regarding how long applicants stay in each stage. From this view, "
-"recruiters can determine which job positions have delays or bottlenecks at "
-"certain stages."
-msgstr ""
-"In dieser Ansicht lassen sich die Unterschiede zwischen den Stellenangeboten "
-"hinsichtlich der Verweildauer der Bewerber in den einzelnen Phasen leichter "
-"visualisieren. Aus dieser Ansicht können Recruiter ermitteln, bei welchen "
-"Stellenangeboten es in bestimmten Phasen zu Verzögerungen oder Engpässen "
-"kommt."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The bar chart view of the Velocity Analysis report."
-msgstr "Die Balkendiagrammansicht des Geschwindigkeitsanalyseberichts."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:40
-msgid "Use case: comparing times by month"
-msgstr "Anwendungsfall: Zeiten je Monat vergleichen"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:42
-msgid ""
-"With the :guilabel:`Velocity Analysis` report, it is possible to see if "
-"there are certain months where applicants take longer to be moved through "
-"the pipeline. To view this data, switch to the :icon:`oi-view-"
-"pivot` :guilabel:`(Pivot)` view in the upper-right corner."
-msgstr ""
-"Mit dem :guilabel:`Geschwindigkeitsanalysebericht` ist es möglich zu sehen, "
-"ob es bestimmte Monate gibt, in denen Bewerber länger brauchen, um durch die "
-"Pipeline bewegt zu werden. Um diese Daten anzuzeigen, wechseln Sie "
-"zur :icon:`oi-view-pivot` :guilabel:`Pivot`-Ansicht in der oberen rechten "
-"Ecke."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:46
-msgid ""
-"This presents the data in a detailed pivot table, with the rows representing "
-"the different job positions, and the columns representing the stages. The "
-"average :guilabel:`Days in Stage` populates the various boxes."
-msgstr ""
-"Hier werden die Daten in einer detaillierten Pivot-Tabelle dargestellt, "
-"wobei die Zeilen die verschiedenen Stellen und die Spalten die Phasen "
-"darstellen. Die durchschnittliche Anzahl der :guilabel:`Tage in Phase` wird "
-"in die verschiedenen Felder eingetragen."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:51
-msgid ""
-"If a field is empty, it indicates no applicant has been in that stage. "
-"Instead, all applicants moved from a previous stage without being placed in "
-"the stage with an empty field."
-msgstr ""
-"Wenn ein Feld leer ist, bedeutet dies, dass sich kein Bewerber in dieser "
-"Phase befunden hat. Stattdessen sind alle Bewerber aus einer vorherigen "
-"Phase in die nächste Phase übergegangen, ohne dass ein leeres Feld angezeigt "
-"wird."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table view of the Velocity Analysis report."
-msgstr "Die Pivot-Tabellenansicht des Geschwindigkeitsanalyseberichts."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:57
-msgid ""
-"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
-"rows to collapse the information. Next, click :icon:`fa-plus-"
-"square` :guilabel:`Total` again, revealing a drop-down menu. "
-"Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
-"the list, revealing further grouping options. Click :guilabel:`Start Date` "
-"from the expanded list."
-msgstr ""
-"Klicken Sie auf :icon:`fa-minus-square-o` :guilabel:`Gesamt` über den Zeilen "
-"mit den Stellenangeboten, um die Informationen auszublenden. Klicken Sie "
-"anschließend erneut auf :icon:`fa-plus-square` :guilabel:`Gesamt`, um ein "
-"Drop-down-Menü einzublenden. Klicken Sie unten in der Liste "
-"auf :guilabel:`Benutzerdefinierte Gruppe hinzufügen` :icon:`fa-caret-down`, "
-"um weitere Gruppierungsoptionen anzuzeigen. Klicken Sie in der erweiterten "
-"Liste auf :guilabel:`Startdatum`."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:62
-msgid ""
-"After doing so, the data presented is grouped with the various months from "
-"the previous 365 days for the rows, leaving the :guilabel:`Days In Stage` as "
-"the columns."
-msgstr ""
-"Danach werden die dargestellten Daten mit den verschiedenen Monaten der "
-"letzten 365 Tage für die Zeilen gruppiert, wobei die :guilabel:`Tage in  "
-"Phase` als Spalten verbleiben."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table showing the months averages for times in stage."
-msgstr ""
-"Die Pivot-Tabelle zeigt die Monatsdurchschnitte für die Zeiten in der Phase."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:68
-msgid ""
-"In this example, :guilabel:`July 2024` had the longest time that applicants "
-"spent in each stage, on average. In addition, the :guilabel:`Contract "
-"Proposal` stage had the longest wait time in July, with an average "
-"of :guilabel:`31.62` days in that stage."
-msgstr ""
-"In diesem Beispiel verbrachten die Bewerber im Durchschnitt die längste Zeit "
-"in jeder Phase im :guilabel:`Juli 2024`. Darüber hinaus war die Phase "
-"des :guilabel:`Vertragsvorschlags` im Juli die Phase mit der längsten "
-"Wartezeit, mit durchschnittlich :guilabel:`31,62` Tagen in dieser Phase."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:72
-msgid ""
-"While this report does not display the reasons applicants stayed in the "
-"various stages for these lengths of time, it can be helpful to know when "
-"delays occur."
-msgstr ""
-"Dieser Bericht enthält zwar keine Angaben zu den Gründen, aus denen die "
-"Bewerber in den verschiedenen Phasen so lange geblieben sind, aber es kann "
-"hilfreich sein zu wissen, wann es zu Verzögerungen kommt."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:76
-msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
-msgstr ""
-":doc:`Dokumentation zu Grundlagen des Berichtswesens <../../essentials/"
-"reporting>`"
 
 #: ../../content/applications/hr/referrals.rst:5
 msgid "Referrals"
@@ -58421,6 +58383,115 @@ msgid ""
 msgstr ""
 "Die untere Hälfte des Abwesenheitsart-Formulars, mit ausgewählter Farbe und "
 "Symbol."
+
+#~ msgid ":doc:`recruitment/velocity_analysis`"
+#~ msgstr ":doc:`recruitment/velocity_analysis`"
+
+#~ msgid "Velocity analysis"
+#~ msgstr "Geschwindigkeitsanalyse"
+
+#~ msgid "Velocity analysis report"
+#~ msgstr "Geschwindigkeitsanalysebericht"
+
+#~ msgid ""
+#~ "To access the report, navigate to :menuselection:`Recruitment app --> "
+#~ "Reporting --> Velocity Analysis`. By default, the report displays data "
+#~ "for all job positions, with the stages populating the x-axis, and the "
+#~ "number of days populating the y-axis, in a :icon:`fa-line-"
+#~ "chart` :guilabel:`(Line Chart)`."
+#~ msgstr ""
+#~ "Um auf den Bericht zuzugreifen, navigieren Sie "
+#~ "zu :menuselection:`Personalbeschaffung --> Reporting --> "
+#~ "Geschwindigkeitsanalyse`. Standardmäßig zeigt der Bericht Daten für alle "
+#~ "Stellenangebote an, wobei die Phasen die x-Achse und die Anzahl der Tage "
+#~ "die y-Achse in einem :icon:`fa-line-chart` :guilabel:`(Liniendiagramm)` "
+#~ "bilden."
+
+#~ msgid ""
+#~ "Hover over a stage in the line chart to reveal a popover window listing "
+#~ "all the job positions within it, and the average number of days each job "
+#~ "position sits in each stage."
+#~ msgstr ""
+#~ "Fahren Sie mit der Maus über eine Phase im Liniendiagramm, um ein Pop-"
+#~ "over-Fenster mit einer Liste aller darin enthaltenen Stellen und der "
+#~ "durchschnittlichen Anzahl der Tage, die jede Stelle in jeder Phase "
+#~ "verweilt, anzuzeigen."
+
+#~ msgid ""
+#~ "For a more visually digestible view of the information in "
+#~ "the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
+#~ "chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This "
+#~ "displays all the information in a bar chart."
+#~ msgstr ""
+#~ "Für eine visuell besser erfassbare Ansicht der Informationen "
+#~ "im :guilabel:`Geschwindigkeitsanalyse`-Bericht klicken Sie auf das "
+#~ "Symbol :icon:`fa-bar-chart` :guilabel:`(Balkendiagramm)` in der oberen "
+#~ "linken Ecke. Dadurch werden alle Informationen in einem Balkendiagramm "
+#~ "angezeigt."
+
+#~ msgid "The bar chart view of the Velocity Analysis report."
+#~ msgstr "Die Balkendiagrammansicht des Geschwindigkeitsanalyseberichts."
+
+#~ msgid ""
+#~ "With the :guilabel:`Velocity Analysis` report, it is possible to see if "
+#~ "there are certain months where applicants take longer to be moved through "
+#~ "the pipeline. To view this data, switch to the :icon:`oi-view-"
+#~ "pivot` :guilabel:`(Pivot)` view in the upper-right corner."
+#~ msgstr ""
+#~ "Mit dem :guilabel:`Geschwindigkeitsanalysebericht` ist es möglich zu "
+#~ "sehen, ob es bestimmte Monate gibt, in denen Bewerber länger brauchen, um "
+#~ "durch die Pipeline bewegt zu werden. Um diese Daten anzuzeigen, wechseln "
+#~ "Sie zur :icon:`oi-view-pivot` :guilabel:`Pivot`-Ansicht in der oberen "
+#~ "rechten Ecke."
+
+#~ msgid ""
+#~ "This presents the data in a detailed pivot table, with the rows "
+#~ "representing the different job positions, and the columns representing "
+#~ "the stages. The average :guilabel:`Days in Stage` populates the various "
+#~ "boxes."
+#~ msgstr ""
+#~ "Hier werden die Daten in einer detaillierten Pivot-Tabelle dargestellt, "
+#~ "wobei die Zeilen die verschiedenen Stellen und die Spalten die Phasen "
+#~ "darstellen. Die durchschnittliche Anzahl der :guilabel:`Tage in Phase` "
+#~ "wird in die verschiedenen Felder eingetragen."
+
+#~ msgid ""
+#~ "Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+#~ "rows to collapse the information. Next, click :icon:`fa-plus-"
+#~ "square` :guilabel:`Total` again, revealing a drop-down menu. "
+#~ "Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
+#~ "the list, revealing further grouping options. Click :guilabel:`Start "
+#~ "Date` from the expanded list."
+#~ msgstr ""
+#~ "Klicken Sie auf :icon:`fa-minus-square-o` :guilabel:`Gesamt` über den "
+#~ "Zeilen mit den Stellenangeboten, um die Informationen auszublenden. "
+#~ "Klicken Sie anschließend erneut auf :icon:`fa-plus-"
+#~ "square` :guilabel:`Gesamt`, um ein Drop-down-Menü einzublenden. Klicken "
+#~ "Sie unten in der Liste auf :guilabel:`Benutzerdefinierte Gruppe "
+#~ "hinzufügen` :icon:`fa-caret-down`, um weitere Gruppierungsoptionen "
+#~ "anzuzeigen. Klicken Sie in der erweiterten Liste "
+#~ "auf :guilabel:`Startdatum`."
+
+#~ msgid ""
+#~ "After doing so, the data presented is grouped with the various months "
+#~ "from the previous 365 days for the rows, leaving the :guilabel:`Days In "
+#~ "Stage` as the columns."
+#~ msgstr ""
+#~ "Danach werden die dargestellten Daten mit den verschiedenen Monaten der "
+#~ "letzten 365 Tage für die Zeilen gruppiert, wobei die :guilabel:`Tage in  "
+#~ "Phase` als Spalten verbleiben."
+
+#~ msgid ""
+#~ "In this example, :guilabel:`July 2024` had the longest time that "
+#~ "applicants spent in each stage, on average. In addition, "
+#~ "the :guilabel:`Contract Proposal` stage had the longest wait time in "
+#~ "July, with an average of :guilabel:`31.62` days in that stage."
+#~ msgstr ""
+#~ "In diesem Beispiel verbrachten die Bewerber im Durchschnitt die längste "
+#~ "Zeit in jeder Phase im :guilabel:`Juli 2024`. Darüber hinaus war die "
+#~ "Phase des :guilabel:`Vertragsvorschlags` im Juli die Phase mit der "
+#~ "längsten Wartezeit, mit durchschnittlich :guilabel:`31,62` Tagen in "
+#~ "dieser Phase."
 
 #~ msgid ""
 #~ "A country-specific localization module :ref:`must be installed <general/"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-25 17:31+0000\n"
 "PO-Revision-Date: 2026-08-27 16:37+0000\n"
 "Last-Translator: \"Tiffany Chang (tic)\" <tic@odoo.com>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-19-doc/hr/hi/"
@@ -45402,8 +45402,8 @@ msgid ":doc:`recruitment/source_analysis`"
 msgstr ":doc:`recruitment/source_analysis`"
 
 #: ../../content/applications/hr/recruitment.rst:373
-msgid ":doc:`recruitment/velocity_analysis`"
-msgstr ":doc:`recruitment/velocity_analysis`"
+msgid ":doc:`recruitment/hiring_velocity`"
+msgstr ""
 
 #: ../../content/applications/hr/recruitment.rst:374
 msgid ":doc:`recruitment/team_performance`"
@@ -45975,6 +45975,155 @@ msgid ""
 msgstr ""
 "प्रत्येक जॉब पोजीशन के लिए केवल वे स्थितियां दिखाई जाती हैं जिनमें आवेदक हैं। अगर किसी "
 "स्थिति में कोई आवेदक **नहीं** है, तो वह सूची में दिखाई नहीं देती।"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:3
+msgid "Hiring velocity"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:5
+msgid ""
+"The *Hiring Velocity* report provides information on how long applicants "
+"stay in each stage of the recruitment process. This is important, as every "
+"job position has specific :ref:`hiring process details <recruitment/new_job/"
+"hiring-process>` that state the length of time applicants should expect to "
+"wait between specific stages."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:10
+msgid ""
+"Knowing how long applicants remain in each stage can help highlight possible "
+"bottlenecks. Analyzing this data allows the recruitment team to assess each "
+"stage, identify any issues, and pivot their strategies to move applicants "
+"through each stage, within the expected time interval."
+msgstr ""
+"यह जानना कि आवेदक हर स्टेज में कितने समय तक रहते हैं, संभावित बाधाओं को हाइलाइट करने में "
+"मदद कर सकता है। इस डेटा का एनालिसिस करने से रिक्रूटमेंट टीम हर स्टेज का आकलन कर सकती "
+"है, किसी भी समस्या की पहचान कर सकती है, और अपनी रणनीतियों को बदलकर आवेदकों को हर "
+"स्टेज से अपेक्षित समय इंटरवल के भीतर आगे बढ़ा सकती है।"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:15
+msgid "Hiring velocity report"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:17
+msgid ""
+"To access the *Hiring Velocity* report, navigate "
+"to :menuselection:`Recruitment app --> Reporting --> Hiring Velocity`. The "
+"report displays data for all job positions, with the stages populating the x-"
+"axis, and the number of days populating the y-axis, in a default :icon:`fa-"
+"line-chart` :guilabel:`(Line Chart)`."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:22
+msgid ""
+"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
+"information for the last 365 days."
+msgstr ""
+"डिफ़ॉल्ट फ़िल्टर :guilabel:`Last 365 Days Applicant` है, जो पिछले 365 दिनों की "
+"जानकारी दिखाता है।"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:25
+msgid ""
+"Hover over a stage in the line chart to reveal a popover window listing all "
+"the job positions within it, and the average number of days each job "
+"position sat in each stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:28
+msgid ""
+"For a more visually digestible view of the information in the *Hiring "
+"Velocity* report, click the :icon:`fa-bar-chart` :guilabel:`(Bar Chart)` "
+"icon in the corner. This displays all the information in a bar chart."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:32
+msgid ""
+"In this view, it is easier to visualize the differences between the job "
+"positions, regarding how long applicants stay in each stage. From this view, "
+"recruiters can determine which job positions have delays or bottlenecks at "
+"certain stages."
+msgstr ""
+"इस व्यू में, जॉब पोज़िशन के बीच अंतर को विज़ुअलाइज़ करना आसान है, इस बारे में कि आवेदक हर "
+"स्टेज में कितने समय तक रहते हैं। इस व्यू से, रिक्रूटर्स यह निर्धारित कर सकते हैं कि किन जॉब "
+"पोज़िशन में किन स्टेज पर देरी या बाधाएं हैं।"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "A bar chart view of the hiring velocity report."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:40
+msgid "Use case: comparing times by month"
+msgstr "Use case: महीने के हिसाब से समय की तुलना करना"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:42
+msgid ""
+"With the *Hiring Velocity* report, it is possible to see if there are "
+"certain months where applicants take longer to be moved through the "
+"pipeline. To view this data, switch to the pivot table view by clicking "
+"the :icon:`oi-view-pivot` :guilabel:`(Pivot)` icon in the corner."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:46
+msgid ""
+"This presents the data in a detailed pivot table, with the rows representing "
+"the different job positions, and the columns representing the stages. "
+"The :guilabel:`Average Days in Stage` populates the various boxes."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:51
+msgid ""
+"If a field is empty, it indicates no applicant has been in that stage. "
+"Instead, all applicants moved from a previous stage without being placed in "
+"the stage with an empty field."
+msgstr ""
+"अगर कोई फ़ील्ड खाली है, तो यह दर्शाता है कि कोई आवेदक उस स्टेज में नहीं रहा है। इसके "
+"बजाय, सभी आवेदक पिछले स्टेज से आगे बढ़ गए बिना खाली फ़ील्ड वाले स्टेज में रखे गए।"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table view of the Velocity Analysis report."
+msgstr "Velocity Analysis रिपोर्ट का पिवट टेबल व्यू।"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:57
+msgid ""
+"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+"rows to collapse the information. Next, click :icon:`fa-plus-"
+"square` :guilabel:`Total` again, revealing a drop-down menu. "
+"Click :guilabel:`Custom Group` :icon:`fa-caret-down` at the bottom of the "
+"list, revealing further grouping options. Click :guilabel:`Start Date` from "
+"the expanded list."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:62
+msgid ""
+"After doing so, the data presented is grouped with the various months from "
+"the previous 365 days for the rows, leaving the :guilabel:`Average Days in "
+"Stage` as the columns."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table showing the months averages for times in stage."
+msgstr "पिवट टेबल स्टेज में समय के लिए महीनों के औसत को दिखाती है।"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:68
+msgid ""
+"In this example, :guilabel:`July 2026` had the longest time that applicants "
+"spent in each stage, on average. In addition, the :guilabel:`Second "
+"Interview` stage had the longest wait time in July, with an average "
+"of :guilabel:`29.04` days in that stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:72
+msgid ""
+"While this report does not display the reasons applicants stayed in the "
+"various stages for these lengths of time, it can be helpful to know when "
+"delays occur."
+msgstr ""
+"हालांकि यह रिपोर्ट यह प्रदर्शित नहीं करती कि आवेदक विभिन्न स्टेज में इतने समय तक क्यों रहे, "
+"यह जानना मददगार हो सकता है कि देरी कब होती है।"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:76
+msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
+msgstr ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
 
 #: ../../content/applications/hr/recruitment/new_job.rst:3
 msgid "Job positions"
@@ -47697,7 +47846,7 @@ msgstr ""
 msgid ""
 "The applicant's email address automatically populates "
 "the :guilabel:`Applicant` field. The :guilabel:`Subject` and email body are "
-"populated according to the corresponding email template."
+"populated according to the corresponding email"
 msgstr ""
 
 #: ../../content/applications/hr/recruitment/refuse_applicant.rst:105
@@ -48510,181 +48659,6 @@ msgid ""
 "recruiter, with a total of eight hires, while :guilabel:`Carol Bishop` has "
 "the fewest hires, with only three."
 msgstr ""
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:3
-msgid "Velocity analysis"
-msgstr "Velocity एनालिसिस"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:5
-msgid ""
-"The *Velocity Analysis* report provides information on how long applicants "
-"stay in each stage of the recruitment process. This is important, as every "
-"job position has specific :ref:`hiring process details <recruitment/new_job/"
-"hiring-process>` that state the length of time applicants should expect to "
-"wait between specific stages."
-msgstr ""
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:10
-msgid ""
-"Knowing how long applicants remain in each stage can help highlight possible "
-"bottlenecks. Analyzing this data allows the recruitment team to assess each "
-"stage, identify any issues, and pivot their strategies to move applicants "
-"through each stage, within the expected time interval."
-msgstr ""
-"यह जानना कि आवेदक हर स्टेज में कितने समय तक रहते हैं, संभावित बाधाओं को हाइलाइट करने में "
-"मदद कर सकता है। इस डेटा का एनालिसिस करने से रिक्रूटमेंट टीम हर स्टेज का आकलन कर सकती "
-"है, किसी भी समस्या की पहचान कर सकती है, और अपनी रणनीतियों को बदलकर आवेदकों को हर "
-"स्टेज से अपेक्षित समय इंटरवल के भीतर आगे बढ़ा सकती है।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:15
-msgid "Velocity analysis report"
-msgstr "Velocity एनालिसिस रिपोर्ट"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:17
-msgid ""
-"To access the report, navigate to :menuselection:`Recruitment app --> "
-"Reporting --> Velocity Analysis`. By default, the report displays data for "
-"all job positions, with the stages populating the x-axis, and the number of "
-"days populating the y-axis, in a :icon:`fa-line-chart` :guilabel:`(Line "
-"Chart)`."
-msgstr ""
-"रिपोर्ट को ऐक्सेस करने के लिए, :menuselection:`Recruitment ऐप्लिकेशन --> Reporting "
-"--> Velocity Analysis` पर जाएं। डिफ़ॉल्ट रूप से, रिपोर्ट सभी जॉब पोज़िशन के लिए डेटा "
-"दिखाती है, जिसमें स्टेज x-axis पर दिखाई देते हैं, और दिनों की संख्या y-axis पर :icon:`fa-"
-"line-chart` :guilabel:`(Line Chart)` में दिखाई देती है।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:22
-msgid ""
-"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
-"information for the last 365 days."
-msgstr ""
-"डिफ़ॉल्ट फ़िल्टर :guilabel:`Last 365 Days Applicant` है, जो पिछले 365 दिनों की "
-"जानकारी दिखाता है।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:25
-msgid ""
-"Hover over a stage in the line chart to reveal a popover window listing all "
-"the job positions within it, and the average number of days each job "
-"position sits in each stage."
-msgstr ""
-"लाइन चार्ट में किसी स्टेज पर होवर करें ताकि एक पॉपओवर विंडो दिखाई दे जिसमें उसके भीतर "
-"सभी जॉब पोज़िशन और हर स्टेज में हर जॉब पोज़िशन के रहने के औसत दिनों की संख्या दिखाई दे।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:28
-msgid ""
-"For a more visually digestible view of the information in "
-"the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
-"chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This displays "
-"all the information in a bar chart."
-msgstr ""
-":guilabel:`Velocity Analysis` रिपोर्ट में जानकारी के अधिक विज़ुअली समझने योग्य व्यू के "
-"लिए, ऊपरी-बाएं कोने में :icon:`fa-bar-chart` :guilabel:`(Bar Chart)` आइकॉन पर "
-"क्लिक करें। यह सभी जानकारी को बार चार्ट में दिखाता है।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:32
-msgid ""
-"In this view, it is easier to visualize the differences between the job "
-"positions, regarding how long applicants stay in each stage. From this view, "
-"recruiters can determine which job positions have delays or bottlenecks at "
-"certain stages."
-msgstr ""
-"इस व्यू में, जॉब पोज़िशन के बीच अंतर को विज़ुअलाइज़ करना आसान है, इस बारे में कि आवेदक हर "
-"स्टेज में कितने समय तक रहते हैं। इस व्यू से, रिक्रूटर्स यह निर्धारित कर सकते हैं कि किन जॉब "
-"पोज़िशन में किन स्टेज पर देरी या बाधाएं हैं।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The bar chart view of the Velocity Analysis report."
-msgstr "Velocity Analysis रिपोर्ट का बार चार्ट व्यू।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:40
-msgid "Use case: comparing times by month"
-msgstr "Use case: महीने के हिसाब से समय की तुलना करना"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:42
-msgid ""
-"With the :guilabel:`Velocity Analysis` report, it is possible to see if "
-"there are certain months where applicants take longer to be moved through "
-"the pipeline. To view this data, switch to the :icon:`oi-view-"
-"pivot` :guilabel:`(Pivot)` view in the upper-right corner."
-msgstr ""
-":guilabel:`Velocity Analysis` रिपोर्ट के साथ, यह देखना संभव है कि क्या कुछ ऐसे महीने "
-"हैं जहां आवेदकों को पाइपलाइन से आगे बढ़ने में ज़्यादा समय लगता है। इस डेटा को देखने के लिए, "
-"ऊपरी-दाएं कोने में :icon:`oi-view-pivot` :guilabel:`(Pivot)` व्यू पर स्विच करें।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:46
-msgid ""
-"This presents the data in a detailed pivot table, with the rows representing "
-"the different job positions, and the columns representing the stages. The "
-"average :guilabel:`Days in Stage` populates the various boxes."
-msgstr ""
-"यह डेटा को एक विस्तृत पिवट टेबल में प्रस्तुत करता है, जिसमें रो विभिन्न जॉब पोज़िशन को "
-"दर्शाती हैं, और कॉलम स्टेज को दर्शाते हैं। औसत :guilabel:`Days in Stage` विभिन्न बॉक्स "
-"में भरता है।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:51
-msgid ""
-"If a field is empty, it indicates no applicant has been in that stage. "
-"Instead, all applicants moved from a previous stage without being placed in "
-"the stage with an empty field."
-msgstr ""
-"अगर कोई फ़ील्ड खाली है, तो यह दर्शाता है कि कोई आवेदक उस स्टेज में नहीं रहा है। इसके "
-"बजाय, सभी आवेदक पिछले स्टेज से आगे बढ़ गए बिना खाली फ़ील्ड वाले स्टेज में रखे गए।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table view of the Velocity Analysis report."
-msgstr "Velocity Analysis रिपोर्ट का पिवट टेबल व्यू।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:57
-msgid ""
-"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
-"rows to collapse the information. Next, click :icon:`fa-plus-"
-"square` :guilabel:`Total` again, revealing a drop-down menu. "
-"Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
-"the list, revealing further grouping options. Click :guilabel:`Start Date` "
-"from the expanded list."
-msgstr ""
-"जॉब पोजीशन रो के ऊपर :icon:`fa-minus-square-o` :guilabel:`Total` पर क्लिक करें "
-"ताकि जानकारी को कोलैप्स कर सकें। अगला, :icon:`fa-plus-square` :guilabel:`Total` "
-"पर फिर से क्लिक करें, जिससे एक ड्रॉप-डाउन मेन्यू दिखाई देगा। लिस्ट के नीचे :guilabel:`Add "
-"Custom Group` :icon:`fa-caret-down` पर क्लिक करें, जिससे और ग्रुपिंग ऑप्शन दिखाई देंगे। "
-"एक्सपैंडेड लिस्ट से :guilabel:`Start Date` पर क्लिक करें।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:62
-msgid ""
-"After doing so, the data presented is grouped with the various months from "
-"the previous 365 days for the rows, leaving the :guilabel:`Days In Stage` as "
-"the columns."
-msgstr ""
-"ऐसा करने के बाद, प्रस्तुत डेटा को पिछले 365 दिनों के विभिन्न महीनों के साथ रो के लिए ग्रुप "
-"किया जाता है, जिससे :guilabel:`Days In Stage` कॉलम के रूप में रहता है।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table showing the months averages for times in stage."
-msgstr "पिवट टेबल स्टेज में समय के लिए महीनों के औसत को दिखाती है।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:68
-msgid ""
-"In this example, :guilabel:`July 2024` had the longest time that applicants "
-"spent in each stage, on average. In addition, the :guilabel:`Contract "
-"Proposal` stage had the longest wait time in July, with an average "
-"of :guilabel:`31.62` days in that stage."
-msgstr ""
-"इस उदाहरण में, :guilabel:`July 2024` में औसतन आवेदकों ने प्रत्येक स्टेज में सबसे अधिक समय "
-"बिताया। इसके अलावा, :guilabel:`Contract Proposal` स्टेज में जुलाई में सबसे लंबा "
-"प्रतीक्षा समय था, उस स्टेज में औसतन :guilabel:`31.62` दिन के साथ।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:72
-msgid ""
-"While this report does not display the reasons applicants stayed in the "
-"various stages for these lengths of time, it can be helpful to know when "
-"delays occur."
-msgstr ""
-"हालांकि यह रिपोर्ट यह प्रदर्शित नहीं करती कि आवेदक विभिन्न स्टेज में इतने समय तक क्यों रहे, "
-"यह जानना मददगार हो सकता है कि देरी कब होती है।"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:76
-msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
-msgstr ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
 
 #: ../../content/applications/hr/referrals.rst:5
 msgid "Referrals"
@@ -53952,6 +53926,102 @@ msgstr ":guilabel:`कवर इमेज`: **टाइम ऑफ़** ऐप �
 msgid ""
 "The lower half of the time off type form, with the color and icon selected."
 msgstr "टाइम ऑफ़ टाइप फ़ॉर्म का निचला आधा भाग, जिसमें रंग और आइकॉन चयनित हैं।"
+
+#~ msgid ":doc:`recruitment/velocity_analysis`"
+#~ msgstr ":doc:`recruitment/velocity_analysis`"
+
+#~ msgid "Velocity analysis"
+#~ msgstr "Velocity एनालिसिस"
+
+#~ msgid "Velocity analysis report"
+#~ msgstr "Velocity एनालिसिस रिपोर्ट"
+
+#~ msgid ""
+#~ "To access the report, navigate to :menuselection:`Recruitment app --> "
+#~ "Reporting --> Velocity Analysis`. By default, the report displays data "
+#~ "for all job positions, with the stages populating the x-axis, and the "
+#~ "number of days populating the y-axis, in a :icon:`fa-line-"
+#~ "chart` :guilabel:`(Line Chart)`."
+#~ msgstr ""
+#~ "रिपोर्ट को ऐक्सेस करने के लिए, :menuselection:`Recruitment ऐप्लिकेशन --> "
+#~ "Reporting --> Velocity Analysis` पर जाएं। डिफ़ॉल्ट रूप से, रिपोर्ट सभी जॉब "
+#~ "पोज़िशन के लिए डेटा दिखाती है, जिसमें स्टेज x-axis पर दिखाई देते हैं, और दिनों की संख्या "
+#~ "y-axis पर :icon:`fa-line-chart` :guilabel:`(Line Chart)` में दिखाई देती है।"
+
+#~ msgid ""
+#~ "Hover over a stage in the line chart to reveal a popover window listing "
+#~ "all the job positions within it, and the average number of days each job "
+#~ "position sits in each stage."
+#~ msgstr ""
+#~ "लाइन चार्ट में किसी स्टेज पर होवर करें ताकि एक पॉपओवर विंडो दिखाई दे जिसमें उसके भीतर "
+#~ "सभी जॉब पोज़िशन और हर स्टेज में हर जॉब पोज़िशन के रहने के औसत दिनों की संख्या दिखाई दे।"
+
+#~ msgid ""
+#~ "For a more visually digestible view of the information in "
+#~ "the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
+#~ "chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This "
+#~ "displays all the information in a bar chart."
+#~ msgstr ""
+#~ ":guilabel:`Velocity Analysis` रिपोर्ट में जानकारी के अधिक विज़ुअली समझने योग्य व्यू "
+#~ "के लिए, ऊपरी-बाएं कोने में :icon:`fa-bar-chart` :guilabel:`(Bar Chart)` आइकॉन "
+#~ "पर क्लिक करें। यह सभी जानकारी को बार चार्ट में दिखाता है।"
+
+#~ msgid "The bar chart view of the Velocity Analysis report."
+#~ msgstr "Velocity Analysis रिपोर्ट का बार चार्ट व्यू।"
+
+#~ msgid ""
+#~ "With the :guilabel:`Velocity Analysis` report, it is possible to see if "
+#~ "there are certain months where applicants take longer to be moved through "
+#~ "the pipeline. To view this data, switch to the :icon:`oi-view-"
+#~ "pivot` :guilabel:`(Pivot)` view in the upper-right corner."
+#~ msgstr ""
+#~ ":guilabel:`Velocity Analysis` रिपोर्ट के साथ, यह देखना संभव है कि क्या कुछ ऐसे "
+#~ "महीने हैं जहां आवेदकों को पाइपलाइन से आगे बढ़ने में ज़्यादा समय लगता है। इस डेटा को देखने के "
+#~ "लिए, ऊपरी-दाएं कोने में :icon:`oi-view-pivot` :guilabel:`(Pivot)` व्यू पर स्विच "
+#~ "करें।"
+
+#~ msgid ""
+#~ "This presents the data in a detailed pivot table, with the rows "
+#~ "representing the different job positions, and the columns representing "
+#~ "the stages. The average :guilabel:`Days in Stage` populates the various "
+#~ "boxes."
+#~ msgstr ""
+#~ "यह डेटा को एक विस्तृत पिवट टेबल में प्रस्तुत करता है, जिसमें रो विभिन्न जॉब पोज़िशन को "
+#~ "दर्शाती हैं, और कॉलम स्टेज को दर्शाते हैं। औसत :guilabel:`Days in Stage` विभिन्न "
+#~ "बॉक्स में भरता है।"
+
+#~ msgid ""
+#~ "Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+#~ "rows to collapse the information. Next, click :icon:`fa-plus-"
+#~ "square` :guilabel:`Total` again, revealing a drop-down menu. "
+#~ "Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
+#~ "the list, revealing further grouping options. Click :guilabel:`Start "
+#~ "Date` from the expanded list."
+#~ msgstr ""
+#~ "जॉब पोजीशन रो के ऊपर :icon:`fa-minus-square-o` :guilabel:`Total` पर क्लिक "
+#~ "करें ताकि जानकारी को कोलैप्स कर सकें। अगला, :icon:`fa-plus-"
+#~ "square` :guilabel:`Total` पर फिर से क्लिक करें, जिससे एक ड्रॉप-डाउन मेन्यू दिखाई "
+#~ "देगा। लिस्ट के नीचे :guilabel:`Add Custom Group` :icon:`fa-caret-down` पर "
+#~ "क्लिक करें, जिससे और ग्रुपिंग ऑप्शन दिखाई देंगे। एक्सपैंडेड लिस्ट से :guilabel:`Start "
+#~ "Date` पर क्लिक करें।"
+
+#~ msgid ""
+#~ "After doing so, the data presented is grouped with the various months "
+#~ "from the previous 365 days for the rows, leaving the :guilabel:`Days In "
+#~ "Stage` as the columns."
+#~ msgstr ""
+#~ "ऐसा करने के बाद, प्रस्तुत डेटा को पिछले 365 दिनों के विभिन्न महीनों के साथ रो के लिए "
+#~ "ग्रुप किया जाता है, जिससे :guilabel:`Days In Stage` कॉलम के रूप में रहता है।"
+
+#~ msgid ""
+#~ "In this example, :guilabel:`July 2024` had the longest time that "
+#~ "applicants spent in each stage, on average. In addition, "
+#~ "the :guilabel:`Contract Proposal` stage had the longest wait time in "
+#~ "July, with an average of :guilabel:`31.62` days in that stage."
+#~ msgstr ""
+#~ "इस उदाहरण में, :guilabel:`July 2024` में औसतन आवेदकों ने प्रत्येक स्टेज में सबसे अधिक "
+#~ "समय बिताया। इसके अलावा, :guilabel:`Contract Proposal` स्टेज में जुलाई में सबसे लंबा "
+#~ "प्रतीक्षा समय था, उस स्टेज में औसतन :guilabel:`31.62` दिन के साथ।"
 
 #~ msgid ""
 #~ "A country-specific localization module :ref:`must be installed <general/"

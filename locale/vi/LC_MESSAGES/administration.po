@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-18 17:32+0000\n"
 "PO-Revision-Date: 2026-09-07 16:11+0000\n"
 "Last-Translator: Anthropic <noreply-mt-anthropic@weblate.org>\n"
 "Language-Team: Vietnamese <https://translate.odoo.com/projects/odoo-19-doc/"
@@ -6146,11 +6146,18 @@ msgstr ""
 "Các cổng này phải được để mở ngay cả sau khi đăng ký cơ sở dữ liệu thành "
 "công, vì thông báo cập nhật sẽ chạy mỗi tuần một lần."
 
-#: ../../content/administration/on_premise.rst:71
+#: ../../content/administration/on_premise.rst:70
+msgid ""
+"If your internal policies do not allow outbound connections on port `80`, "
+"you can alternatively open port `443` **and** add the following line to your "
+"Odoo configuration file:"
+msgstr ""
+
+#: ../../content/administration/on_premise.rst:78
 msgid "Too many users error"
 msgstr "Lỗi quá nhiều người dùng"
 
-#: ../../content/administration/on_premise.rst:73
+#: ../../content/administration/on_premise.rst:80
 msgid ""
 "If you have more users in a local database than provisioned in your Odoo "
 "Enterprise subscription, the following message should be displayed."
@@ -6162,7 +6169,7 @@ msgstr ""
 msgid "Too many users on a database error message"
 msgstr "Thông báo lỗi quá nhiều người dùng trên một cơ sở dữ liệu"
 
-#: ../../content/administration/on_premise.rst:79
+#: ../../content/administration/on_premise.rst:86
 msgid ""
 "When the message appears, you have 30 days to act before the database "
 "expires. The countdown is updated every day."
@@ -6170,12 +6177,12 @@ msgstr ""
 "Khi thông báo này xuất hiện, bạn có 30 ngày để hành động trước khi cơ sở dữ "
 "liệu hết hạn. Số ngày đếm ngược sẽ được cập nhật mỗi ngày."
 
-#: ../../content/administration/on_premise.rst:82
-#: ../../content/administration/on_premise.rst:102
+#: ../../content/administration/on_premise.rst:89
+#: ../../content/administration/on_premise.rst:109
 msgid "To resolve the issue, either:"
 msgstr "Để xử lý vấn đề:"
 
-#: ../../content/administration/on_premise.rst:84
+#: ../../content/administration/on_premise.rst:91
 msgid ""
 "**Add more users** to your subscription by clicking the :guilabel:`Upgrade "
 "your subscription` link displayed in the message to validate the upsell "
@@ -6185,7 +6192,7 @@ msgstr ""
 "kết :guilabel:`Nâng cấp gói đăng ký` hiển thị trong thông báo để xác thực "
 "báo giá bán thêm và thanh toán cho số lượng người dùng bổ sung."
 
-#: ../../content/administration/on_premise.rst:86
+#: ../../content/administration/on_premise.rst:93
 msgid ""
 ":ref:`Deactivate users <users/deactivate>` and **reject** the upsell "
 "quotation."
@@ -6193,7 +6200,7 @@ msgstr ""
 ":ref:`Huỷ kích hoạt người dùng <users/deactivate>` và **từ chối** báo giá "
 "bán thêm."
 
-#: ../../content/administration/on_premise.rst:88
+#: ../../content/administration/on_premise.rst:95
 msgid ""
 "Once your database has the correct number of users, the expiration message "
 "disappears automatically after a few days, when the next verification occurs."
@@ -6201,11 +6208,11 @@ msgstr ""
 "Khi cơ sở dữ liệu của bạn có đúng số lượng người dùng, thông báo hết hạn sẽ "
 "tự động biến mất sau vài ngày khi xác minh tiếp theo diễn ra."
 
-#: ../../content/administration/on_premise.rst:92
+#: ../../content/administration/on_premise.rst:99
 msgid "Database expired error"
 msgstr "Lỗi cơ sở dữ liệu hết hạn"
 
-#: ../../content/administration/on_premise.rst:94
+#: ../../content/administration/on_premise.rst:101
 msgid ""
 "If your database expires before you renew your subscription, the following "
 "message should be displayed."
@@ -6217,7 +6224,7 @@ msgstr ""
 msgid "Database expired error message"
 msgstr "Thông báo lỗi cơ sở dữ liệu hết hạn"
 
-#: ../../content/administration/on_premise.rst:100
+#: ../../content/administration/on_premise.rst:107
 msgid ""
 "This message appears if you fail to act before the end of the 30-day "
 "countdown."
@@ -6225,7 +6232,7 @@ msgstr ""
 "Thông báo này sẽ xuất hiện nếu bạn không hành động trước khi thời gian đếm "
 "ngược 30 ngày kết thúc."
 
-#: ../../content/administration/on_premise.rst:104
+#: ../../content/administration/on_premise.rst:111
 msgid ""
 "Click the :guilabel:`Renew your subscription` link displayed in the message "
 "and complete the process. If you pay by wire transfer, your subscription "
@@ -6237,7 +6244,7 @@ msgstr ""
 "bạn sẽ được gia hạn khi khoản thanh toán được nhận, có thể mất vài ngày. "
 "Thanh toán bằng thẻ tín dụng sẽ được xử lý ngay lập tức."
 
-#: ../../content/administration/on_premise.rst:107
+#: ../../content/administration/on_premise.rst:114
 msgid "`Send a support ticket <https://www.odoo.com/help>`_."
 msgstr "`Gửi phiếu hỗ trợ qua <https://www.odoo.com/help>`_."
 

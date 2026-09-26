@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-25 17:31+0000\n"
 "PO-Revision-Date: 2026-08-27 16:17+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-19-doc/"
@@ -1005,7 +1005,7 @@ msgstr ":doc:`transactions`"
 #: ../../content/applications/finance/accounting/bank/bank_synchronization.rst:26
 #: ../../content/applications/finance/accounting/bank/bank_synchronization/basiq.rst:21
 #: ../../content/applications/finance/accounting/bank/bank_synchronization/ponto.rst:20
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:16
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:18
 #: ../../content/applications/finance/accounting/bank/internal_transfers.rst:12
 #: ../../content/applications/finance/accounting/bank/reconciliation_models.rst:17
 #: ../../content/applications/finance/accounting/customer_invoices/cash_discounts.rst:27
@@ -1020,7 +1020,7 @@ msgstr ":doc:`transactions`"
 #: ../../content/applications/finance/accounting/get_started/avg_price_valuation.rst:32
 #: ../../content/applications/finance/accounting/get_started/inventory_valuation.rst:34
 #: ../../content/applications/finance/accounting/get_started/journals.rst:122
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:15
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:13
 #: ../../content/applications/finance/accounting/get_started/tax_units.rst:22
 #: ../../content/applications/finance/accounting/payments/batch.rst:28
 #: ../../content/applications/finance/accounting/payments/batch.rst:138
@@ -2091,227 +2091,161 @@ msgstr "विदेशी करेंसी में बैंक अका�
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:5
 msgid ""
 "In Odoo, every transaction is recorded in the default currency of the "
-"company, and reports are all based on that default currency. When you have a "
-"bank account in a foreign currency, for every transaction, Odoo stores two "
-"values:"
+"company, and reports are all based on that default currency. With a bank "
+"account in a foreign currency, for every transaction, Odoo stores two values:"
 msgstr ""
-"Odoo में, हर ट्रांज़ैक्शन कंपनी की डिफ़ॉल्ट करेंसी में रिकॉर्ड किया जाता है, और सभी रिपोर्ट "
-"उसी डिफ़ॉल्ट करेंसी पर आधारित होती हैं। जब आपके पास विदेशी करेंसी में बैंक अकाउंट होता है, "
-"तो हर ट्रांज़ैक्शन के लिए, Odoo दो वैल्यू स्टोर करता है:"
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:9
-msgid "The debit/credit in the currency of the *company*;"
-msgstr "*कंपनी* की करेंसी में डेबिट/क्रेडिट;"
+msgid "The debit/credit in the currency of the company."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:10
-msgid "The debit/credit in the currency of the *bank account*."
-msgstr "*बैंक अकाउंट* की करेंसी में डेबिट/क्रेडिट।"
+msgid "The debit/credit in the currency of the bank account."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:12
 msgid ""
-"Currency rates are updated automatically using the web services of a banking "
-"institution. By default, Odoo uses the European Central Bank's web services "
-"but other options are available."
+"Currency rates are updated automatically using a banking institution's web "
+"services. By default, Odoo uses the European Central Bank's web services but "
+"other options are available."
 msgstr ""
-"करेंसी रेट बैंकिंग संस्थान की वेब सर्विस का उपयोग करके ऑटोमैटिकली अपडेट हो जाते हैं। डिफ़ॉल्ट "
-"रूप से, Odoo यूरोपियन सेंट्रल बैंक की वेब सर्विस का उपयोग करता है लेकिन अन्य ऑप्शन भी "
-"उपलब्ध हैं।"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:19
-msgid "Activate multi-currencies"
-msgstr "मल्टी-करेंसी एक्टिवेट करें"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:21
-msgid ""
-"To work with multiple currencies, go to :menuselection:`Accounting --> "
-"Configuration --> Settings --> Currencies` and tick :guilabel:`Multi-"
-"Currencies`. Under :guilabel:`Post Exchange difference entries in:`, provide "
-"a :guilabel:`Journal`, a :guilabel:`Gain Account`, a :guilabel:`Loss "
-"Account`, and then click on :guilabel:`Save`."
-msgstr ""
-"एकाधिक करेंसी के साथ वर्क करने के लिए, :menuselection:`अकाउंटिंग --> कॉन्फ़िगरेशन --> "
-"सेटिंग --> Currencies` पर जाएं और :guilabel:`मल्टी-करेंसी` टिक करें। :guilabel:`Post "
-"Exchange difference entries in:` के अंतर्गत, एक :guilabel:`जर्नल`, "
-"एक :guilabel:`Gain Account`, एक :guilabel:`Loss Account` प्रदान करें, और "
-"फिर :guilabel:`सेव करें` पर क्लिक करें।"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:27
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:23
 msgid "Configure currencies"
 msgstr "करेंसी कॉन्फ़िगर करें"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:29
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:25
 msgid ""
-"Once Odoo is configured to support multiple currencies, they are all created "
-"by default, but not necessarily active. To activate the new currencies, "
-"click on :guilabel:`Activate Other Currencies` under the :guilabel:`Multi-"
-"Currencies` setting or go to :menuselection:`Accounting --> Configuration --"
-"> Accounting: Currencies`."
+"To work with multiple currencies, go to :menuselection:`Accounting --> "
+"Configuration --> Currencies`, then :doc:`activate and configure new "
+"currencies <../get_started/multi_currency>`. Set up manual or "
+"automatic :ref:`currency rate <multi-currency/config-rates>` updates and "
+"define the accounts and journals used to record gains or losses incurred "
+"on :ref:`exchange rate differences <multi-currency/config-exch-diff>`."
 msgstr ""
-"एक बार जब Odoo एकाधिक करेंसी सपोर्ट करने के लिए कॉन्फ़िगर हो जाता है, तो वे सभी "
-"डिफ़ॉल्ट रूप से बना दी जाती हैं, लेकिन जरूरी नहीं कि एक्टिव हों। नई करेंसी को एक्टिवेट करने "
-"के लिए, :guilabel:`Activate Other Currencies` पर :guilabel:`मल्टी-करेंसी` सेटिंग के "
-"अंतर्गत क्लिक करें या :menuselection:`अकाउंटिंग --> कॉन्फ़िगरेशन --> Accounting: "
-"Currencies` पर जाएं।"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:34
-msgid ""
-"When the currencies are activated, you can choose to **automate** the "
-"currency rate update, or leave it on **manual**. To configure the rate "
-"update, go back to :menuselection:`Accounting --> Configuration --> Settings "
-"--> Currencies`, check :guilabel:`Automatic Currency Rates`, "
-"set :guilabel:`Interval` to your desired frequency, and then click "
-"on :guilabel:`Save`. You also have the option to choose "
-"the :guilabel:`Service` you wish to obtain currency rates from."
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:33
+msgid ":doc:`Multi-currency system <../get_started/multi_currency>`"
 msgstr ""
-"जब करेंसी एक्टिवेट हो जाती हैं, तो आप करेंसी रेट अपडेट को **ऑटोमेट** करना चुन सकते हैं, या "
-"इसे **मैन्युअल** पर छोड़ सकते हैं। रेट अपडेट कॉन्फ़िगर करने के "
-"लिए, :menuselection:`अकाउंटिंग --> कॉन्फ़िगरेशन --> सेटिंग --> Currencies` पर वापस "
-"जाएं, :guilabel:`Automatic Currency Rates` चेक करें, :guilabel:`इंटरवल` को अपनी "
-"इच्छित फ़्रीक्वेंसी पर सेट करें, और फिर :guilabel:`सेव करें` पर क्लिक करें। आपके पास यह चुनने "
-"का विकल्प भी है कि आप किस :guilabel:`सर्विस` से करेंसी रेट प्राप्त करना चाहते हैं।"
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:38
+msgid "Create bank journals and accounts in foreign currencies"
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:40
 msgid ""
-"Click on the Update now button (:guilabel:`🗘`) besides the :guilabel:`Next "
-"Run` field to update the currency rates manually."
+"To set up a bank account in a foreign currency, first :ref:`create a new "
+"bank journal <accounting/journals/bank>` via :menuselection:`Accounting --> "
+"Configuration --> Journals`. Set the journal's currency to the foreign "
+"currency, then create a new bank account:"
 msgstr ""
-":guilabel:`Next Run` फ़ील्ड के बगल में Update now बटन (:guilabel:`🗘`) पर क्लिक करें "
-"ताकि करेंसी रेट को मैन्युअली अपडेट किया जा सके।"
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:44
-msgid "Create a new bank account"
-msgstr "एक नया बैंक खाता बनाएं"
+msgid ""
+"In the :guilabel:`Bank Account` field of the journal, enter the name as it "
+"should appear in the chart of accounts."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:46
-msgid ""
-"In the accounting application, go to :menuselection:`Accounting --> "
-"Configuration --> Journals` and create a new one. Enter a :guilabel:`Journal "
-"Name` and set the :guilabel:`Type` to `Bank`. In the :guilabel:`Journal "
-"Entries` tab, enter a **short code**, a **currency**, and then finally click "
-"on the :guilabel:`Bank Account` field to create a new account. In the pop-up "
-"window of the account creation, enter a name, a code (ex.: 550007), set its "
-"type to `Bank and Cash`, set a currency type, and save. When you are back on "
-"the **journal**, click on the :guilabel:`Account Number` field, and in the "
-"pop-up window, fill out the :guilabel:`Account Number`, :guilabel:`Bank` of "
-"your account, and save."
+msgid "Click :guilabel:`Create and edit`."
 msgstr ""
-"अकाउंटिंग ऐप्लिकेशन में, :menuselection:`अकाउंटिंग --> कॉन्फ़िगरेशन --> Journals` पर "
-"जाएं और एक नया बनाएं। एक :guilabel:`Journal Name` दर्ज करें और :guilabel:`टाइप` "
-"को `Bank` पर सेट करें। :guilabel:`Journal Entries` टैब में, एक **शॉर्ट कोड**, एक "
-"**करेंसी** दर्ज करें, और फिर अंत में नया अकाउंट बनाने के लिए :guilabel:`Bank Account` "
-"फ़ील्ड पर क्लिक करें। अकाउंट क्रिएशन के पॉप-अप विंडो में, एक नाम, एक कोड (उदा.: 550007) "
-"दर्ज करें, इसका टाइप `Bank and Cash` पर सेट करें, एक करेंसी टाइप सेट करें, और सेव करें। जब "
-"आप **जर्नल** पर वापस आएं, तो :guilabel:`Account Number` फ़ील्ड पर क्लिक करें, और "
-"पॉप-अप विंडो में, :guilabel:`Account Number`, अपने अकाउंट का :guilabel:`बैंक` भरें, "
-"और सेव करें।"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "Example of a created bank journal."
-msgstr "बनाए गए बैंक जर्नल का उदाहरण।"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:59
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:47
 msgid ""
-"Upon creation of the journal, Odoo automatically links the bank account to "
-"the journal. It can be found under :menuselection:`Accounting --> "
-"Configuration --> Accounting: Chart of Accounts`."
+"In the resulting :guilabel:`Create Default Account` window, :ref:`configure "
+"the account <chart-of-account/create>`."
 msgstr ""
-"जर्नल के क्रिएशन पर, Odoo ऑटोमैटिकली बैंक अकाउंट को जर्नल से लिंक कर देता है। "
-"यह :menuselection:`अकाउंटिंग --> कॉन्फ़िगरेशन --> Accounting: Chart of Accounts` "
-"के अंतर्गत मिल सकता है।"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:63
-msgid "Vendor bill in a foreign currency"
-msgstr "विदेशी करेंसी में वेंडर बिल"
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:49
+msgid ""
+"Optionally, set the :guilabel:`Currency` on the bank account to the desired "
+"foreign currency."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:51
+msgid ""
+"Setting a currency on an account in the chart of accounts restricts the "
+"journal items targeting the account to the selected currency."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:53
+msgid ""
+"Leaving the :guilabel:`Currency` field blank on an account in the chart of "
+"accounts allows journal items of any currency to target that account. In "
+"this case, journal items in the foreign currency bank journal are limited to "
+"the currency specified on the journal itself. To allow increased "
+"flexibility, leaving the :guilabel:`Currency` field blank is recommended."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:58
+#: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:96
+#: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:210
+#: ../../content/applications/finance/accounting/reporting/annual-report.rst:29
+#: ../../content/applications/finance/fiscal_localizations/germany.rst:127
+#: ../../content/applications/finance/fiscal_localizations/italy.rst:223
+#: ../../content/applications/finance/fiscal_localizations/jordan.rst:135
+#: ../../content/applications/finance/fiscal_localizations/vietnam.rst:130
+#: ../../content/applications/finance/payment_providers/iyzico.rst:20
+msgid "Click :guilabel:`Save`."
+msgstr ":guilabel:`सेव करें` क्लिक करें।"
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:60
+msgid ""
+"On the journal, add a :ref:`Bank Account Number <accounting/batch/create-"
+"bank-account>` and :ref:`Bank <accounting/batch/create-bank>` if necessary "
+"(such as in the case of creating batch payment files)."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:65
-msgid ""
-"To pay a bill in a foreign currency, simply select the currency next to "
-"the :guilabel:`Journal` field and register the payment. Odoo automatically "
-"creates and posts the foreign **exchange gain or loss** as a new journal "
-"entry."
+msgid ":doc:`Journals <../get_started/journals>`"
 msgstr ""
-"विदेशी करेंसी में बिल का पेमेंट करने के लिए, बस :guilabel:`जर्नल` फ़ील्ड के बगल में करेंसी चुनें "
-"और पेमेंट रजिस्टर करें। Odoo ऑटोमैटिकली विदेशी **एक्सचेंज गेन या लॉस** को एक नए जर्नल "
-"एंट्री के रूप में बनाता और पोस्ट करता है।"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "How to set a bill currency."
-msgstr "बिल करेंसी कैसे सेट करें।"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:74
-msgid ""
-"Note that you can pay a foreign bill with another currency. In that case, "
-"Odoo automatically converts between the two currencies."
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:66
+msgid ":ref:`Manage bank and cash accounts <accounting/bank/manage>`"
 msgstr ""
-"ध्यान दें कि आप किसी विदेशी बिल का पेमेंट दूसरी करेंसी से कर सकते हैं। उस स्थिति में, Odoo "
-"ऑटोमैटिकली दोनों करेंसी के बीच कन्वर्ट कर देता है।"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:78
-msgid "Unrealized Currency Gains/Losses Report"
-msgstr "Unrealized Currency Gains/Losses रिपोर्ट"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:80
-msgid ""
-"This report gives an overview of all unrealized amounts in a foreign "
-"currency on your balance sheet, and allows you to adjust an entry or "
-"manually set an exchange rate. To access this report, go "
-"to :menuselection:`Reporting --> Management: Unrealized Currency Gains/"
-"Losses`. From here, you have access to all open entries in your **balance "
-"sheet**."
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:71
+msgid "Unrealized Currencies report"
 msgstr ""
-"यह रिपोर्ट आपकी बैलेंस शीट पर विदेशी करेंसी में सभी unrealized राशियों का पूरी जानकारी "
-"देती है, और आपको एंट्री एडजस्ट करने या मैन्युअली एक्सचेंज रेट सेट करने की अनुमति देती है। इस "
-"रिपोर्ट को एक्सेस करने के लिए, :menuselection:`रिपोर्टिंग --> मैनेजमेंट: Unrealized "
-"Currency Gains/Losses` पर जाएं। यहां से, आपके पास अपनी **बैलेंस शीट** में सभी ओपन "
-"एंट्री तक एक्सेस है।"
+
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:73
+msgid ""
+"The :guilabel:`Unrealized Currencies` report gives an overview of all "
+"unrealized amounts in a foreign currency on the balance sheet, and allows  "
+"an exchange rate to be set manually or entries to be adjusted. To access the "
+"report, go to :menuselection:`Accounting --> Review --> Unrealized "
+"Currencies`."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
 msgid "View of the Unrealized Gains/Losses journal."
 msgstr "Unrealized Gains/Losses जर्नल का व्यू।"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:89
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:81
 msgid ""
-"If you wish to use a different currency rate than the one set "
-"in :menuselection:`Accounting --> Configuration --> Settings --> "
-"Currencies`, click the :guilabel:`Exchange Rates` button and change the rate "
-"of the foreign currencies in the report."
+"To use a different currency rate than the one set "
+"in :menuselection:`Accounting --> Configuration --> Currencies`, click "
+"the :guilabel:`Exchange Rates` button and change the rate of the foreign "
+"currencies in the report."
 msgstr ""
-"अगर आप :menuselection:`अकाउंटिंग --> कॉन्फ़िगरेशन --> सेटिंग --> Currencies` में सेट "
-"की गई रेट से अलग करेंसी रेट इस्तेमाल करना चाहते हैं, तो :guilabel:`Exchange Rates` बटन "
-"पर क्लिक करें और रिपोर्ट में विदेशी करेंसी की रेट बदलें।"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "Menu to manually change exchange rates."
-msgstr "एक्सचेंज रेट मैन्युअली बदलने का मेन्यू।"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:97
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:85
 msgid ""
-"When manually changing **exchange rates**, a yellow banner appears allowing "
-"you to reset back to Odoo's rate. To do so, simply click on :guilabel:`Reset "
-"to Odoo's Rate`."
+"When manually changing exchange rates, a yellow banner appears allowing the "
+"rate to be reset to Odoo's rate. To do so, click :guilabel:`Reset to Odoo's "
+"Rate`."
 msgstr ""
-"**एक्सचेंज रेट** को मैन्युअली बदलने पर, एक पीला बैनर दिखाई देता है जो आपको Odoo की रेट "
-"पर रीसेट करने की अनुमति देता है। ऐसा करने के लिए, बस :guilabel:`Reset to Odoo's "
-"Rate` पर क्लिक करें।"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "Banner to reset back to Odoo's rates."
-msgstr "Odoo की रेट पर रीसेट करने के लिए बैनर।"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:104
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:88
 msgid ""
-"In order to update your **balance sheet** with the amount of "
-"the :guilabel:`adjustment` column, click on the :guilabel:`Adjustment Entry` "
-"button. In the pop-up window, select "
-"a :guilabel:`Journal`, :guilabel:`Expense Account` and :guilabel:`Income "
-"Account` to calculate and process the **unrealized gains and losses**."
+"To update the balance sheet with the amount of the :guilabel:`Adjustment` "
+"column, click the :guilabel:`Adjustment Entry` button in the top-left "
+"corner. In the pop-up window, select a :guilabel:`Journal`, "
+"an :guilabel:`Expense Account` and an :guilabel:`Income Account` to "
+"calculate and process the unrealized gains and/or losses."
 msgstr ""
-"अपनी **बैलेंस शीट** को :guilabel:`एडजस्टमेंट` कॉलम की राशि के साथ अपडेट करने के "
-"लिए, :guilabel:`एडजस्टमेंट एंट्री` बटन पर क्लिक करें। पॉप-अप विंडो में, **अनरियलाइज़्ड गेन "
-"और लॉस** की गणना और प्रोसेस करने के लिए एक :guilabel:`जर्नल`, :guilabel:`एक्सपेंस "
-"अकाउंट` और :guilabel:`इनकम अकाउंट` चुनें।"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:109
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:93
 msgid ""
 "You can set the date of the report in the :guilabel:`Date` field. Odoo "
 "automatically reverses the booking entry to the date set "
@@ -2320,17 +2254,11 @@ msgstr ""
 "आप रिपोर्ट की तारीख को :guilabel:`तारीख` फ़ील्ड में सेट कर सकते हैं। Odoo ऑटोमैटिकली "
 "बुकिंग एंट्री को :guilabel:`रिवर्सल तारीख` में सेट की गई तारीख पर रिवर्स कर देता है।"
 
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:112
+#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:96
 msgid ""
-"Once posted, the :guilabel:`adjustment` column should indicate `0.00`, "
-"meaning all **unrealized gains/losses** have been adjusted."
+"Once posted, the :guilabel:`Adjustment` column should indicate `0.00`, "
+"meaning all unrealized gains and/or losses have been adjusted."
 msgstr ""
-"पोस्ट करने के बाद, :guilabel:`एडजस्टमेंट` कॉलम `0.00` दिखाना चाहिए, जिसका मतलब है "
-"कि सभी **अनरियलाइज़्ड गेन/लॉस** एडजस्ट हो गए हैं।"
-
-#: ../../content/applications/finance/accounting/bank/foreign_currency.rst:None
-msgid "Unrealized Currency Gains/Losses report once adjusted."
-msgstr "एडजस्ट करने के बाद अनरियलाइज़्ड करेंसी गेन/लॉस रिपोर्ट।"
 
 #: ../../content/applications/finance/accounting/bank/internal_transfers.rst:3
 msgid "Internal transfers"
@@ -6321,17 +6249,6 @@ msgid ""
 msgstr ""
 ":doc:`दस्तावेज़ में प्राप्त करें <../../../productivity/documents>`: अगर एकाधिक परचेज़ "
 "जर्नल उपयोग किए जाते हैं तो :guilabel:`दस्तावेज़ वर्कस्पेस` फ़ील्ड में फ़ोल्डर चुनें।"
-
-#: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:96
-#: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:210
-#: ../../content/applications/finance/accounting/reporting/annual-report.rst:29
-#: ../../content/applications/finance/fiscal_localizations/germany.rst:127
-#: ../../content/applications/finance/fiscal_localizations/italy.rst:223
-#: ../../content/applications/finance/fiscal_localizations/jordan.rst:135
-#: ../../content/applications/finance/fiscal_localizations/vietnam.rst:130
-#: ../../content/applications/finance/payment_providers/iyzico.rst:20
-msgid "Click :guilabel:`Save`."
-msgstr ":guilabel:`सेव करें` क्लिक करें।"
 
 #: ../../content/applications/finance/accounting/customer_invoices/electronic_invoicing.rst:98
 msgid ""
@@ -12280,7 +12197,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/get_started.rst:107
 #: ../../content/applications/finance/accounting/get_started/chart_of_accounts.rst:3
 #: ../../content/applications/finance/accounting/get_started/cheat_sheet.rst:79
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:92
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:90
 #: ../../content/applications/finance/fiscal_localizations/argentina.rst:78
 #: ../../content/applications/finance/fiscal_localizations/belgium.rst:72
 #: ../../content/applications/finance/fiscal_localizations/brazil.rst:98
@@ -12366,7 +12283,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/get_started.rst:148
 #: ../../content/applications/finance/accounting/get_started/journals.rst:3
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:104
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:102
 #: ../../content/applications/finance/fiscal_localizations/argentina.rst:167
 #: ../../content/applications/finance/fiscal_localizations/chile.rst:285
 #: ../../content/applications/finance/fiscal_localizations/france.rst:635
@@ -17600,22 +17517,16 @@ msgstr "मल्टी-करेंसी सिस्टम"
 msgid ""
 "Odoo allows you to issue invoices, receive bills, and record transactions in "
 "currencies other than the main currency configured for your company. You can "
-"also set up bank accounts in other currencies and run reports on your "
-"foreign currency activities."
+"also :doc:`set up bank accounts in other currencies <../bank/"
+"foreign_currency>` and run :ref:`reports on your foreign currency activities "
+"<accounting/foreign_currency/report>`."
 msgstr ""
-"Odoo आपको अपनी कंपनी के लिए कॉन्फ़िगर की गई मेन करेंसी के अलावा अन्य करेंसी में इनवॉइस "
-"जारी करने, बिल प्राप्त करने और ट्रांज़ैक्शन रिकॉर्ड करने की सुविधा देता है। आप अन्य करेंसी में "
-"बैंक अकाउंट भी सेटअप कर सकते हैं और अपनी फ़ॉरेन करेंसी एक्टिविटी पर रिपोर्ट चला सकते हैं।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:10
-msgid ":doc:`../bank/foreign_currency`"
-msgstr ":doc:`../bank/foreign_currency`"
-
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:20
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:18
 msgid "Main currency"
 msgstr "मेन करेंसी"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:22
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:20
 msgid ""
 "The **main currency** is defined by default according to the company's "
 "country. You can change it by going to :menuselection:`Accounting --> "
@@ -17626,11 +17537,11 @@ msgstr ""
 "इसे :menuselection:`अकाउंटिंग --> कॉन्फ़िगरेशन --> सेटिंग --> करंसी` पर जाकर "
 "और :guilabel:`मुख्य करंसी` सेटिंग में करंसी बदलकर बदल सकते हैं।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:29
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:27
 msgid "Enable foreign currencies"
 msgstr "विदेशी करंसी सक्षम करें"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:31
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:29
 msgid ""
 "Go to :menuselection:`Accounting --> Configuration --> Currencies`, and "
 "enable the currencies you wish to use by toggling the :guilabel:`Active` "
@@ -17643,15 +17554,15 @@ msgstr ""
 msgid "Enable the currencies you wish to use."
 msgstr "उन करंसी को सक्षम करें जिनका आप इस्तेमाल करना चाहते हैं।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:41
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:39
 msgid "Currency rates"
 msgstr "करंसी रेट"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:46
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:44
 msgid "Manual update"
 msgstr "मैन्युअल अपडेट"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:48
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:46
 msgid ""
 "To manually create and set a currency rate, go to :menuselection:`Accounting "
 "--> Configuration --> Currencies`, click on the currency you wish to change "
@@ -17667,11 +17578,11 @@ msgstr ""
 msgid "Create or modify the currency rate."
 msgstr "करंसी रेट बनाएं या बदलाव करें।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:59
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:57
 msgid "Automatic update"
 msgstr "ऑटोमैटिक अपडेट"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:61
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:59
 msgid ""
 "When you activate a second currency for the first time, :guilabel:`Automatic "
 "Currency Rates` appears under :menuselection:`Accounting --> Configuration --"
@@ -17683,7 +17594,7 @@ msgstr ""
 "में :guilabel:`Automatic Currency Rates` दिखाई देता है। रेट अपडेट करने के "
 "लिए :icon:`os-refresh-data` :guilabel:`Update now` आइकॉन पर क्लिक करें।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:65
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:63
 msgid ""
 "Rates can be updated at regular intervals automatically. To do so, change "
 "the :guilabel:`Interval` from :guilabel:`Manually` "
@@ -17697,11 +17608,11 @@ msgstr ""
 "आप :guilabel:`Service` फ़ील्ड पर क्लिक करके वह वेब सर्विस भी चुन सकते हैं जिससे आप "
 "नवीनतम करेंसी रेट प्राप्त करना चाहते हैं।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:73
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:71
 msgid "Exchange difference entries"
 msgstr "विनिमय अंतर एंट्री"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:75
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:73
 msgid ""
 "Odoo automatically records exchange differences entries on dedicated "
 "accounts, in a dedicated journal."
@@ -17709,7 +17620,7 @@ msgstr ""
 "Odoo ऑटोमैटिकली एक समर्पित जर्नल में, समर्पित अकाउंट पर विनिमय अंतर एंट्री रिकॉर्ड करता "
 "है।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:78
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:76
 msgid ""
 "To define which journal and accounts to use to post exchange difference "
 "entries, go to :menuselection:`Accounting --> Configuration --> Settings`, "
@@ -17722,7 +17633,7 @@ msgstr ""
 "और :guilabel:`Journal`, :guilabel:`Gain` और :guilabel:`Loss accounts` में "
 "बदलाव करें।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:84
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:82
 msgid ""
 "If you receive a payment for a customer invoice one month after it was "
 "issued, the exchange rate has likely changed since. Therefore, this "
@@ -17734,7 +17645,7 @@ msgstr ""
 "तब से बदल गई है। इसलिए, यह उतार-चढ़ाव विनिमय अंतर के कारण कुछ लाभ या हानि को "
 "दर्शाता है, जिसे Odoo ऑटोमैटिकली डिफ़ॉल्ट **विनिमय अंतर** जर्नल में रिकॉर्ड करता है।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:94
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:92
 msgid ""
 "Each account can have a set currency. By doing so, all moves relevant to the "
 "account are forced to have that account's currency."
@@ -17742,7 +17653,7 @@ msgstr ""
 "प्रत्येक अकाउंट में एक सेट करंसी हो सकती है। ऐसा करने से, अकाउंट से संबंधित सभी मूवमेंट को उस "
 "अकाउंट की करंसी रखने के लिए बाध्य किया जाता है।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:97
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:95
 msgid ""
 "To do so, go to :menuselection:`Accounting --> Configuration --> Charts of "
 "Accounts` and select a currency in the field :guilabel:`Currency`. If left "
@@ -17752,7 +17663,7 @@ msgstr ""
 "Accounts` पर जाएं और :guilabel:`Currency` फ़ील्ड में एक करेंसी चुनें। अगर खाली छोड़ "
 "दिया जाता है, तो सिर्फ़ एक की जगह सभी सक्रिय करेंसी को हैंडल किया जाता है।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:106
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:104
 msgid ""
 "If a currency is set on a **journal**, that journal only handles "
 "transactions in that currency."
@@ -17760,7 +17671,7 @@ msgstr ""
 "अगर किसी **जर्नल** पर करंसी सेट की गई है, तो वह जर्नल सिर्फ़ उसी करंसी में ट्रांज़ैक्शन हैंडल "
 "करता है।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:108
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:106
 msgid ""
 "To do so, go to :menuselection:`Accounting --> Configuration --> Journals`, "
 "open the journal you want to edit, and select a currency in the "
@@ -17773,15 +17684,15 @@ msgstr ""
 msgid "Select the currency for the journal to handle."
 msgstr "जर्नल के लिए हैंडल करने के लिए करंसी चुनें।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:118
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:116
 msgid "Multi-currency accounting"
 msgstr "मल्टी-करंसी अकाउंटिंग"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:123
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:121
 msgid "Invoices, bills, and other documents"
 msgstr "इनवॉइस, बिल और अन्य दस्तावेज़"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:125
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:123
 msgid ""
 "For all documents, you can select the currency and journal to use for the "
 "transaction on the document itself."
@@ -17793,11 +17704,11 @@ msgstr ""
 msgid "Select the currency and journal to use."
 msgstr "इस्तेमाल करने के लिए करंसी और जर्नल चुनें।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:135
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:133
 msgid "Payment registration"
 msgstr "पेमेंट रजिस्ट्रेशन"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:137
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:135
 msgid ""
 "To register a payment in a currency other than your company's main currency, "
 "click on the :guilabel:`Register Payment` payment button of your document "
@@ -17812,11 +17723,11 @@ msgstr ""
 msgid "Select the currency and journal to use before registering the payment."
 msgstr "पेमेंट रजिस्टर करने से पहले इस्तेमाल करने के लिए करेंसी और जर्नल चुनें।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:148
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:146
 msgid "Bank transactions"
 msgstr "बैंक ट्रांज़ैक्शन"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:150
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:148
 msgid ""
 "When creating or importing bank transactions, the amount is in the company's "
 "main currency. To input a **foreign currency**, select a currency in "
@@ -17834,7 +17745,7 @@ msgstr ""
 msgid "The extra fields related to foreign currencies."
 msgstr "विदेशी करेंसी से संबंधित अतिरिक्त फ़ील्ड।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:159
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:157
 msgid ""
 "When reconciling, Odoo displays both the foreign currency amount and the "
 "equivalent amount in your company's main currency."
@@ -17842,11 +17753,11 @@ msgstr ""
 "रिकन्साइल करते समय, Odoo विदेशी करेंसी अमाउंट और आपकी कंपनी की मुख्य करेंसी में समतुल्य "
 "अमाउंट दोनों दिखाता है।"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:165
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:163
 msgid "Exchange rate journal entries"
 msgstr "एक्सचेंज रेट जर्नल एंट्री"
 
-#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:167
+#: ../../content/applications/finance/accounting/get_started/multi_currency.rst:165
 msgid ""
 "To see **exchange difference journal entries**, go "
 "to :menuselection:`Accounting --> Review --> Journal Items`. In the search "
@@ -52528,7 +52439,7 @@ msgstr "ये कोड गोपनीय हैं और इन्हें 
 #: ../../content/applications/finance/payment_providers/nuvei.rst:36
 #: ../../content/applications/finance/payment_providers/paymob.rst:37
 #: ../../content/applications/finance/payment_providers/tosspayments.rst:45
-#: ../../content/applications/finance/payment_providers/xendit.rst:49
+#: ../../content/applications/finance/payment_providers/xendit.rst:74
 msgid "Configuration on Odoo"
 msgstr "Odoo पर कॉन्फ़िगरेशन"
 
@@ -84537,7 +84448,7 @@ msgstr ""
 #: ../../content/applications/finance/payment_providers/stripe.rst:11
 #: ../../content/applications/finance/payment_providers/tosspayments.rst:55
 #: ../../content/applications/finance/payment_providers/worldline.rst:71
-#: ../../content/applications/finance/payment_providers/xendit.rst:58
+#: ../../content/applications/finance/payment_providers/xendit.rst:83
 msgid ":doc:`../payment_providers`"
 msgstr ":doc:`../payment_providers`"
 
@@ -84663,7 +84574,7 @@ msgstr ""
 #: ../../content/applications/finance/payment_providers/nuvei.rst:42
 #: ../../content/applications/finance/payment_providers/redsys.rst:40
 #: ../../content/applications/finance/payment_providers/worldline.rst:68
-#: ../../content/applications/finance/payment_providers/xendit.rst:55
+#: ../../content/applications/finance/payment_providers/xendit.rst:80
 msgid "Configure the rest of the options to your liking."
 msgstr "बाकी विकल्पों को अपनी पसंद के अनुसार कॉन्फ़िगर करें।"
 
@@ -87838,17 +87749,11 @@ msgstr ""
 
 #: ../../content/applications/finance/payment_providers/xendit.rst:40
 msgid ""
-"In the :guilabel:`Webhook URL` section, enter your Odoo database's URL, "
-"followed by `/payment/xendit/webhook` (e.g., `https://example.odoo.com/"
-"payment/xendit/webhook`) in the field :guilabel:`Invoices paid` and click "
-"the :guilabel:`Test and save` button next to it."
+"In the :guilabel:`Webhook URL` section, configure the webhook fields as "
+"described in :ref:`payment_providers/xendit/configure_webhooks` below."
 msgstr ""
-":guilabel:`Webhook URL` सेक्शन में, अपने Odoo डेटाबेस का URL दर्ज करें, उसके बाद `/"
-"payment/xendit/webhook` (जैसे, `https://example.odoo.com/payment/xendit/"
-"webhook`) फ़ील्ड :guilabel:`Invoices paid` में दर्ज करें और उसके बगल "
-"में :guilabel:`Test and save` बटन पर क्लिक करें।"
 
-#: ../../content/applications/finance/payment_providers/xendit.rst:43
+#: ../../content/applications/finance/payment_providers/xendit.rst:42
 msgid ""
 "To allow recurring payments for credit cards, go "
 "to :menuselection:`Configuration: Payment Channels` in the left part of the "
@@ -87862,7 +87767,55 @@ msgstr ""
 "घुमाएं, :guilabel:`View Details` पर क्लिक करें, और संबंधित स्विच को टॉगल "
 "करके :guilabel:`Recurring Payments` को एनेबल करें।"
 
-#: ../../content/applications/finance/payment_providers/xendit.rst:51
+#: ../../content/applications/finance/payment_providers/xendit.rst:50
+msgid "Webhook configuration"
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:53
+msgid ""
+"Xendit replaced its previous single, per-event webhook field with separate "
+"v3 event groups. If your Xendit account was connected to Odoo before this "
+"change, **successful payments and saved cards may no longer update "
+"automatically** until the new fields described below are configured."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:57
+msgid ""
+"Log in to the `Xendit Dashboard <https://dashboard.xendit.co>`_ and navigate "
+"to :menuselection:`Configuration: Settings`."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:59
+msgid ""
+"In the :guilabel:`Developers` section, click `Webhooks <https://"
+"dashboard.xendit.co/settings/developers#webhooks>`_."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:61
+msgid ""
+"Enter your Odoo database's URL, followed by `/payment/xendit/webhook` (e.g., "
+"`https://example.odoo.com/payment/xendit/webhook`), in the following fields:"
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:64
+msgid ":guilabel:`Payment Status`"
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:65
+msgid ":guilabel:`Payment Token Status`"
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:67
+msgid "Click :guilabel:`Test and save` next to each of those fields."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:70
+msgid ""
+"Both fields must point to the same webhook URL: Odoo uses a single endpoint "
+"to process notifications for both token and payment status updates."
+msgstr ""
+
+#: ../../content/applications/finance/payment_providers/xendit.rst:76
 msgid ""
 ":ref:`Navigate to the payment provider Xendit <payment_providers/add_new>` "
 "and change its state to :guilabel:`Enabled`."
@@ -87870,7 +87823,7 @@ msgstr ""
 ":ref:`पेमेंट प्रोवाइडर Xendit पर जाएं <payment_providers/add_new>` और इसकी स्थिति "
 "को :guilabel:`Enabled` में बदलें।"
 
-#: ../../content/applications/finance/payment_providers/xendit.rst:53
+#: ../../content/applications/finance/payment_providers/xendit.rst:78
 msgid ""
 "Fill in the :guilabel:`Secret Key` and :guilabel:`Webhook Token` fields with "
 "the information saved at the step :ref:`payment_providers/xendit/"
@@ -87879,6 +87832,235 @@ msgstr ""
 ":guilabel:`Secret Key` और :guilabel:`Webhook Token` फ़ील्ड को "
 "स्टेप :ref:`payment_providers/xendit/configure_dashboard` पर सेव की गई जानकारी "
 "से भरें।"
+
+#~ msgid ""
+#~ "In the :guilabel:`Webhook URL` section, enter your Odoo database's URL, "
+#~ "followed by `/payment/xendit/webhook` (e.g., `https://example.odoo.com/"
+#~ "payment/xendit/webhook`) in the field :guilabel:`Invoices paid` and click "
+#~ "the :guilabel:`Test and save` button next to it."
+#~ msgstr ""
+#~ ":guilabel:`Webhook URL` सेक्शन में, अपने Odoo डेटाबेस का URL दर्ज करें, उसके बाद `/"
+#~ "payment/xendit/webhook` (जैसे, `https://example.odoo.com/payment/xendit/"
+#~ "webhook`) फ़ील्ड :guilabel:`Invoices paid` में दर्ज करें और उसके बगल "
+#~ "में :guilabel:`Test and save` बटन पर क्लिक करें।"
+
+#~ msgid ""
+#~ "In Odoo, every transaction is recorded in the default currency of the "
+#~ "company, and reports are all based on that default currency. When you "
+#~ "have a bank account in a foreign currency, for every transaction, Odoo "
+#~ "stores two values:"
+#~ msgstr ""
+#~ "Odoo में, हर ट्रांज़ैक्शन कंपनी की डिफ़ॉल्ट करेंसी में रिकॉर्ड किया जाता है, और सभी "
+#~ "रिपोर्ट उसी डिफ़ॉल्ट करेंसी पर आधारित होती हैं। जब आपके पास विदेशी करेंसी में बैंक अकाउंट "
+#~ "होता है, तो हर ट्रांज़ैक्शन के लिए, Odoo दो वैल्यू स्टोर करता है:"
+
+#~ msgid "The debit/credit in the currency of the *company*;"
+#~ msgstr "*कंपनी* की करेंसी में डेबिट/क्रेडिट;"
+
+#~ msgid "The debit/credit in the currency of the *bank account*."
+#~ msgstr "*बैंक अकाउंट* की करेंसी में डेबिट/क्रेडिट।"
+
+#~ msgid ""
+#~ "Currency rates are updated automatically using the web services of a "
+#~ "banking institution. By default, Odoo uses the European Central Bank's "
+#~ "web services but other options are available."
+#~ msgstr ""
+#~ "करेंसी रेट बैंकिंग संस्थान की वेब सर्विस का उपयोग करके ऑटोमैटिकली अपडेट हो जाते हैं। "
+#~ "डिफ़ॉल्ट रूप से, Odoo यूरोपियन सेंट्रल बैंक की वेब सर्विस का उपयोग करता है लेकिन अन्य "
+#~ "ऑप्शन भी उपलब्ध हैं।"
+
+#~ msgid "Activate multi-currencies"
+#~ msgstr "मल्टी-करेंसी एक्टिवेट करें"
+
+#~ msgid ""
+#~ "To work with multiple currencies, go to :menuselection:`Accounting --> "
+#~ "Configuration --> Settings --> Currencies` and tick :guilabel:`Multi-"
+#~ "Currencies`. Under :guilabel:`Post Exchange difference entries in:`, "
+#~ "provide a :guilabel:`Journal`, a :guilabel:`Gain Account`, "
+#~ "a :guilabel:`Loss Account`, and then click on :guilabel:`Save`."
+#~ msgstr ""
+#~ "एकाधिक करेंसी के साथ वर्क करने के लिए, :menuselection:`अकाउंटिंग --> कॉन्फ़िगरेशन --"
+#~ "> सेटिंग --> Currencies` पर जाएं और :guilabel:`मल्टी-करेंसी` टिक "
+#~ "करें। :guilabel:`Post Exchange difference entries in:` के अंतर्गत, "
+#~ "एक :guilabel:`जर्नल`, एक :guilabel:`Gain Account`, एक :guilabel:`Loss "
+#~ "Account` प्रदान करें, और फिर :guilabel:`सेव करें` पर क्लिक करें।"
+
+#~ msgid ""
+#~ "Once Odoo is configured to support multiple currencies, they are all "
+#~ "created by default, but not necessarily active. To activate the new "
+#~ "currencies, click on :guilabel:`Activate Other Currencies` under "
+#~ "the :guilabel:`Multi-Currencies` setting or go "
+#~ "to :menuselection:`Accounting --> Configuration --> Accounting: "
+#~ "Currencies`."
+#~ msgstr ""
+#~ "एक बार जब Odoo एकाधिक करेंसी सपोर्ट करने के लिए कॉन्फ़िगर हो जाता है, तो वे सभी "
+#~ "डिफ़ॉल्ट रूप से बना दी जाती हैं, लेकिन जरूरी नहीं कि एक्टिव हों। नई करेंसी को एक्टिवेट "
+#~ "करने के लिए, :guilabel:`Activate Other Currencies` पर :guilabel:`मल्टी-करेंसी` "
+#~ "सेटिंग के अंतर्गत क्लिक करें या :menuselection:`अकाउंटिंग --> कॉन्फ़िगरेशन --> "
+#~ "Accounting: Currencies` पर जाएं।"
+
+#~ msgid ""
+#~ "When the currencies are activated, you can choose to **automate** the "
+#~ "currency rate update, or leave it on **manual**. To configure the rate "
+#~ "update, go back to :menuselection:`Accounting --> Configuration --> "
+#~ "Settings --> Currencies`, check :guilabel:`Automatic Currency Rates`, "
+#~ "set :guilabel:`Interval` to your desired frequency, and then click "
+#~ "on :guilabel:`Save`. You also have the option to choose "
+#~ "the :guilabel:`Service` you wish to obtain currency rates from."
+#~ msgstr ""
+#~ "जब करेंसी एक्टिवेट हो जाती हैं, तो आप करेंसी रेट अपडेट को **ऑटोमेट** करना चुन सकते हैं, "
+#~ "या इसे **मैन्युअल** पर छोड़ सकते हैं। रेट अपडेट कॉन्फ़िगर करने के "
+#~ "लिए, :menuselection:`अकाउंटिंग --> कॉन्फ़िगरेशन --> सेटिंग --> Currencies` पर "
+#~ "वापस जाएं, :guilabel:`Automatic Currency Rates` चेक करें, :guilabel:`इंटरवल` "
+#~ "को अपनी इच्छित फ़्रीक्वेंसी पर सेट करें, और फिर :guilabel:`सेव करें` पर क्लिक करें। आपके "
+#~ "पास यह चुनने का विकल्प भी है कि आप किस :guilabel:`सर्विस` से करेंसी रेट प्राप्त करना "
+#~ "चाहते हैं।"
+
+#~ msgid ""
+#~ "Click on the Update now button (:guilabel:`🗘`) besides "
+#~ "the :guilabel:`Next Run` field to update the currency rates manually."
+#~ msgstr ""
+#~ ":guilabel:`Next Run` फ़ील्ड के बगल में Update now बटन (:guilabel:`🗘`) पर क्लिक "
+#~ "करें ताकि करेंसी रेट को मैन्युअली अपडेट किया जा सके।"
+
+#~ msgid "Create a new bank account"
+#~ msgstr "एक नया बैंक खाता बनाएं"
+
+#~ msgid ""
+#~ "In the accounting application, go to :menuselection:`Accounting --> "
+#~ "Configuration --> Journals` and create a new one. Enter "
+#~ "a :guilabel:`Journal Name` and set the :guilabel:`Type` to `Bank`. In "
+#~ "the :guilabel:`Journal Entries` tab, enter a **short code**, a "
+#~ "**currency**, and then finally click on the :guilabel:`Bank Account` "
+#~ "field to create a new account. In the pop-up window of the account "
+#~ "creation, enter a name, a code (ex.: 550007), set its type to `Bank and "
+#~ "Cash`, set a currency type, and save. When you are back on the "
+#~ "**journal**, click on the :guilabel:`Account Number` field, and in the "
+#~ "pop-up window, fill out the :guilabel:`Account Number`, :guilabel:`Bank` "
+#~ "of your account, and save."
+#~ msgstr ""
+#~ "अकाउंटिंग ऐप्लिकेशन में, :menuselection:`अकाउंटिंग --> कॉन्फ़िगरेशन --> Journals` पर "
+#~ "जाएं और एक नया बनाएं। एक :guilabel:`Journal Name` दर्ज करें "
+#~ "और :guilabel:`टाइप` को `Bank` पर सेट करें। :guilabel:`Journal Entries` टैब में, "
+#~ "एक **शॉर्ट कोड**, एक **करेंसी** दर्ज करें, और फिर अंत में नया अकाउंट बनाने के "
+#~ "लिए :guilabel:`Bank Account` फ़ील्ड पर क्लिक करें। अकाउंट क्रिएशन के पॉप-अप विंडो "
+#~ "में, एक नाम, एक कोड (उदा.: 550007) दर्ज करें, इसका टाइप `Bank and Cash` पर सेट "
+#~ "करें, एक करेंसी टाइप सेट करें, और सेव करें। जब आप **जर्नल** पर वापस आएं, "
+#~ "तो :guilabel:`Account Number` फ़ील्ड पर क्लिक करें, और पॉप-अप विंडो "
+#~ "में, :guilabel:`Account Number`, अपने अकाउंट का :guilabel:`बैंक` भरें, और सेव करें।"
+
+#~ msgid "Example of a created bank journal."
+#~ msgstr "बनाए गए बैंक जर्नल का उदाहरण।"
+
+#~ msgid ""
+#~ "Upon creation of the journal, Odoo automatically links the bank account "
+#~ "to the journal. It can be found under :menuselection:`Accounting --> "
+#~ "Configuration --> Accounting: Chart of Accounts`."
+#~ msgstr ""
+#~ "जर्नल के क्रिएशन पर, Odoo ऑटोमैटिकली बैंक अकाउंट को जर्नल से लिंक कर देता है। "
+#~ "यह :menuselection:`अकाउंटिंग --> कॉन्फ़िगरेशन --> Accounting: Chart of "
+#~ "Accounts` के अंतर्गत मिल सकता है।"
+
+#~ msgid "Vendor bill in a foreign currency"
+#~ msgstr "विदेशी करेंसी में वेंडर बिल"
+
+#~ msgid ""
+#~ "To pay a bill in a foreign currency, simply select the currency next to "
+#~ "the :guilabel:`Journal` field and register the payment. Odoo "
+#~ "automatically creates and posts the foreign **exchange gain or loss** as "
+#~ "a new journal entry."
+#~ msgstr ""
+#~ "विदेशी करेंसी में बिल का पेमेंट करने के लिए, बस :guilabel:`जर्नल` फ़ील्ड के बगल में करेंसी "
+#~ "चुनें और पेमेंट रजिस्टर करें। Odoo ऑटोमैटिकली विदेशी **एक्सचेंज गेन या लॉस** को एक नए "
+#~ "जर्नल एंट्री के रूप में बनाता और पोस्ट करता है।"
+
+#~ msgid "How to set a bill currency."
+#~ msgstr "बिल करेंसी कैसे सेट करें।"
+
+#~ msgid ""
+#~ "Note that you can pay a foreign bill with another currency. In that case, "
+#~ "Odoo automatically converts between the two currencies."
+#~ msgstr ""
+#~ "ध्यान दें कि आप किसी विदेशी बिल का पेमेंट दूसरी करेंसी से कर सकते हैं। उस स्थिति में, Odoo "
+#~ "ऑटोमैटिकली दोनों करेंसी के बीच कन्वर्ट कर देता है।"
+
+#~ msgid "Unrealized Currency Gains/Losses Report"
+#~ msgstr "Unrealized Currency Gains/Losses रिपोर्ट"
+
+#~ msgid ""
+#~ "This report gives an overview of all unrealized amounts in a foreign "
+#~ "currency on your balance sheet, and allows you to adjust an entry or "
+#~ "manually set an exchange rate. To access this report, go "
+#~ "to :menuselection:`Reporting --> Management: Unrealized Currency Gains/"
+#~ "Losses`. From here, you have access to all open entries in your **balance "
+#~ "sheet**."
+#~ msgstr ""
+#~ "यह रिपोर्ट आपकी बैलेंस शीट पर विदेशी करेंसी में सभी unrealized राशियों का पूरी "
+#~ "जानकारी देती है, और आपको एंट्री एडजस्ट करने या मैन्युअली एक्सचेंज रेट सेट करने की अनुमति "
+#~ "देती है। इस रिपोर्ट को एक्सेस करने के लिए, :menuselection:`रिपोर्टिंग --> मैनेजमेंट: "
+#~ "Unrealized Currency Gains/Losses` पर जाएं। यहां से, आपके पास अपनी **बैलेंस शीट** "
+#~ "में सभी ओपन एंट्री तक एक्सेस है।"
+
+#~ msgid ""
+#~ "If you wish to use a different currency rate than the one set "
+#~ "in :menuselection:`Accounting --> Configuration --> Settings --> "
+#~ "Currencies`, click the :guilabel:`Exchange Rates` button and change the "
+#~ "rate of the foreign currencies in the report."
+#~ msgstr ""
+#~ "अगर आप :menuselection:`अकाउंटिंग --> कॉन्फ़िगरेशन --> सेटिंग --> Currencies` में "
+#~ "सेट की गई रेट से अलग करेंसी रेट इस्तेमाल करना चाहते हैं, तो :guilabel:`Exchange "
+#~ "Rates` बटन पर क्लिक करें और रिपोर्ट में विदेशी करेंसी की रेट बदलें।"
+
+#~ msgid "Menu to manually change exchange rates."
+#~ msgstr "एक्सचेंज रेट मैन्युअली बदलने का मेन्यू।"
+
+#~ msgid ""
+#~ "When manually changing **exchange rates**, a yellow banner appears "
+#~ "allowing you to reset back to Odoo's rate. To do so, simply click "
+#~ "on :guilabel:`Reset to Odoo's Rate`."
+#~ msgstr ""
+#~ "**एक्सचेंज रेट** को मैन्युअली बदलने पर, एक पीला बैनर दिखाई देता है जो आपको Odoo की "
+#~ "रेट पर रीसेट करने की अनुमति देता है। ऐसा करने के लिए, बस :guilabel:`Reset to "
+#~ "Odoo's Rate` पर क्लिक करें।"
+
+#~ msgid "Banner to reset back to Odoo's rates."
+#~ msgstr "Odoo की रेट पर रीसेट करने के लिए बैनर।"
+
+#~ msgid ""
+#~ "In order to update your **balance sheet** with the amount of "
+#~ "the :guilabel:`adjustment` column, click on the :guilabel:`Adjustment "
+#~ "Entry` button. In the pop-up window, select "
+#~ "a :guilabel:`Journal`, :guilabel:`Expense Account` and :guilabel:`Income "
+#~ "Account` to calculate and process the **unrealized gains and losses**."
+#~ msgstr ""
+#~ "अपनी **बैलेंस शीट** को :guilabel:`एडजस्टमेंट` कॉलम की राशि के साथ अपडेट करने के "
+#~ "लिए, :guilabel:`एडजस्टमेंट एंट्री` बटन पर क्लिक करें। पॉप-अप विंडो में, **अनरियलाइज़्ड "
+#~ "गेन और लॉस** की गणना और प्रोसेस करने के लिए "
+#~ "एक :guilabel:`जर्नल`, :guilabel:`एक्सपेंस अकाउंट` और :guilabel:`इनकम अकाउंट` चुनें।"
+
+#~ msgid ""
+#~ "Once posted, the :guilabel:`adjustment` column should indicate `0.00`, "
+#~ "meaning all **unrealized gains/losses** have been adjusted."
+#~ msgstr ""
+#~ "पोस्ट करने के बाद, :guilabel:`एडजस्टमेंट` कॉलम `0.00` दिखाना चाहिए, जिसका मतलब "
+#~ "है कि सभी **अनरियलाइज़्ड गेन/लॉस** एडजस्ट हो गए हैं।"
+
+#~ msgid "Unrealized Currency Gains/Losses report once adjusted."
+#~ msgstr "एडजस्ट करने के बाद अनरियलाइज़्ड करेंसी गेन/लॉस रिपोर्ट।"
+
+#~ msgid ""
+#~ "Odoo allows you to issue invoices, receive bills, and record transactions "
+#~ "in currencies other than the main currency configured for your company. "
+#~ "You can also set up bank accounts in other currencies and run reports on "
+#~ "your foreign currency activities."
+#~ msgstr ""
+#~ "Odoo आपको अपनी कंपनी के लिए कॉन्फ़िगर की गई मेन करेंसी के अलावा अन्य करेंसी में इनवॉइस "
+#~ "जारी करने, बिल प्राप्त करने और ट्रांज़ैक्शन रिकॉर्ड करने की सुविधा देता है। आप अन्य करेंसी "
+#~ "में बैंक अकाउंट भी सेटअप कर सकते हैं और अपनी फ़ॉरेन करेंसी एक्टिविटी पर रिपोर्ट चला सकते "
+#~ "हैं।"
+
+#~ msgid ":doc:`../bank/foreign_currency`"
+#~ msgstr ":doc:`../bank/foreign_currency`"
 
 #~ msgid "Registering payment from an invoice or bill"
 #~ msgstr "इनवॉइस या बिल से पेमेंट रजिस्टर करना"

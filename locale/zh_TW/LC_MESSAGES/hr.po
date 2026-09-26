@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-09-25 17:31+0000\n"
 "PO-Revision-Date: 2026-08-27 16:46+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
@@ -42866,8 +42866,8 @@ msgid ":doc:`recruitment/source_analysis`"
 msgstr ":doc:`recruitment/source_analysis`"
 
 #: ../../content/applications/hr/recruitment.rst:373
-msgid ":doc:`recruitment/velocity_analysis`"
-msgstr ":doc:`recruitment/velocity_analysis`"
+msgid ":doc:`recruitment/hiring_velocity`"
+msgstr ""
 
 #: ../../content/applications/hr/recruitment.rst:374
 msgid ":doc:`recruitment/team_performance`"
@@ -43433,6 +43433,152 @@ msgid ""
 msgstr ""
 "每個職位僅顯示有應徵者的狀態。如果某個狀態\\ **沒有**\\ 任何應徵者，則該狀態"
 "不會出現在清單中。"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:3
+msgid "Hiring velocity"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:5
+msgid ""
+"The *Hiring Velocity* report provides information on how long applicants "
+"stay in each stage of the recruitment process. This is important, as every "
+"job position has specific :ref:`hiring process details <recruitment/new_job/"
+"hiring-process>` that state the length of time applicants should expect to "
+"wait between specific stages."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:10
+msgid ""
+"Knowing how long applicants remain in each stage can help highlight possible "
+"bottlenecks. Analyzing this data allows the recruitment team to assess each "
+"stage, identify any issues, and pivot their strategies to move applicants "
+"through each stage, within the expected time interval."
+msgstr ""
+"了解申請人在每個階段停留的時間長度有助於突顯可能的瓶頸。分析此資料可讓招募團"
+"隊評估每個階段、識別任何問題，並調整其策略以在預期時間間隔內推動申請人通過每"
+"個階段。"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:15
+msgid "Hiring velocity report"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:17
+msgid ""
+"To access the *Hiring Velocity* report, navigate "
+"to :menuselection:`Recruitment app --> Reporting --> Hiring Velocity`. The "
+"report displays data for all job positions, with the stages populating the x-"
+"axis, and the number of days populating the y-axis, in a default :icon:`fa-"
+"line-chart` :guilabel:`(Line Chart)`."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:22
+msgid ""
+"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
+"information for the last 365 days."
+msgstr ""
+"預設篩選條件為\\ :guilabel:`過去 365 天申請人`，顯示過去 365 天的資訊。"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:25
+msgid ""
+"Hover over a stage in the line chart to reveal a popover window listing all "
+"the job positions within it, and the average number of days each job "
+"position sat in each stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:28
+msgid ""
+"For a more visually digestible view of the information in the *Hiring "
+"Velocity* report, click the :icon:`fa-bar-chart` :guilabel:`(Bar Chart)` "
+"icon in the corner. This displays all the information in a bar chart."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:32
+msgid ""
+"In this view, it is easier to visualize the differences between the job "
+"positions, regarding how long applicants stay in each stage. From this view, "
+"recruiters can determine which job positions have delays or bottlenecks at "
+"certain stages."
+msgstr ""
+"在此檢視中，更容易視覺化各個職位之間的差異，了解應徵者在各階段停留的時間長"
+"度。從此檢視中，招募人員可以判斷哪些職位在特定階段存在延遲或瓶頸。"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "A bar chart view of the hiring velocity report."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:40
+msgid "Use case: comparing times by month"
+msgstr "使用案例：按月份比較時間"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:42
+msgid ""
+"With the *Hiring Velocity* report, it is possible to see if there are "
+"certain months where applicants take longer to be moved through the "
+"pipeline. To view this data, switch to the pivot table view by clicking "
+"the :icon:`oi-view-pivot` :guilabel:`(Pivot)` icon in the corner."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:46
+msgid ""
+"This presents the data in a detailed pivot table, with the rows representing "
+"the different job positions, and the columns representing the stages. "
+"The :guilabel:`Average Days in Stage` populates the various boxes."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:51
+msgid ""
+"If a field is empty, it indicates no applicant has been in that stage. "
+"Instead, all applicants moved from a previous stage without being placed in "
+"the stage with an empty field."
+msgstr ""
+"如果欄位為空白，表示沒有應徵者進入過該階段。相反地，所有應徵者都從前一個階段"
+"移動，而未被放置在具有空白欄位的階段中。"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table view of the Velocity Analysis report."
+msgstr "Velocity Analysis 報表的樞紐分析表檢視。"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:57
+msgid ""
+"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+"rows to collapse the information. Next, click :icon:`fa-plus-"
+"square` :guilabel:`Total` again, revealing a drop-down menu. "
+"Click :guilabel:`Custom Group` :icon:`fa-caret-down` at the bottom of the "
+"list, revealing further grouping options. Click :guilabel:`Start Date` from "
+"the expanded list."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:62
+msgid ""
+"After doing so, the data presented is grouped with the various months from "
+"the previous 365 days for the rows, leaving the :guilabel:`Average Days in "
+"Stage` as the columns."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table showing the months averages for times in stage."
+msgstr "樞紐分析表顯示各月份在階段中停留時間的平均值。"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:68
+msgid ""
+"In this example, :guilabel:`July 2026` had the longest time that applicants "
+"spent in each stage, on average. In addition, the :guilabel:`Second "
+"Interview` stage had the longest wait time in July, with an average "
+"of :guilabel:`29.04` days in that stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:72
+msgid ""
+"While this report does not display the reasons applicants stayed in the "
+"various stages for these lengths of time, it can be helpful to know when "
+"delays occur."
+msgstr ""
+"雖然此報表未顯示應徵者在各階段停留這些時間長度的原因，但了解延遲發生的時間點"
+"可能會有所幫助。"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:76
+msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
+msgstr ":doc:`Essentials 報表使用說明 <../../essentials/reporting>`"
 
 #: ../../content/applications/hr/recruitment/new_job.rst:3
 msgid "Job positions"
@@ -45120,7 +45266,7 @@ msgstr ""
 msgid ""
 "The applicant's email address automatically populates "
 "the :guilabel:`Applicant` field. The :guilabel:`Subject` and email body are "
-"populated according to the corresponding email template."
+"populated according to the corresponding email"
 msgstr ""
 
 #: ../../content/applications/hr/recruitment/refuse_applicant.rst:105
@@ -45923,176 +46069,6 @@ msgid ""
 "recruiter, with a total of eight hires, while :guilabel:`Carol Bishop` has "
 "the fewest hires, with only three."
 msgstr ""
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:3
-msgid "Velocity analysis"
-msgstr "速度分析"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:5
-msgid ""
-"The *Velocity Analysis* report provides information on how long applicants "
-"stay in each stage of the recruitment process. This is important, as every "
-"job position has specific :ref:`hiring process details <recruitment/new_job/"
-"hiring-process>` that state the length of time applicants should expect to "
-"wait between specific stages."
-msgstr ""
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:10
-msgid ""
-"Knowing how long applicants remain in each stage can help highlight possible "
-"bottlenecks. Analyzing this data allows the recruitment team to assess each "
-"stage, identify any issues, and pivot their strategies to move applicants "
-"through each stage, within the expected time interval."
-msgstr ""
-"了解申請人在每個階段停留的時間長度有助於突顯可能的瓶頸。分析此資料可讓招募團"
-"隊評估每個階段、識別任何問題，並調整其策略以在預期時間間隔內推動申請人通過每"
-"個階段。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:15
-msgid "Velocity analysis report"
-msgstr "速度分析報表"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:17
-msgid ""
-"To access the report, navigate to :menuselection:`Recruitment app --> "
-"Reporting --> Velocity Analysis`. By default, the report displays data for "
-"all job positions, with the stages populating the x-axis, and the number of "
-"days populating the y-axis, in a :icon:`fa-line-chart` :guilabel:`(Line "
-"Chart)`."
-msgstr ""
-"若要存取報表，請前往\\ :menuselection:`招募應用程式 --> 報表 --> 速度分析`。"
-"根據預設，報表會在\\ :icon:`fa-line-chart`\\ :guilabel:`（折線圖）`\\ 中顯示"
-"所有職缺的資料，階段填入 X 軸，天數填入 Y 軸。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:22
-msgid ""
-"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
-"information for the last 365 days."
-msgstr ""
-"預設篩選條件為\\ :guilabel:`過去 365 天申請人`，顯示過去 365 天的資訊。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:25
-msgid ""
-"Hover over a stage in the line chart to reveal a popover window listing all "
-"the job positions within it, and the average number of days each job "
-"position sits in each stage."
-msgstr ""
-"將游標停留在折線圖中的某個階段上，會顯示一個彈出視窗，列出其中的所有職位，以"
-"及每個職位在各階段停留的平均天數。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:28
-msgid ""
-"For a more visually digestible view of the information in "
-"the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
-"chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This displays "
-"all the information in a bar chart."
-msgstr ""
-"如需以視覺上更易於理解的方式檢視\\ :guilabel:`Velocity Analysis`\\ 報表中的資"
-"訊，請按一下左上角的\\ :icon:`fa-bar-chart`\\ :guilabel:`(Bar Chart)`\\ 圖"
-"示。這會以長條圖顯示所有資訊。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:32
-msgid ""
-"In this view, it is easier to visualize the differences between the job "
-"positions, regarding how long applicants stay in each stage. From this view, "
-"recruiters can determine which job positions have delays or bottlenecks at "
-"certain stages."
-msgstr ""
-"在此檢視中，更容易視覺化各個職位之間的差異，了解應徵者在各階段停留的時間長"
-"度。從此檢視中，招募人員可以判斷哪些職位在特定階段存在延遲或瓶頸。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The bar chart view of the Velocity Analysis report."
-msgstr "Velocity Analysis 報表的長條圖檢視。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:40
-msgid "Use case: comparing times by month"
-msgstr "使用案例：按月份比較時間"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:42
-msgid ""
-"With the :guilabel:`Velocity Analysis` report, it is possible to see if "
-"there are certain months where applicants take longer to be moved through "
-"the pipeline. To view this data, switch to the :icon:`oi-view-"
-"pivot` :guilabel:`(Pivot)` view in the upper-right corner."
-msgstr ""
-"透過\\ :guilabel:`Velocity Analysis`\\ 報表，可以查看是否有特定月份的應徵者需"
-"要更長時間才能在招募流程中推進。若要檢視此資料,請切換至右上角的\\ :icon:`oi-"
-"view-pivot`\\ :guilabel:`(Pivot)`\\ 檢視。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:46
-msgid ""
-"This presents the data in a detailed pivot table, with the rows representing "
-"the different job positions, and the columns representing the stages. The "
-"average :guilabel:`Days in Stage` populates the various boxes."
-msgstr ""
-"這會以詳細的樞紐分析表呈現資料,其中列代表不同的職位,欄代表階段。各個儲存格中"
-"會填入平均\\ :guilabel:`Days in Stage`\\ 。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:51
-msgid ""
-"If a field is empty, it indicates no applicant has been in that stage. "
-"Instead, all applicants moved from a previous stage without being placed in "
-"the stage with an empty field."
-msgstr ""
-"如果欄位為空白，表示沒有應徵者進入過該階段。相反地，所有應徵者都從前一個階段"
-"移動，而未被放置在具有空白欄位的階段中。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table view of the Velocity Analysis report."
-msgstr "Velocity Analysis 報表的樞紐分析表檢視。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:57
-msgid ""
-"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
-"rows to collapse the information. Next, click :icon:`fa-plus-"
-"square` :guilabel:`Total` again, revealing a drop-down menu. "
-"Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
-"the list, revealing further grouping options. Click :guilabel:`Start Date` "
-"from the expanded list."
-msgstr ""
-"按一下職位列上方的\\ :icon:`fa-minus-square-o`\\ :guilabel:`Total`\\ 以摺疊資"
-"訊。接著，再次按一下\\ :icon:`fa-plus-square`\\ :guilabel:`Total`\\ ，會顯示"
-"下拉式選單。按一下清單底部的\\ :guilabel:`Add Custom Group`\\ :icon:`fa-"
-"caret-down`\\ ，會顯示進一步的分組選項。從展開的清單中按一下"
-"\\ :guilabel:`Start Date`\\ 。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:62
-msgid ""
-"After doing so, the data presented is grouped with the various months from "
-"the previous 365 days for the rows, leaving the :guilabel:`Days In Stage` as "
-"the columns."
-msgstr ""
-"執行此操作後，呈現的資料會以過去 365 天中的各個月份作為列進行分組，而"
-"\\ :guilabel:`Days In Stage`\\ 則作為欄。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table showing the months averages for times in stage."
-msgstr "樞紐分析表顯示各月份在階段中停留時間的平均值。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:68
-msgid ""
-"In this example, :guilabel:`July 2024` had the longest time that applicants "
-"spent in each stage, on average. In addition, the :guilabel:`Contract "
-"Proposal` stage had the longest wait time in July, with an average "
-"of :guilabel:`31.62` days in that stage."
-msgstr ""
-"在此範例中，:guilabel:`July 2024`\\ 是應徵者在各階段平均停留時間最長的月份。"
-"此外，:guilabel:`Contract Proposal`\\ 階段在 7 月的等待時間最長，該階段的平均"
-"天數為\\ :guilabel:`31.62`\\ 天。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:72
-msgid ""
-"While this report does not display the reasons applicants stayed in the "
-"various stages for these lengths of time, it can be helpful to know when "
-"delays occur."
-msgstr ""
-"雖然此報表未顯示應徵者在各階段停留這些時間長度的原因，但了解延遲發生的時間點"
-"可能會有所幫助。"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:76
-msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
-msgstr ":doc:`Essentials 報表使用說明 <../../essentials/reporting>`"
 
 #: ../../content/applications/hr/referrals.rst:5
 msgid "Referrals"
@@ -51039,6 +51015,98 @@ msgstr ""
 msgid ""
 "The lower half of the time off type form, with the color and icon selected."
 msgstr "休假類型表單的下半部分，已選取顏色和圖示。"
+
+#~ msgid ":doc:`recruitment/velocity_analysis`"
+#~ msgstr ":doc:`recruitment/velocity_analysis`"
+
+#~ msgid "Velocity analysis"
+#~ msgstr "速度分析"
+
+#~ msgid "Velocity analysis report"
+#~ msgstr "速度分析報表"
+
+#~ msgid ""
+#~ "To access the report, navigate to :menuselection:`Recruitment app --> "
+#~ "Reporting --> Velocity Analysis`. By default, the report displays data "
+#~ "for all job positions, with the stages populating the x-axis, and the "
+#~ "number of days populating the y-axis, in a :icon:`fa-line-"
+#~ "chart` :guilabel:`(Line Chart)`."
+#~ msgstr ""
+#~ "若要存取報表，請前往\\ :menuselection:`招募應用程式 --> 報表 --> 速度分析"
+#~ "`。根據預設，報表會在\\ :icon:`fa-line-chart`\\ :guilabel:`（折線圖）`\\ "
+#~ "中顯示所有職缺的資料，階段填入 X 軸，天數填入 Y 軸。"
+
+#~ msgid ""
+#~ "Hover over a stage in the line chart to reveal a popover window listing "
+#~ "all the job positions within it, and the average number of days each job "
+#~ "position sits in each stage."
+#~ msgstr ""
+#~ "將游標停留在折線圖中的某個階段上，會顯示一個彈出視窗，列出其中的所有職位，"
+#~ "以及每個職位在各階段停留的平均天數。"
+
+#~ msgid ""
+#~ "For a more visually digestible view of the information in "
+#~ "the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
+#~ "chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This "
+#~ "displays all the information in a bar chart."
+#~ msgstr ""
+#~ "如需以視覺上更易於理解的方式檢視\\ :guilabel:`Velocity Analysis`\\ 報表中"
+#~ "的資訊，請按一下左上角的\\ :icon:`fa-bar-chart`\\ :guilabel:`(Bar "
+#~ "Chart)`\\ 圖示。這會以長條圖顯示所有資訊。"
+
+#~ msgid "The bar chart view of the Velocity Analysis report."
+#~ msgstr "Velocity Analysis 報表的長條圖檢視。"
+
+#~ msgid ""
+#~ "With the :guilabel:`Velocity Analysis` report, it is possible to see if "
+#~ "there are certain months where applicants take longer to be moved through "
+#~ "the pipeline. To view this data, switch to the :icon:`oi-view-"
+#~ "pivot` :guilabel:`(Pivot)` view in the upper-right corner."
+#~ msgstr ""
+#~ "透過\\ :guilabel:`Velocity Analysis`\\ 報表，可以查看是否有特定月份的應徵"
+#~ "者需要更長時間才能在招募流程中推進。若要檢視此資料,請切換至右上角的"
+#~ "\\ :icon:`oi-view-pivot`\\ :guilabel:`(Pivot)`\\ 檢視。"
+
+#~ msgid ""
+#~ "This presents the data in a detailed pivot table, with the rows "
+#~ "representing the different job positions, and the columns representing "
+#~ "the stages. The average :guilabel:`Days in Stage` populates the various "
+#~ "boxes."
+#~ msgstr ""
+#~ "這會以詳細的樞紐分析表呈現資料,其中列代表不同的職位,欄代表階段。各個儲存格"
+#~ "中會填入平均\\ :guilabel:`Days in Stage`\\ 。"
+
+#~ msgid ""
+#~ "Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+#~ "rows to collapse the information. Next, click :icon:`fa-plus-"
+#~ "square` :guilabel:`Total` again, revealing a drop-down menu. "
+#~ "Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
+#~ "the list, revealing further grouping options. Click :guilabel:`Start "
+#~ "Date` from the expanded list."
+#~ msgstr ""
+#~ "按一下職位列上方的\\ :icon:`fa-minus-square-o`\\ :guilabel:`Total`\\ 以摺"
+#~ "疊資訊。接著，再次按一下\\ :icon:`fa-plus-square`\\ :guilabel:`Total`\\ ，"
+#~ "會顯示下拉式選單。按一下清單底部的\\ :guilabel:`Add Custom "
+#~ "Group`\\ :icon:`fa-caret-down`\\ ，會顯示進一步的分組選項。從展開的清單中"
+#~ "按一下\\ :guilabel:`Start Date`\\ 。"
+
+#~ msgid ""
+#~ "After doing so, the data presented is grouped with the various months "
+#~ "from the previous 365 days for the rows, leaving the :guilabel:`Days In "
+#~ "Stage` as the columns."
+#~ msgstr ""
+#~ "執行此操作後，呈現的資料會以過去 365 天中的各個月份作為列進行分組，而"
+#~ "\\ :guilabel:`Days In Stage`\\ 則作為欄。"
+
+#~ msgid ""
+#~ "In this example, :guilabel:`July 2024` had the longest time that "
+#~ "applicants spent in each stage, on average. In addition, "
+#~ "the :guilabel:`Contract Proposal` stage had the longest wait time in "
+#~ "July, with an average of :guilabel:`31.62` days in that stage."
+#~ msgstr ""
+#~ "在此範例中，:guilabel:`July 2024`\\ 是應徵者在各階段平均停留時間最長的月"
+#~ "份。此外，:guilabel:`Contract Proposal`\\ 階段在 7 月的等待時間最長，該階"
+#~ "段的平均天數為\\ :guilabel:`31.62`\\ 天。"
 
 #~ msgid ""
 #~ "A country-specific localization module :ref:`must be installed <general/"
